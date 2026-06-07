@@ -1,0 +1,19 @@
+.DS_Store
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+dist/
+*.egg-info/
+
+# Never commit local investigation data.
+data/
+exports/
+reports/
+public_records/
+*.db
+*.db-shm
+*.db-wal
