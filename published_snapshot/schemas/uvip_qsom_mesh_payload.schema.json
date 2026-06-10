@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UVIP QSO Mesh Barcode Payload",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema": {"type": "string", "const": "uvip_qsom_mesh_payload.v1"},
+    "protocol": {"type": "string", "const": "UVIP-QSOM"},
+    "protocol_version": {"type": "string"},
+    "generated_at": {"type": "string"},
+    "public_lookup_url": {"type": "string"},
+    "human_summary": {"type": "string"},
+    "evidence_boundary": {"type": "string"},
+    "payload_hash": {"type": "string"},
+    "encoded_payload_b64url": {"type": "string"},
+    "attestations": {"type": "object"},
+    "qso_mesh": {"type": "object"},
+    "visual_encoding": {"type": "object"},
+    "fallbacks": {
+      "type": "array",
+      "items": {"type": "object"}
+    },
+    "provenance": {"type": "object"}
+  },
+  "required": [
+    "schema",
+    "protocol",
+    "protocol_version",
+    "generated_at",
+    "public_lookup_url",
+    "human_summary",
+    "evidence_boundary",
+    "payload_hash",
+    "encoded_payload_b64url",
+    "attestations",
+    "qso_mesh",
+    "visual_encoding",
+    "fallbacks",
+    "provenance"
+  ]
+}

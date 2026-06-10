@@ -1,0 +1,243 @@
+{
+  "blocked_followup_count": 4,
+  "completed_correction_count": 2,
+  "generated_at": "2026-06-07T06:51:22Z",
+  "implemented_count": 33,
+  "items": {
+    "bridge-1": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "bridge-10": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "bridge-11": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "bridge-2": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "bridge-3": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "bridge-4": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "bridge-5": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "bridge-6": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "bridge-7": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "bridge-8": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "bridge-9": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "bridge-daily-property-acquisition-checks-20260531-001-requeued-20260531": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "bridge-encrypted-project-report-20260531-001": {
+      "note": "Blocked until an encryption recipient/public key and target report scope are specified. See reports/property_due_diligence/encrypted_project_report_requirements.md.",
+      "responsible": "human-official-record-pull",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "blocked"
+    },
+    "bridge-property-command-deck-20260531-001-requeued-20260531": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "bridge-queue-append-helper-20260531-001-requeued-20260531": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "bridge-queue-operations-guide-20260531-001-requeued-20260531": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "bridge-scaffold-001": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "bridge-validation-audit-20260531-001": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "bridge-validation-metric-review-20260531-001": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "codex-enable-bridge-self-enqueue-20260531": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "codex-pull-tracked-surname-intersection-docs-20260531": {
+      "note": "Blocked on official recorder document image/detail pulls for the 21 priority document numbers. See reports/property_due_diligence/tracked_recorder_official_copy_handoff.md. Intake scanner currently matches 0 of 21 required document numbers.",
+      "responsible": "human-official-record-pull",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "blocked"
+    },
+    "property-apn-40128307-review-20260531-001-requeued-20260531": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "property-apn-451-identification-20260531-001-requeued-20260531": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "property-candidate-schema-20260531-001-requeued-20260531": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "property-daily-runner-20260531-001-requeued-20260531": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "property-followup-apn_40128307_review_packet-20260531": {
+      "note": "Blocked on official assessor parcel card, recorder chain, and tax-default disposition. See reports/property_due_diligence/apn_40128307_official_records_handoff.md. Intake scanner matches 0 APN records; missing categories: assessor, recorder, tax.",
+      "responsible": "human-official-record-pull",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "blocked"
+    },
+    "property-followup-queue-generator-20260531-001-requeued-20260531": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "property-followup-record_reference_451_identification-20260531": {
+      "note": "Superseded by queue-correction-property-followup-record_reference_451_identification-20260531; local 451 match is an estate task priority rank, not a property identifier.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "property-followup-tracked_surname_intersection_packet-20260531": {
+      "note": "Blocked on official recorder copies and extraction; index intersections alone remain UNKNOWN. See reports/property_due_diligence/tracked_recorder_official_copy_handoff.md. Intake scanner currently matches 0 of 21 required document numbers.",
+      "responsible": "human-official-record-pull",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "blocked"
+    },
+    "property-hash-manifest-20260531-001-requeued-20260531": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "property-local-scheduler-docs-20260531-001-requeued-20260531": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "property-normalization-20260531-001-requeued-20260531": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "property-ranking-engine-20260531-001-requeued-20260531": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "property-report-generator-20260531-001-requeued-20260531": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "property-source-adapters-20260531-001-requeued-20260531": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "property-source-inventory-20260531-001-requeued-20260531": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "property-test-suite-20260531-001-requeued-20260531": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "property-validation-engine-20260531-001-requeued-20260531": {
+      "note": "Deliverables present and latest focused validation passed.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    },
+    "queue-correction-property-followup-record_reference_451_identification-20260531": {
+      "note": "Correction appended with queue hash report; stale 451 property follow-up should not execute.",
+      "responsible": "codex",
+      "updated_at": "2026-06-07T06:51:22Z",
+      "work_state": "completed"
+    }
+  },
+  "state_output": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/bridge_queue_state.json"
+}

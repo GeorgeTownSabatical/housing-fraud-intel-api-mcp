@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MCP Bridge Context",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema": {"type": "string", "const": "mcp_bridge_context.v1"},
+    "generated_at": {"type": "string"},
+    "mcp_role": {"type": "string"},
+    "read_targets": {"type": "array", "items": {"type": "object"}},
+    "write_targets": {"type": "array", "items": {"type": "object"}},
+    "local_artifacts": {"type": "object"},
+    "bridge_status_summary": {"type": "object"},
+    "identity_attestation_summary": {"type": "object"},
+    "safety_rules": {"type": "array", "items": {"type": "string"}}
+  },
+  "required": [
+    "schema",
+    "generated_at",
+    "mcp_role",
+    "read_targets",
+    "write_targets",
+    "local_artifacts",
+    "bridge_status_summary",
+    "identity_attestation_summary",
+    "safety_rules"
+  ]
+}

@@ -1,0 +1,443 @@
+{
+  "duplicate_rejected_count": 0,
+  "error_counts": {
+    "unsupported source: chatgpt_child_task": 14,
+    "unsupported source: chatgpt_operational_task": 3,
+    "unsupported source: chatgpt_request": 1
+  },
+  "generated_at": "2026-06-07T06:51:24.225982+00:00",
+  "raw_rejected_count": 18,
+  "rows": [
+    {
+      "bridge_line_number": 6,
+      "instructions": "Incorporate daily checks for potential Orange County property acquisitions",
+      "provenance": {
+        "origin": "user_request_to_incorporate_daily_property_acquisition_checks",
+        "repository": "aevespers2/Bridge",
+        "source": "chatgpt_request"
+      },
+      "request_id": "bridge-daily-property-acquisition-checks-20260531-001",
+      "suggested_fix": "Requeue with provenance.source set to `chatgpt`, `github_issue`, `gist_queue`, `local_file`, or `user`; keep the original origin in provenance.origin.",
+      "title": "Incorporate daily checks for potential Orange County property acquisitions",
+      "validation_components": {
+        "evidence_boundary": "FAIL",
+        "provenance": "PASS",
+        "reproducibility": "UNKNOWN",
+        "security": "UNKNOWN",
+        "source_test": "UNKNOWN",
+        "structure": "FAIL"
+      },
+      "validation_errors": [
+        "unsupported source: chatgpt_request"
+      ],
+      "validation_status": "FAIL"
+    },
+    {
+      "bridge_line_number": 7,
+      "instructions": "Build Orange County property source inventory",
+      "provenance": {
+        "parent_request": "bridge-daily-property-acquisition-checks-20260531-001",
+        "repository": "aevespers2/Bridge",
+        "source": "chatgpt_child_task"
+      },
+      "request_id": "property-source-inventory-20260531-001",
+      "suggested_fix": "Review validation_errors and requeue only if the source can satisfy the Bridge canonical intake contract.",
+      "title": "Build Orange County property source inventory",
+      "validation_components": {
+        "evidence_boundary": "FAIL",
+        "provenance": "PASS",
+        "reproducibility": "UNKNOWN",
+        "security": "UNKNOWN",
+        "source_test": "UNKNOWN",
+        "structure": "FAIL"
+      },
+      "validation_errors": [
+        "unsupported source: chatgpt_child_task"
+      ],
+      "validation_status": "FAIL"
+    },
+    {
+      "bridge_line_number": 8,
+      "instructions": "Implement property observation candidate schema",
+      "provenance": {
+        "parent_request": "bridge-daily-property-acquisition-checks-20260531-001",
+        "repository": "aevespers2/Bridge",
+        "source": "chatgpt_child_task"
+      },
+      "request_id": "property-candidate-schema-20260531-001",
+      "suggested_fix": "Review validation_errors and requeue only if the source can satisfy the Bridge canonical intake contract.",
+      "title": "Implement property observation candidate schema",
+      "validation_components": {
+        "evidence_boundary": "FAIL",
+        "provenance": "PASS",
+        "reproducibility": "UNKNOWN",
+        "security": "UNKNOWN",
+        "source_test": "UNKNOWN",
+        "structure": "FAIL"
+      },
+      "validation_errors": [
+        "unsupported source: chatgpt_child_task"
+      ],
+      "validation_status": "FAIL"
+    },
+    {
+      "bridge_line_number": 9,
+      "instructions": "Implement property public-record source adapter stubs",
+      "provenance": {
+        "parent_request": "bridge-daily-property-acquisition-checks-20260531-001",
+        "repository": "aevespers2/Bridge",
+        "source": "chatgpt_child_task"
+      },
+      "request_id": "property-source-adapters-20260531-001",
+      "suggested_fix": "Review validation_errors and requeue only if the source can satisfy the Bridge canonical intake contract.",
+      "title": "Implement property public-record source adapter stubs",
+      "validation_components": {
+        "evidence_boundary": "FAIL",
+        "provenance": "PASS",
+        "reproducibility": "UNKNOWN",
+        "security": "UNKNOWN",
+        "source_test": "UNKNOWN",
+        "structure": "FAIL"
+      },
+      "validation_errors": [
+        "unsupported source: chatgpt_child_task"
+      ],
+      "validation_status": "FAIL"
+    },
+    {
+      "bridge_line_number": 10,
+      "instructions": "Normalize raw property observations into candidate records",
+      "provenance": {
+        "parent_request": "bridge-daily-property-acquisition-checks-20260531-001",
+        "repository": "aevespers2/Bridge",
+        "source": "chatgpt_child_task"
+      },
+      "request_id": "property-normalization-20260531-001",
+      "suggested_fix": "Review validation_errors and requeue only if the source can satisfy the Bridge canonical intake contract.",
+      "title": "Normalize raw property observations into candidate records",
+      "validation_components": {
+        "evidence_boundary": "FAIL",
+        "provenance": "PASS",
+        "reproducibility": "UNKNOWN",
+        "security": "UNKNOWN",
+        "source_test": "UNKNOWN",
+        "structure": "FAIL"
+      },
+      "validation_errors": [
+        "unsupported source: chatgpt_child_task"
+      ],
+      "validation_status": "FAIL"
+    },
+    {
+      "bridge_line_number": 11,
+      "instructions": "Implement property candidate validation engine",
+      "provenance": {
+        "parent_request": "bridge-daily-property-acquisition-checks-20260531-001",
+        "repository": "aevespers2/Bridge",
+        "source": "chatgpt_child_task"
+      },
+      "request_id": "property-validation-engine-20260531-001",
+      "suggested_fix": "Review validation_errors and requeue only if the source can satisfy the Bridge canonical intake contract.",
+      "title": "Implement property candidate validation engine",
+      "validation_components": {
+        "evidence_boundary": "FAIL",
+        "provenance": "PASS",
+        "reproducibility": "UNKNOWN",
+        "security": "UNKNOWN",
+        "source_test": "UNKNOWN",
+        "structure": "FAIL"
+      },
+      "validation_errors": [
+        "unsupported source: chatgpt_child_task"
+      ],
+      "validation_status": "FAIL"
+    },
+    {
+      "bridge_line_number": 12,
+      "instructions": "Implement review-priority ranking engine",
+      "provenance": {
+        "parent_request": "bridge-daily-property-acquisition-checks-20260531-001",
+        "repository": "aevespers2/Bridge",
+        "source": "chatgpt_child_task"
+      },
+      "request_id": "property-ranking-engine-20260531-001",
+      "suggested_fix": "Review validation_errors and requeue only if the source can satisfy the Bridge canonical intake contract.",
+      "title": "Implement review-priority ranking engine",
+      "validation_components": {
+        "evidence_boundary": "FAIL",
+        "provenance": "PASS",
+        "reproducibility": "UNKNOWN",
+        "security": "UNKNOWN",
+        "source_test": "UNKNOWN",
+        "structure": "FAIL"
+      },
+      "validation_errors": [
+        "unsupported source: chatgpt_child_task"
+      ],
+      "validation_status": "FAIL"
+    },
+    {
+      "bridge_line_number": 13,
+      "instructions": "Implement redacted daily property review report generator",
+      "provenance": {
+        "parent_request": "bridge-daily-property-acquisition-checks-20260531-001",
+        "repository": "aevespers2/Bridge",
+        "source": "chatgpt_child_task"
+      },
+      "request_id": "property-report-generator-20260531-001",
+      "suggested_fix": "Review validation_errors and requeue only if the source can satisfy the Bridge canonical intake contract.",
+      "title": "Implement redacted daily property review report generator",
+      "validation_components": {
+        "evidence_boundary": "FAIL",
+        "provenance": "PASS",
+        "reproducibility": "UNKNOWN",
+        "security": "UNKNOWN",
+        "source_test": "UNKNOWN",
+        "structure": "FAIL"
+      },
+      "validation_errors": [
+        "unsupported source: chatgpt_child_task"
+      ],
+      "validation_status": "FAIL"
+    },
+    {
+      "bridge_line_number": 14,
+      "instructions": "Implement hash manifest generator for property reports",
+      "provenance": {
+        "parent_request": "bridge-daily-property-acquisition-checks-20260531-001",
+        "repository": "aevespers2/Bridge",
+        "source": "chatgpt_child_task"
+      },
+      "request_id": "property-hash-manifest-20260531-001",
+      "suggested_fix": "Review validation_errors and requeue only if the source can satisfy the Bridge canonical intake contract.",
+      "title": "Implement hash manifest generator for property reports",
+      "validation_components": {
+        "evidence_boundary": "FAIL",
+        "provenance": "PASS",
+        "reproducibility": "UNKNOWN",
+        "security": "UNKNOWN",
+        "source_test": "UNKNOWN",
+        "structure": "FAIL"
+      },
+      "validation_errors": [
+        "unsupported source: chatgpt_child_task"
+      ],
+      "validation_status": "FAIL"
+    },
+    {
+      "bridge_line_number": 15,
+      "instructions": "Implement follow-up queue generator for high-priority property observations",
+      "provenance": {
+        "parent_request": "bridge-daily-property-acquisition-checks-20260531-001",
+        "repository": "aevespers2/Bridge",
+        "source": "chatgpt_child_task"
+      },
+      "request_id": "property-followup-queue-generator-20260531-001",
+      "suggested_fix": "Review validation_errors and requeue only if the source can satisfy the Bridge canonical intake contract.",
+      "title": "Implement follow-up queue generator for high-priority property observations",
+      "validation_components": {
+        "evidence_boundary": "FAIL",
+        "provenance": "PASS",
+        "reproducibility": "UNKNOWN",
+        "security": "UNKNOWN",
+        "source_test": "UNKNOWN",
+        "structure": "FAIL"
+      },
+      "validation_errors": [
+        "unsupported source: chatgpt_child_task"
+      ],
+      "validation_status": "FAIL"
+    },
+    {
+      "bridge_line_number": 16,
+      "instructions": "Implement daily property due-diligence runner",
+      "provenance": {
+        "parent_request": "bridge-daily-property-acquisition-checks-20260531-001",
+        "repository": "aevespers2/Bridge",
+        "source": "chatgpt_child_task"
+      },
+      "request_id": "property-daily-runner-20260531-001",
+      "suggested_fix": "Review validation_errors and requeue only if the source can satisfy the Bridge canonical intake contract.",
+      "title": "Implement daily property due-diligence runner",
+      "validation_components": {
+        "evidence_boundary": "FAIL",
+        "provenance": "PASS",
+        "reproducibility": "UNKNOWN",
+        "security": "UNKNOWN",
+        "source_test": "UNKNOWN",
+        "structure": "FAIL"
+      },
+      "validation_errors": [
+        "unsupported source: chatgpt_child_task"
+      ],
+      "validation_status": "FAIL"
+    },
+    {
+      "bridge_line_number": 17,
+      "instructions": "Add local scheduler documentation for daily property checks",
+      "provenance": {
+        "parent_request": "bridge-daily-property-acquisition-checks-20260531-001",
+        "repository": "aevespers2/Bridge",
+        "source": "chatgpt_child_task"
+      },
+      "request_id": "property-local-scheduler-docs-20260531-001",
+      "suggested_fix": "Review validation_errors and requeue only if the source can satisfy the Bridge canonical intake contract.",
+      "title": "Add local scheduler documentation for daily property checks",
+      "validation_components": {
+        "evidence_boundary": "FAIL",
+        "provenance": "PASS",
+        "reproducibility": "UNKNOWN",
+        "security": "UNKNOWN",
+        "source_test": "UNKNOWN",
+        "structure": "FAIL"
+      },
+      "validation_errors": [
+        "unsupported source: chatgpt_child_task"
+      ],
+      "validation_status": "FAIL"
+    },
+    {
+      "bridge_line_number": 18,
+      "instructions": "Add property due-diligence test suite",
+      "provenance": {
+        "parent_request": "bridge-daily-property-acquisition-checks-20260531-001",
+        "repository": "aevespers2/Bridge",
+        "source": "chatgpt_child_task"
+      },
+      "request_id": "property-test-suite-20260531-001",
+      "suggested_fix": "Review validation_errors and requeue only if the source can satisfy the Bridge canonical intake contract.",
+      "title": "Add property due-diligence test suite",
+      "validation_components": {
+        "evidence_boundary": "FAIL",
+        "provenance": "PASS",
+        "reproducibility": "UNKNOWN",
+        "security": "UNKNOWN",
+        "source_test": "UNKNOWN",
+        "structure": "FAIL"
+      },
+      "validation_errors": [
+        "unsupported source: chatgpt_child_task"
+      ],
+      "validation_status": "FAIL"
+    },
+    {
+      "bridge_line_number": 19,
+      "instructions": "Create APN 401-283-07 public-record review packet",
+      "provenance": {
+        "parent_request": "bridge-daily-property-acquisition-checks-20260531-001",
+        "repository": "aevespers2/Bridge",
+        "source": "chatgpt_child_task"
+      },
+      "request_id": "property-apn-40128307-review-20260531-001",
+      "suggested_fix": "Review validation_errors and requeue only if the source can satisfy the Bridge canonical intake contract.",
+      "title": "Create APN 401-283-07 public-record review packet",
+      "validation_components": {
+        "evidence_boundary": "FAIL",
+        "provenance": "PASS",
+        "reproducibility": "UNKNOWN",
+        "security": "UNKNOWN",
+        "source_test": "UNKNOWN",
+        "structure": "FAIL"
+      },
+      "validation_errors": [
+        "unsupported source: chatgpt_child_task"
+      ],
+      "validation_status": "FAIL"
+    },
+    {
+      "bridge_line_number": 20,
+      "instructions": "Identify and validate APN or record reference 451",
+      "provenance": {
+        "parent_request": "bridge-daily-property-acquisition-checks-20260531-001",
+        "repository": "aevespers2/Bridge",
+        "source": "chatgpt_child_task"
+      },
+      "request_id": "property-apn-451-identification-20260531-001",
+      "suggested_fix": "Review validation_errors and requeue only if the source can satisfy the Bridge canonical intake contract.",
+      "title": "Identify and validate APN or record reference 451",
+      "validation_components": {
+        "evidence_boundary": "FAIL",
+        "provenance": "PASS",
+        "reproducibility": "UNKNOWN",
+        "security": "UNKNOWN",
+        "source_test": "UNKNOWN",
+        "structure": "FAIL"
+      },
+      "validation_errors": [
+        "unsupported source: chatgpt_child_task"
+      ],
+      "validation_status": "FAIL"
+    },
+    {
+      "bridge_line_number": 21,
+      "instructions": "Implement append-only Bridge queue helper",
+      "provenance": {
+        "reason": "Queue is growing and should avoid full-file replacement risk.",
+        "repository": "aevespers2/Bridge",
+        "source": "chatgpt_operational_task"
+      },
+      "request_id": "bridge-queue-append-helper-20260531-001",
+      "suggested_fix": "Review validation_errors and requeue only if the source can satisfy the Bridge canonical intake contract.",
+      "title": "Implement append-only Bridge queue helper",
+      "validation_components": {
+        "evidence_boundary": "FAIL",
+        "provenance": "PASS",
+        "reproducibility": "UNKNOWN",
+        "security": "UNKNOWN",
+        "source_test": "UNKNOWN",
+        "structure": "FAIL"
+      },
+      "validation_errors": [
+        "unsupported source: chatgpt_operational_task"
+      ],
+      "validation_status": "FAIL"
+    },
+    {
+      "bridge_line_number": 22,
+      "instructions": "Create Bridge queue operations guide",
+      "provenance": {
+        "repository": "aevespers2/Bridge",
+        "source": "chatgpt_operational_task"
+      },
+      "request_id": "bridge-queue-operations-guide-20260531-001",
+      "suggested_fix": "Review validation_errors and requeue only if the source can satisfy the Bridge canonical intake contract.",
+      "title": "Create Bridge queue operations guide",
+      "validation_components": {
+        "evidence_boundary": "FAIL",
+        "provenance": "PASS",
+        "reproducibility": "UNKNOWN",
+        "security": "UNKNOWN",
+        "source_test": "UNKNOWN",
+        "structure": "FAIL"
+      },
+      "validation_errors": [
+        "unsupported source: chatgpt_operational_task"
+      ],
+      "validation_status": "FAIL"
+    },
+    {
+      "bridge_line_number": 23,
+      "instructions": "Generate property pipeline command deck report",
+      "provenance": {
+        "repository": "aevespers2/Bridge",
+        "source": "chatgpt_operational_task"
+      },
+      "request_id": "bridge-property-command-deck-20260531-001",
+      "suggested_fix": "Review validation_errors and requeue only if the source can satisfy the Bridge canonical intake contract.",
+      "title": "Generate property pipeline command deck report",
+      "validation_components": {
+        "evidence_boundary": "FAIL",
+        "provenance": "PASS",
+        "reproducibility": "UNKNOWN",
+        "security": "UNKNOWN",
+        "source_test": "UNKNOWN",
+        "structure": "FAIL"
+      },
+      "validation_errors": [
+        "unsupported source: chatgpt_operational_task"
+      ],
+      "validation_status": "FAIL"
+    }
+  ],
+  "unique_rejected_count": 18
+}

@@ -1,0 +1,4 @@
+record_type,data
+person,"{""id"":""person-marina"",""canonical_name"":""Marina Torres"",""notes"":""Fictional sample person""}"
+alias,"{""id"":""alias-marina-1"",""person_id"":""person-marina"",""raw_name"":""Marina L. Torres"",""alias_type"":""aka"",""confidence"":0.92}"
+alias,"{""id"":""alias-marina-2"",""person_id"":""person-marina"",""raw_name"":""M. Lucia Torres"",""alias_type"":""public_record_variant"",""confidence"":0.82}"

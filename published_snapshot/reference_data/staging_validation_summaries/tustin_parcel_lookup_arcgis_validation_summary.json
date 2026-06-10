@@ -1,0 +1,10 @@
+{
+  "accepted_count": 19865,
+  "duplicate_count": 0,
+  "generated_at": "2026-05-05T22:48:48.795523+00:00",
+  "input_path": "/Users/ALISTAIRE/housing-fraud-intel-api/data/raw/tustin_parcel_lookup_arcgis/download.json",
+  "manifest_hash": "de13899645cd6f3814c0f17992377e4bd86028cb06d7c8bb6364b19568944461",
+  "records_missing_required_fields": 0,
+  "rejected_count": 0,
+  "source_id": "tustin_parcel_lookup_arcgis"
+}

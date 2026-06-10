@@ -1,0 +1,259 @@
+{
+  "providers": [
+    {
+      "id": "census_acs",
+      "name": "U.S. Census Bureau ACS API",
+      "category": "property_geography",
+      "docs_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+      "signup_url": "https://api.census.gov/data/key_signup.html",
+      "auth": {"type": "api_key_optional", "env_vars": ["CENSUS_API_KEY"]},
+      "verification": {
+        "url": "https://api.census.gov/data/2023/acs/acs5",
+        "query": {"get": "NAME", "for": "us:1", "key": "{CENSUS_API_KEY}"}
+      }
+    },
+    {
+      "id": "census_geocoder",
+      "name": "U.S. Census Geocoder",
+      "category": "property_geography",
+      "docs_url": "https://geocoding.geo.census.gov/geocoder/Geocoding_Services_API.html",
+      "signup_url": "https://geocoding.geo.census.gov/",
+      "auth": {"type": "none", "env_vars": []},
+      "verification": {
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress",
+        "query": {
+          "address": "4600 Silver Hill Rd, Washington, DC 20233",
+          "benchmark": "Public_AR_Current",
+          "format": "json"
+        }
+      }
+    },
+    {
+      "id": "usgs_national_map",
+      "name": "USGS National Map / APIs",
+      "category": "property_geography",
+      "docs_url": "https://www.usgs.gov/products/data-and-tools/apis",
+      "signup_url": "https://www.usgs.gov/products/data-and-tools/apis",
+      "auth": {"type": "none", "env_vars": []},
+      "verification": {
+        "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections",
+        "query": {}
+      }
+    },
+    {
+      "id": "noaa_climate",
+      "name": "NOAA Climate Data Online",
+      "category": "property_geography",
+      "docs_url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "signup_url": "https://www.ncei.noaa.gov/cdo-web/token",
+      "auth": {"type": "token_header", "env_vars": ["NOAA_CDO_TOKEN"]},
+      "verification": {
+        "url": "https://www.ncei.noaa.gov/cdo-web/api/v2/datasets",
+        "query": {"limit": "1"},
+        "headers": {"token": "{NOAA_CDO_TOKEN}"}
+      }
+    },
+    {
+      "id": "regrid",
+      "name": "Regrid API",
+      "category": "property_parcel",
+      "docs_url": "https://regrid.com/api",
+      "signup_url": "https://app.regrid.com/register",
+      "auth": {"type": "api_key_header", "env_vars": ["REGRID_API_TOKEN"]},
+      "verification": {
+        "url": "https://app.regrid.com/api/v1/parcels/000000000000",
+        "headers": {"X-API-KEY": "{REGRID_API_TOKEN}"}
+      }
+    },
+    {
+      "id": "la_county_open_data",
+      "name": "Los Angeles County Open Data",
+      "category": "property_parcel",
+      "docs_url": "https://data.lacounty.gov/",
+      "signup_url": "https://data.lacounty.gov/",
+      "auth": {"type": "none", "env_vars": []}
+    },
+    {
+      "id": "orange_county_open_data",
+      "name": "Orange County California Open Data",
+      "category": "property_parcel",
+      "docs_url": "https://ocgov.com/gov/open-data",
+      "signup_url": "https://ocgov.com/gov/open-data",
+      "auth": {"type": "none", "env_vars": []}
+    },
+    {
+      "id": "cook_county_open_data",
+      "name": "Cook County Open Data",
+      "category": "property_parcel",
+      "docs_url": "https://datacatalog.cookcountyil.gov/",
+      "signup_url": "https://datacatalog.cookcountyil.gov/",
+      "auth": {"type": "none", "env_vars": []}
+    },
+    {
+      "id": "nyc_open_data",
+      "name": "NYC Open Data",
+      "category": "property_parcel",
+      "docs_url": "https://opendata.cityofnewyork.us/",
+      "signup_url": "https://opendata.cityofnewyork.us/",
+      "auth": {"type": "none", "env_vars": []}
+    },
+    {
+      "id": "arcgis_rest",
+      "name": "ArcGIS REST Services",
+      "category": "gis",
+      "docs_url": "https://developers.arcgis.com/rest/services-reference/enterprise/get-started-with-the-services-directory/",
+      "signup_url": "https://developers.arcgis.com/rest/services-reference/",
+      "auth": {"type": "mixed", "env_vars": ["ARCGIS_TOKEN"]},
+      "notes": "Many county FeatureServer endpoints are public; some enterprise services require a token."
+    },
+    {
+      "id": "courtlistener",
+      "name": "CourtListener API",
+      "category": "court_legal",
+      "docs_url": "https://www.courtlistener.com/api/rest-info/",
+      "signup_url": "https://www.courtlistener.com/sign-in/",
+      "auth": {"type": "token_header", "env_vars": ["COURTLISTENER_API_TOKEN"]},
+      "verification": {
+        "url": "https://www.courtlistener.com/api/rest/v4/search/",
+        "query": {"q": "quiet title", "page_size": "1"},
+        "headers": {"Authorization": "Token {COURTLISTENER_API_TOKEN}"}
+      }
+    },
+    {
+      "id": "pacer",
+      "name": "PACER Case Locator",
+      "category": "court_legal",
+      "docs_url": "https://pacer.uscourts.gov/",
+      "signup_url": "https://pacer.uscourts.gov/register-account",
+      "auth": {"type": "portal_account", "env_vars": ["PACER_USERNAME", "PACER_PASSWORD", "PACER_CLIENT_CODE"]}
+    },
+    {
+      "id": "recap",
+      "name": "RECAP Archive",
+      "category": "court_legal",
+      "docs_url": "https://free.law/recap/",
+      "signup_url": "https://free.law/recap/",
+      "auth": {"type": "none", "env_vars": []}
+    },
+    {
+      "id": "opencorporates",
+      "name": "OpenCorporates API",
+      "category": "corporate_ownership",
+      "docs_url": "https://api.opencorporates.com/documentation/API-Reference",
+      "signup_url": "https://api.opencorporates.com/account/sign_up",
+      "auth": {"type": "api_token_query", "env_vars": ["OPENCORPORATES_API_TOKEN"]},
+      "verification": {
+        "url": "https://api.opencorporates.com/v0.4/companies/search",
+        "query": {"q": "property", "per_page": "1", "api_token": "{OPENCORPORATES_API_TOKEN}"}
+      }
+    },
+    {
+      "id": "california_business_search",
+      "name": "California Business Search",
+      "category": "corporate_ownership",
+      "docs_url": "https://bizfileonline.sos.ca.gov/search/business",
+      "signup_url": "https://bizfileonline.sos.ca.gov/search/business",
+      "auth": {"type": "portal_search", "env_vars": []}
+    },
+    {
+      "id": "delaware_entity_search",
+      "name": "Delaware Entity Search",
+      "category": "corporate_ownership",
+      "docs_url": "https://icis.corp.delaware.gov/ecorp/entitysearch/namesearch.aspx",
+      "signup_url": "https://icis.corp.delaware.gov/ecorp/entitysearch/namesearch.aspx",
+      "auth": {"type": "portal_search", "env_vars": []}
+    },
+    {
+      "id": "ofac_sdn",
+      "name": "OFAC Sanctions Data",
+      "category": "identity_sanctions",
+      "docs_url": "https://ofac.treasury.gov/specially-designated-nationals-list-data-formats-data-schemas",
+      "signup_url": "https://ofac.treasury.gov/specially-designated-nationals-list-data-formats-data-schemas",
+      "auth": {"type": "none", "env_vars": []}
+    },
+    {
+      "id": "fincen_guidance",
+      "name": "FinCEN Guidance Resources",
+      "category": "identity_sanctions",
+      "docs_url": "https://www.fincen.gov/resources/statutes-regulations/guidance",
+      "signup_url": "https://www.fincen.gov/resources/statutes-regulations/guidance",
+      "auth": {"type": "none", "env_vars": []}
+    },
+    {
+      "id": "fbi_crime_data",
+      "name": "FBI Crime Data API",
+      "category": "crime_incident",
+      "docs_url": "https://crime-data-explorer.fr.cloud.gov/pages/docApi",
+      "signup_url": "https://crime-data-explorer.fr.cloud.gov/pages/docApi",
+      "auth": {"type": "api_key", "env_vars": ["FBI_CRIME_DATA_API_KEY"]},
+      "notes": "The public API docs and current key policy should be re-verified before production rollout."
+    },
+    {
+      "id": "data_gov_crime",
+      "name": "Data.gov Crime Datasets",
+      "category": "crime_incident",
+      "docs_url": "https://catalog.data.gov/dataset?tags=crime",
+      "signup_url": "https://catalog.data.gov/dataset?tags=crime",
+      "auth": {"type": "mixed", "env_vars": ["DATA_GOV_API_KEY"]},
+      "notes": "Most catalog reads are public; some CKAN or downstream services support or prefer an API key."
+    },
+    {
+      "id": "usps_address",
+      "name": "USPS Web Tools APIs",
+      "category": "identity_address",
+      "docs_url": "https://www.usps.com/business/web-tools-apis/",
+      "signup_url": "https://registration.shippingapis.com/",
+      "auth": {"type": "user_id", "env_vars": ["USPS_WEBTOOLS_USER_ID"]},
+      "notes": "USPS uses a user ID rather than a conventional API key."
+    },
+    {
+      "id": "nominatim",
+      "name": "Nominatim OpenStreetMap",
+      "category": "identity_address",
+      "docs_url": "https://nominatim.org/release-docs/latest/api/Overview/",
+      "signup_url": "https://nominatim.org/",
+      "auth": {"type": "none", "env_vars": []}
+    },
+    {
+      "id": "fec",
+      "name": "FEC API",
+      "category": "election_political",
+      "docs_url": "https://api.open.fec.gov/developers/",
+      "signup_url": "https://api.data.gov/signup/",
+      "auth": {"type": "api_key_query", "env_vars": ["FEC_API_KEY"]},
+      "verification": {
+        "url": "https://api.open.fec.gov/v1/committees/",
+        "query": {"api_key": "{FEC_API_KEY}", "per_page": "1"}
+      }
+    },
+    {
+      "id": "foia_gov",
+      "name": "FOIA.gov API",
+      "category": "foia_transparency",
+      "docs_url": "https://www.foia.gov/developer/",
+      "signup_url": "https://api.foia.gov/registration",
+      "auth": {"type": "api_key_header", "env_vars": ["FOIA_GOV_API_KEY"]},
+      "verification": {
+        "url": "https://api.foia.gov/api/agency_components",
+        "headers": {"api_key": "{FOIA_GOV_API_KEY}"}
+      }
+    },
+    {
+      "id": "hud_user",
+      "name": "HUD User APIs",
+      "category": "mortgage_housing",
+      "docs_url": "https://www.huduser.gov/portal/dataset/api.html",
+      "signup_url": "https://www.huduser.gov/portal/dataset/api.html",
+      "auth": {"type": "bearer_token", "env_vars": ["HUD_USER_API_TOKEN"]},
+      "notes": "Some HUD datasets remain open ArcGIS services; tokenized HUD User APIs should be re-verified per dataset."
+    },
+    {
+      "id": "fhfa",
+      "name": "FHFA Data Tools / HPI",
+      "category": "mortgage_housing",
+      "docs_url": "https://www.fhfa.gov/datatools/download-data-pages/house-price-index-datasets",
+      "signup_url": "https://www.fhfa.gov/datatools/download-data-pages/house-price-index-datasets",
+      "auth": {"type": "none", "env_vars": []}
+    }
+  ]
+}

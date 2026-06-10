@@ -1,0 +1,111 @@
+{
+  "artifact_attestations": [
+    {
+      "exists": true,
+      "path": "exports/chatgpt_request_queue.jsonl",
+      "sha256": "bc4dbb34f770527fbe9ed6d1bf3468189edf0727d803ec6dfdf190bd126bc50d",
+      "size_bytes": 132165
+    },
+    {
+      "exists": true,
+      "path": "exports/chatgpt_request_queue_processed.jsonl",
+      "sha256": "609c61149198a90811b7b42a68b2a39f222fb0117a38e142c3e6944cccc69888",
+      "size_bytes": 140249
+    },
+    {
+      "exists": true,
+      "path": "exports/bridge_import_rejected.jsonl",
+      "sha256": "f7bd810af622861eb6cb756147c63427a5e8108804df738376eb63771fab772b",
+      "size_bytes": 32258
+    },
+    {
+      "exists": true,
+      "path": "exports/bridge_status/latest_bridge_run.json",
+      "sha256": "3e68c66bfccc029ceac2ef9c8dee0ef6bbcf338bdef484efb4afd9350ba23b65",
+      "size_bytes": 34084
+    },
+    {
+      "exists": true,
+      "path": "exports/bridge_status/bridge_command_results.jsonl",
+      "sha256": "f8571710bc99fe7a4adfc2e5cafd40c67de3a295948dc121b86ba63bb83723ee",
+      "size_bytes": 87952
+    },
+    {
+      "exists": true,
+      "path": "exports/bridge_status/bridge_task_ledger.jsonl",
+      "sha256": "c2e0d9b77e99d04d306e43f58048de5d957d43003f43fe7c7d68d44edc378a3e",
+      "size_bytes": 25099
+    },
+    {
+      "exists": true,
+      "path": "exports/evidence_ledger.jsonl",
+      "sha256": "6cd71e4fd634e7c6b6e193e90d53f6c7fb1a6a6851525da44d8498cf49b6b941",
+      "size_bytes": 6247640
+    }
+  ],
+  "attestation_hash": "5a087e1cf6b750df008def7e0fa824451e716b577009281d18a0611b11fc6ea7",
+  "bridge_source_identity": {
+    "branch": "main",
+    "latest_report": {
+      "available": true,
+      "content_sha256": "37e870fba122ae3f25e1fe1e0b36ed900a23c800c47273a7a1d67c98f5164543",
+      "download_url": "https://raw.githubusercontent.com/aevespers2/Bridge/main/reports/latest_bridge_run.json",
+      "path": "reports/latest_bridge_run.json",
+      "sha": "b8291f6eac3e95abe1ceaa2fab90d4762c04ea1d",
+      "size": 45703
+    },
+    "legacy_queue": {
+      "available": true,
+      "content_sha256": "f095773d28faee0045bfd13f74ff688a7f3b32182fdc143c16b3ab4498e31011",
+      "download_url": "https://raw.githubusercontent.com/aevespers2/Bridge/main/queues/chatgpt_codex_work_queue.jsonl",
+      "path": "queues/chatgpt_codex_work_queue.jsonl",
+      "sha": "d2ecdf9b6eb63e5e9935a1334dda76c79cf3170a",
+      "size": 34552
+    },
+    "queue": {
+      "available": true,
+      "content_sha256": "93d1cba15556e3a631eaa0cb120e7081b4bd991b4a6a731aa3e40b318c7ac20c",
+      "download_url": "https://raw.githubusercontent.com/aevespers2/Bridge/main/exports/chatgpt_request_queue.jsonl",
+      "path": "exports/chatgpt_request_queue.jsonl",
+      "sha": "4a53a907a2ead8d2a76a5e8935d949707bb115f1",
+      "size": 40817
+    },
+    "repo": "aevespers2/Bridge",
+    "schema": {
+      "available": true,
+      "content_sha256": "d583b75098c6c6e96b283ab428dc03678f35de7b7aaa64b4ae111c8a9fe868f5",
+      "download_url": "https://raw.githubusercontent.com/aevespers2/Bridge/main/schemas/chatgpt_codex_request.schema.json",
+      "path": "schemas/chatgpt_codex_request.schema.json",
+      "sha": "4496e6777a59e1bdfc2fc41e773658af2d75b432",
+      "size": 2724
+    }
+  },
+  "generated_at": "2026-06-10T20:07:59.652545+00:00",
+  "previous_attestation_hash": "fc12498d7812b8bda31898e70106d40469b28d6c08908d66d28a1bda914e1340",
+  "protocol": "UVIP-Bridge",
+  "protocol_version": "1.0.0",
+  "run_id": "681852b25ba420ddf7f0de93",
+  "runner_identity": {
+    "hostname_hash": "1b5d9652d2d31b5f575776cb",
+    "pid": 7802,
+    "platform": "macOS-26.3-x86_64-i386-64bit-Mach-O",
+    "python": "/Users/ALISTAIRE/housing-fraud-intel-api/.venv/bin/python",
+    "repo_path_hash": "dd33f236de0b9a86bc3118c8",
+    "runner_kind": "local_codex_mac",
+    "secrets_policy": "No tokens, recovery codes, private keys, or raw user identifiers are included.",
+    "user_hash": "a62843d28ebe3d526af9adb4"
+  },
+  "trust_boundaries": [
+    "This attests runner, source, and artifact identity; it does not prove parcel facts.",
+    "GitHub blob SHAs prove repository content identity at fetch time, not author intent.",
+    "Runner identity is hashed to avoid publishing local account or host identifiers.",
+    "No secrets or recovery codes are recorded."
+  ],
+  "verification_summary": {
+    "attested_artifact_count": 7,
+    "bridge_source_reachable": true,
+    "hash_chain_present": true,
+    "identity_level": "hashed_runner_identity_plus_github_blob_identity",
+    "missing_artifact_count": 0
+  }
+}

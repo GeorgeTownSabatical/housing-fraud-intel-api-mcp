@@ -1,0 +1,3 @@
+record_type,data
+entity,"{""id"":""entity-lantern"",""name"":""Lantern Bay Holdings LLC"",""entity_type"":""LLC"",""jurisdiction"":""CA"",""registered_agent"":""Agent Meridian"",""mailing_address_id"":""addr-hub""}"
+entity,"{""id"":""entity-cypress"",""name"":""Cypress Tidal Ventures LLC"",""entity_type"":""LLC"",""jurisdiction"":""CA"",""registered_agent"":""Agent Meridian"",""mailing_address_id"":""addr-hub""}"

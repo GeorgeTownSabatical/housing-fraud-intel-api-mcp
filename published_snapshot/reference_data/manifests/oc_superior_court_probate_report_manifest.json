@@ -1,0 +1,21 @@
+{
+  "artifacts": [
+    {
+      "path": "/Users/ALISTAIRE/occourts_scraper/reports/occourts_probate_20260521T065339Z.json",
+      "sha256": "ce938b7b68397b29aa0a59a5ea27ec67731bd585b61cb0052a221fcd573ac8d5",
+      "size_bytes": 1013715
+    }
+  ],
+  "license_note": "Import only reviewed local JSON reports containing public case metadata from the Orange County Superior Court case-access workflow. Do not collect or ingest sealed, restricted, or remotely unavailable documents.",
+  "metadata": {
+    "input_kind": "occourts_report",
+    "record_type": "court_case"
+  },
+  "official_url": "https://www.occourts.org/online-services/case-access",
+  "parser_version": "court-index-v1",
+  "retrieval_method": "manual_export",
+  "retrieval_timestamp": "2026-05-21T06:56:11.557049+00:00",
+  "source_hash": "fea643489ce7bf2ed37d4e80a26ade2834b7d99e9f6f83a3fbc3695a6392ea55",
+  "source_id": "oc_superior_court_probate_report",
+  "source_name": "Orange County Superior Court Probate Case Report"
+}

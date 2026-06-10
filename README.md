@@ -42,6 +42,17 @@ Tools:
 - `property_blockers_summary`
 - `propose_bridge_request`
 
+## Published Upstream Snapshot
+
+`published_snapshot/` contains the most important publishable parts of the local `housing-fraud-intel-api` workspace:
+
+- selected core source code, scripts, schemas, docs, and top-level project metadata
+- sample/source-registry data and small manifest/validation files
+- compact Bridge, QSOF, and property due-diligence status exports
+- `PUBLISHED_MANIFEST.json`, which lists every included file and records what was intentionally excluded
+
+The snapshot intentionally excludes the local SQLite database, raw `public_records/`, bulk generated exports, large accepted staging payloads, local logs, lockfiles, caches, virtual environments, and secrets.
+
 ## Trust Boundary
 
 This server is a context and transport layer only. It does not prove parcel facts, identity links, title conclusions, misconduct, or legal claims. MCP-originated writes are limited to local proposal records unless explicitly published by a separate reviewed workflow.

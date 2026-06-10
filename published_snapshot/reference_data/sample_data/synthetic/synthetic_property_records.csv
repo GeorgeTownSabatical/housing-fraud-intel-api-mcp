@@ -1,0 +1,7 @@
+record_type,data
+address,"{""id"":""addr-hub"",""raw_address"":""101 Harbor View Street, Santa Ana, CA 92701"",""street"":""101 Harbor View Street"",""city"":""Santa Ana"",""state"":""CA"",""postal_code"":""92701"",""confidence"":0.99}"
+parcel,"{""id"":""parcel-harbor"",""apn"":""551-314-01"",""county"":""Orange"",""state"":""CA"",""situs_address_id"":""addr-hub"",""legal_description"":""Fictional parcel used for synthetic demo""}"
+instrument,"{""id"":""inst-1"",""instrument_number"":""2026-0001001"",""document_type"":""Quitclaim Deed"",""recording_date"":""2026-01-10"",""parcel_id"":""parcel-harbor"",""consideration_amount"":10,""notary_name"":""Nadia Rowe"",""preparer_name"":""Lumen Docs LLC""}"
+instrument,"{""id"":""inst-2"",""instrument_number"":""2026-0001044"",""document_type"":""Quitclaim Deed"",""recording_date"":""2026-02-02"",""parcel_id"":""parcel-harbor"",""consideration_amount"":0,""notary_name"":""Nadia Rowe"",""preparer_name"":""Lumen Docs LLC""}"
+instrument,"{""id"":""inst-3"",""instrument_number"":""2026-0001070"",""document_type"":""Trust Deed"",""recording_date"":""2026-02-12"",""parcel_id"":""parcel-harbor"",""consideration_amount"":100,""notary_name"":""Nadia Rowe"",""preparer_name"":""Crescent Filings""}"
+instrument,"{""id"":""inst-4"",""instrument_number"":""2026-0001095"",""document_type"":""Assignment"",""recording_date"":""2026-02-18"",""parcel_id"":""parcel-harbor"",""consideration_amount"":1,""notary_name"":""Nadia Rowe"",""preparer_name"":""Crescent Filings""}"

@@ -1,0 +1,931 @@
+{
+  "accepted_count": 46,
+  "blocked_count": 0,
+  "command_results": {
+    "command_result_count": 22,
+    "executed_count": 22,
+    "failed_count": 0,
+    "latest_results": [
+      {
+        "command": "ls templates/intake docs",
+        "command_index": 1,
+        "completed_at": "2026-05-28T07:22:32.016497+00:00",
+        "exit_code": 0,
+        "request_id": "bridge-18",
+        "status": "executed",
+        "validation_errors": []
+      },
+      {
+        "command": "python -m pytest",
+        "command_index": 2,
+        "completed_at": "2026-05-28T07:22:48.446932+00:00",
+        "exit_code": 0,
+        "request_id": "bridge-18",
+        "status": "executed",
+        "validation_errors": []
+      },
+      {
+        "command": "python scripts/diff_gis_snapshots.py",
+        "command_index": 1,
+        "completed_at": "2026-05-28T07:22:48.578217+00:00",
+        "exit_code": 0,
+        "request_id": "bridge-19",
+        "status": "executed",
+        "validation_errors": []
+      },
+      {
+        "command": "python -m pytest",
+        "command_index": 2,
+        "completed_at": "2026-05-28T07:23:05.033949+00:00",
+        "exit_code": 0,
+        "request_id": "bridge-19",
+        "status": "executed",
+        "validation_errors": []
+      },
+      {
+        "command": "python scripts/export_bridge_health.py",
+        "command_index": 1,
+        "completed_at": "2026-05-28T07:23:05.160716+00:00",
+        "exit_code": 0,
+        "request_id": "bridge-20",
+        "status": "executed",
+        "validation_errors": []
+      },
+      {
+        "command": "python -m pytest",
+        "command_index": 2,
+        "completed_at": "2026-05-28T08:04:38.115389+00:00",
+        "exit_code": 0,
+        "request_id": "bridge-20",
+        "status": "executed",
+        "validation_errors": []
+      },
+      {
+        "command": "ls templates/commands docs",
+        "command_index": 1,
+        "completed_at": "2026-05-28T08:04:38.127997+00:00",
+        "exit_code": 0,
+        "request_id": "bridge-21",
+        "status": "executed",
+        "validation_errors": []
+      },
+      {
+        "command": "python -m pytest",
+        "command_index": 2,
+        "completed_at": "2026-05-28T08:04:55.792507+00:00",
+        "exit_code": 0,
+        "request_id": "bridge-21",
+        "status": "executed",
+        "validation_errors": []
+      },
+      {
+        "command": "python scripts/update_changelog_from_bridge.py",
+        "command_index": 1,
+        "completed_at": "2026-05-28T08:04:55.924432+00:00",
+        "exit_code": 0,
+        "request_id": "bridge-22",
+        "status": "executed",
+        "validation_errors": []
+      },
+      {
+        "command": "python -m pytest",
+        "command_index": 2,
+        "completed_at": "2026-05-28T08:05:14.103887+00:00",
+        "exit_code": 0,
+        "request_id": "bridge-22",
+        "status": "executed",
+        "validation_errors": []
+      }
+    ],
+    "rejected_count": 0
+  },
+  "command_results_output": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/bridge_command_results.jsonl",
+  "evidence_ledger": {
+    "artifact_types": {
+      "apn_timeline": 2,
+      "assessor_office_packet": 12,
+      "bridge_health_dashboard": 2,
+      "bridge_processed_queue": 2177,
+      "bridge_queue_workboard": 1409,
+      "bridge_rejected_queue": 2177,
+      "bridge_status_report": 2177,
+      "entity_disambiguation_worksheet": 2,
+      "gis_field_map": 2,
+      "gist_snapshot_json": 8,
+      "mcp_bridge_context": 1074,
+      "parcel_lineage_graph": 2,
+      "public_property_lookup": 266,
+      "record_retrieval_playbook": 1,
+      "snapshot_diff_report": 2,
+      "uvip_qsom_mesh": 1015
+    },
+    "entry_count": 10328,
+    "latest_entries": [
+      {
+        "artifact_path": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/bridge_queue_workboard.json",
+        "artifact_type": "bridge_queue_workboard",
+        "producer": "scripts/export_bridge_status.py",
+        "recorded_at": "2026-06-10T20:06:50.766072+00:00",
+        "sha256": "210e014f2b889e9d2ee21c0988f8d8c8e6c833710e3fc74e121239b3a956c933"
+      },
+      {
+        "artifact_path": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/chatgpt_codex_processed.jsonl",
+        "artifact_type": "bridge_processed_queue",
+        "producer": "scripts/export_bridge_status.py",
+        "recorded_at": "2026-06-10T20:08:20.808075+00:00",
+        "sha256": "66795e2efeb6e97853bb4b58d3a69f1a9913727e9905d9130702ed3acd0e9879"
+      },
+      {
+        "artifact_path": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/chatgpt_codex_rejected.jsonl",
+        "artifact_type": "bridge_rejected_queue",
+        "producer": "scripts/export_bridge_status.py",
+        "recorded_at": "2026-06-10T20:08:20.817545+00:00",
+        "sha256": "f7bd810af622861eb6cb756147c63427a5e8108804df738376eb63771fab772b"
+      },
+      {
+        "artifact_path": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/latest_bridge_run.json",
+        "artifact_type": "bridge_status_report",
+        "producer": "scripts/export_bridge_status.py",
+        "recorded_at": "2026-06-10T20:08:20.818731+00:00",
+        "sha256": "5d33bc8f3cbc9303402c3cec73bb7cd3b5893ea7621e86f6287445bcea9a393f"
+      },
+      {
+        "artifact_path": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/bridge_queue_workboard.json",
+        "artifact_type": "bridge_queue_workboard",
+        "producer": "scripts/export_bridge_status.py",
+        "recorded_at": "2026-06-10T20:08:20.820006+00:00",
+        "sha256": "efa76d6c17b9689f8da824e57ae28abf13bfc8007788489da66ae3d286482dd3"
+      },
+      {
+        "artifact_path": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/mcp_bridge_context.json",
+        "artifact_type": "mcp_bridge_context",
+        "producer": "scripts/export_mcp_bridge_context.py",
+        "recorded_at": "2026-06-10T20:08:21.362361+00:00",
+        "sha256": "bcba233fd1b20d55b74ef7b8e1e55dec348f8468dba60d4e5e906bd900a54341"
+      },
+      {
+        "artifact_path": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/chatgpt_codex_processed.jsonl",
+        "artifact_type": "bridge_processed_queue",
+        "producer": "scripts/export_bridge_status.py",
+        "recorded_at": "2026-06-10T20:08:22.217068+00:00",
+        "sha256": "66795e2efeb6e97853bb4b58d3a69f1a9913727e9905d9130702ed3acd0e9879"
+      },
+      {
+        "artifact_path": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/chatgpt_codex_rejected.jsonl",
+        "artifact_type": "bridge_rejected_queue",
+        "producer": "scripts/export_bridge_status.py",
+        "recorded_at": "2026-06-10T20:08:22.218793+00:00",
+        "sha256": "f7bd810af622861eb6cb756147c63427a5e8108804df738376eb63771fab772b"
+      },
+      {
+        "artifact_path": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/latest_bridge_run.json",
+        "artifact_type": "bridge_status_report",
+        "producer": "scripts/export_bridge_status.py",
+        "recorded_at": "2026-06-10T20:08:22.219847+00:00",
+        "sha256": "8b958e1762a48a02f3c50f1466578dd6fbf4e9c55bca7319d79e0f89e9624396"
+      },
+      {
+        "artifact_path": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/bridge_queue_workboard.json",
+        "artifact_type": "bridge_queue_workboard",
+        "producer": "scripts/export_bridge_status.py",
+        "recorded_at": "2026-06-10T20:08:22.221068+00:00",
+        "sha256": "031e38c00fb23ba5bfccf142f2772af7cce0e68ee2a9f339aab3694022e07aa2"
+      }
+    ],
+    "ledger_path": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/evidence_ledger.jsonl"
+  },
+  "generated_at": "2026-06-10T20:08:21.897403+00:00",
+  "identity_attestation": {
+    "artifact_attestations": [
+      {
+        "exists": true,
+        "path": "exports/chatgpt_request_queue.jsonl",
+        "sha256": "bc4dbb34f770527fbe9ed6d1bf3468189edf0727d803ec6dfdf190bd126bc50d",
+        "size_bytes": 132165
+      },
+      {
+        "exists": true,
+        "path": "exports/chatgpt_request_queue_processed.jsonl",
+        "sha256": "609c61149198a90811b7b42a68b2a39f222fb0117a38e142c3e6944cccc69888",
+        "size_bytes": 140249
+      },
+      {
+        "exists": true,
+        "path": "exports/bridge_import_rejected.jsonl",
+        "sha256": "f7bd810af622861eb6cb756147c63427a5e8108804df738376eb63771fab772b",
+        "size_bytes": 32258
+      },
+      {
+        "exists": true,
+        "path": "exports/bridge_status/latest_bridge_run.json",
+        "sha256": "3e68c66bfccc029ceac2ef9c8dee0ef6bbcf338bdef484efb4afd9350ba23b65",
+        "size_bytes": 34084
+      },
+      {
+        "exists": true,
+        "path": "exports/bridge_status/bridge_command_results.jsonl",
+        "sha256": "f8571710bc99fe7a4adfc2e5cafd40c67de3a295948dc121b86ba63bb83723ee",
+        "size_bytes": 87952
+      },
+      {
+        "exists": true,
+        "path": "exports/bridge_status/bridge_task_ledger.jsonl",
+        "sha256": "c2e0d9b77e99d04d306e43f58048de5d957d43003f43fe7c7d68d44edc378a3e",
+        "size_bytes": 25099
+      },
+      {
+        "exists": true,
+        "path": "exports/evidence_ledger.jsonl",
+        "sha256": "6cd71e4fd634e7c6b6e193e90d53f6c7fb1a6a6851525da44d8498cf49b6b941",
+        "size_bytes": 6247640
+      }
+    ],
+    "attestation_hash": "5a087e1cf6b750df008def7e0fa824451e716b577009281d18a0611b11fc6ea7",
+    "bridge_source_identity": {
+      "branch": "main",
+      "latest_report": {
+        "available": true,
+        "content_sha256": "37e870fba122ae3f25e1fe1e0b36ed900a23c800c47273a7a1d67c98f5164543",
+        "download_url": "https://raw.githubusercontent.com/aevespers2/Bridge/main/reports/latest_bridge_run.json",
+        "path": "reports/latest_bridge_run.json",
+        "sha": "b8291f6eac3e95abe1ceaa2fab90d4762c04ea1d",
+        "size": 45703
+      },
+      "legacy_queue": {
+        "available": true,
+        "content_sha256": "f095773d28faee0045bfd13f74ff688a7f3b32182fdc143c16b3ab4498e31011",
+        "download_url": "https://raw.githubusercontent.com/aevespers2/Bridge/main/queues/chatgpt_codex_work_queue.jsonl",
+        "path": "queues/chatgpt_codex_work_queue.jsonl",
+        "sha": "d2ecdf9b6eb63e5e9935a1334dda76c79cf3170a",
+        "size": 34552
+      },
+      "queue": {
+        "available": true,
+        "content_sha256": "93d1cba15556e3a631eaa0cb120e7081b4bd991b4a6a731aa3e40b318c7ac20c",
+        "download_url": "https://raw.githubusercontent.com/aevespers2/Bridge/main/exports/chatgpt_request_queue.jsonl",
+        "path": "exports/chatgpt_request_queue.jsonl",
+        "sha": "4a53a907a2ead8d2a76a5e8935d949707bb115f1",
+        "size": 40817
+      },
+      "repo": "aevespers2/Bridge",
+      "schema": {
+        "available": true,
+        "content_sha256": "d583b75098c6c6e96b283ab428dc03678f35de7b7aaa64b4ae111c8a9fe868f5",
+        "download_url": "https://raw.githubusercontent.com/aevespers2/Bridge/main/schemas/chatgpt_codex_request.schema.json",
+        "path": "schemas/chatgpt_codex_request.schema.json",
+        "sha": "4496e6777a59e1bdfc2fc41e773658af2d75b432",
+        "size": 2724
+      }
+    },
+    "generated_at": "2026-06-10T20:07:59.652545+00:00",
+    "previous_attestation_hash": "fc12498d7812b8bda31898e70106d40469b28d6c08908d66d28a1bda914e1340",
+    "protocol": "UVIP-Bridge",
+    "protocol_version": "1.0.0",
+    "run_id": "681852b25ba420ddf7f0de93",
+    "runner_identity": {
+      "hostname_hash": "1b5d9652d2d31b5f575776cb",
+      "pid": 7802,
+      "platform": "macOS-26.3-x86_64-i386-64bit-Mach-O",
+      "python": "/Users/ALISTAIRE/housing-fraud-intel-api/.venv/bin/python",
+      "repo_path_hash": "dd33f236de0b9a86bc3118c8",
+      "runner_kind": "local_codex_mac",
+      "secrets_policy": "No tokens, recovery codes, private keys, or raw user identifiers are included.",
+      "user_hash": "a62843d28ebe3d526af9adb4"
+    },
+    "trust_boundaries": [
+      "This attests runner, source, and artifact identity; it does not prove parcel facts.",
+      "GitHub blob SHAs prove repository content identity at fetch time, not author intent.",
+      "Runner identity is hashed to avoid publishing local account or host identifiers.",
+      "No secrets or recovery codes are recorded."
+    ],
+    "verification_summary": {
+      "attested_artifact_count": 7,
+      "bridge_source_reachable": true,
+      "hash_chain_present": true,
+      "identity_level": "hashed_runner_identity_plus_github_blob_identity",
+      "missing_artifact_count": 0
+    }
+  },
+  "identity_attestation_output": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/bridge_identity_latest.json",
+  "imported_count": 46,
+  "mcp_context": {
+    "bridge_status_summary": {
+      "accepted_count": 46,
+      "blocked_count": 0,
+      "command_failed_count": 0,
+      "command_rejected_count": 0,
+      "command_result_count": 22,
+      "generated_at": "2026-06-10T20:08:20.568674+00:00",
+      "imported_count": 46,
+      "processed_count": 46,
+      "rejected_count": 18
+    },
+    "generated_at": "2026-06-10T20:08:21.361038+00:00",
+    "identity_attestation_summary": {
+      "attestation_hash": "5a087e1cf6b750df008def7e0fa824451e716b577009281d18a0611b11fc6ea7",
+      "previous_attestation_hash": "fc12498d7812b8bda31898e70106d40469b28d6c08908d66d28a1bda914e1340",
+      "protocol": "UVIP-Bridge",
+      "protocol_version": "1.0.0",
+      "run_id": "681852b25ba420ddf7f0de93",
+      "verification_summary": {
+        "attested_artifact_count": 7,
+        "bridge_source_reachable": true,
+        "hash_chain_present": true,
+        "identity_level": "hashed_runner_identity_plus_github_blob_identity",
+        "missing_artifact_count": 0
+      }
+    },
+    "local_artifacts": {
+      "command_result_rows": 22,
+      "command_results": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/bridge_command_results.jsonl",
+      "identity_attestation": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/bridge_identity_latest.json",
+      "manual_review_queue": "data/manual_review_queue.jsonl",
+      "processed_queue": "exports/chatgpt_request_queue_processed.jsonl",
+      "status": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/latest_bridge_run.json"
+    },
+    "mcp_role": "transport_and_context_layer_only",
+    "read_targets": [
+      {
+        "connector": "github_mcp",
+        "name": "Bridge queue",
+        "purpose": "Read proposed ChatGPT/Codex work requests.",
+        "url": "https://github.com/aevespers2/Bridge/blob/main/exports/chatgpt_request_queue.jsonl"
+      },
+      {
+        "connector": "github_mcp",
+        "name": "Latest Bridge run",
+        "purpose": "Read published processing status and UVIP summary.",
+        "url": "https://github.com/aevespers2/Bridge/blob/main/reports/latest_bridge_run.json"
+      },
+      {
+        "connector": "gist_raw",
+        "name": "Evidence snapshots",
+        "purpose": "Read evidence handoff snapshots; MCP does not mutate evidence.",
+        "url": "https://gist.githubusercontent.com/GeorgeTownSabatical/ea83e2a96538900b5a0c0ca0b58b76b4/raw/local_summary.json"
+      }
+    ],
+    "safety_rules": [
+      "MCP is a transport/context layer, not an evidence authority.",
+      "MCP writes go to Bridge queue only, never directly to outputs/gis_model or evidence Gist.",
+      "All MCP-originated requests must pass local schema validation and safe command allowlists.",
+      "UVIP attestations identify runner/source/artifact hashes but do not prove parcel facts."
+    ],
+    "schema": "mcp_bridge_context.v1",
+    "write_targets": [
+      {
+        "connector": "github_mcp",
+        "name": "Bridge queue append/update",
+        "path": "exports/chatgpt_request_queue.jsonl",
+        "repository": "aevespers2/Bridge",
+        "rule": "Write requests only; local Codex validation must accept before processing."
+      }
+    ]
+  },
+  "mcp_context_output": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/mcp_bridge_context.json",
+  "processed_count": 46,
+  "processed_output": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/chatgpt_codex_processed.jsonl",
+  "queue_workboard": {
+    "items": [
+      {
+        "command_count": 0,
+        "last_activity": "2026-06-07T06:51:22Z",
+        "latest_command_status": "",
+        "priority": "high",
+        "progress_note": "Blocked on official recorder document image/detail pulls for the 21 priority document numbers. See reports/property_due_diligence/tracked_recorder_official_copy_handoff.md. Intake scanner currently matches 0 of 21 required document numbers.",
+        "request_id": "codex-pull-tracked-surname-intersection-docs-20260531",
+        "responsible": "human-official-record-pull",
+        "source": "local_file",
+        "target_repo": "aevespers2/Bridge",
+        "title": "Pull tracked PEPPER/LARSON intersection recorder documents",
+        "validation_status": "UNKNOWN",
+        "work_state": "blocked"
+      },
+      {
+        "command_count": 0,
+        "last_activity": "2026-06-07T06:51:22Z",
+        "latest_command_status": "",
+        "priority": "high",
+        "progress_note": "Blocked on official assessor parcel card, recorder chain, and tax-default disposition. See reports/property_due_diligence/apn_40128307_official_records_handoff.md. Intake scanner matches 0 APN records; missing categories: assessor, recorder, tax.",
+        "request_id": "property-followup-apn_40128307_review_packet-20260531",
+        "responsible": "human-official-record-pull",
+        "source": "",
+        "target_repo": "",
+        "title": "Property due diligence follow-up: apn_40128307_review_packet",
+        "validation_status": "UNKNOWN",
+        "work_state": "blocked"
+      },
+      {
+        "command_count": 0,
+        "last_activity": "2026-06-07T06:51:22Z",
+        "latest_command_status": "",
+        "priority": "high",
+        "progress_note": "Blocked on official recorder copies and extraction; index intersections alone remain UNKNOWN. See reports/property_due_diligence/tracked_recorder_official_copy_handoff.md. Intake scanner currently matches 0 of 21 required document numbers.",
+        "request_id": "property-followup-tracked_surname_intersection_packet-20260531",
+        "responsible": "human-official-record-pull",
+        "source": "",
+        "target_repo": "",
+        "title": "Property due diligence follow-up: tracked_surname_intersection_packet",
+        "validation_status": "UNKNOWN",
+        "work_state": "blocked"
+      },
+      {
+        "command_count": 0,
+        "last_activity": "2026-06-07T06:51:22Z",
+        "latest_command_status": "",
+        "priority": "medium",
+        "progress_note": "Blocked until an encryption recipient/public key and target report scope are specified. See reports/property_due_diligence/encrypted_project_report_requirements.md.",
+        "request_id": "bridge-encrypted-project-report-20260531-001",
+        "responsible": "human-official-record-pull",
+        "source": "github_issue",
+        "target_repo": "aevespers2/Bridge",
+        "title": "Generate encrypted cross-project status report",
+        "validation_status": "UNKNOWN",
+        "work_state": "blocked"
+      },
+      {
+        "command_count": 2,
+        "last_activity": "2026-05-28T07:20:59.651865+00:00",
+        "latest_command_status": "executed",
+        "priority": "critical",
+        "progress_note": "",
+        "request_id": "bridge-12",
+        "responsible": "chatgpt-intake",
+        "source": "chatgpt",
+        "target_repo": "aevespers2/Bridge",
+        "title": "Build first record-retrieval playbook",
+        "validation_status": "UNKNOWN",
+        "work_state": "completed"
+      },
+      {
+        "command_count": 2,
+        "last_activity": "2026-05-28T07:21:39.040249+00:00",
+        "latest_command_status": "executed",
+        "priority": "critical",
+        "progress_note": "",
+        "request_id": "bridge-14",
+        "responsible": "chatgpt-intake",
+        "source": "chatgpt",
+        "target_repo": "aevespers2/Bridge",
+        "title": "Add parcel lineage graph export",
+        "validation_status": "UNKNOWN",
+        "work_state": "completed"
+      },
+      {
+        "command_count": 0,
+        "last_activity": "2026-06-07T06:51:22Z",
+        "latest_command_status": "",
+        "priority": "critical",
+        "progress_note": "Deliverables present and latest focused validation passed.",
+        "request_id": "bridge-10",
+        "responsible": "codex",
+        "source": "chatgpt",
+        "target_repo": "aevespers2/Bridge",
+        "title": "Add evidence ledger and provenance spine",
+        "validation_status": "UNKNOWN",
+        "work_state": "completed"
+      },
+      {
+        "command_count": 0,
+        "last_activity": "2026-06-07T06:51:22Z",
+        "latest_command_status": "",
+        "priority": "critical",
+        "progress_note": "Deliverables present and latest focused validation passed.",
+        "request_id": "bridge-11",
+        "responsible": "codex",
+        "source": "chatgpt",
+        "target_repo": "aevespers2/Bridge",
+        "title": "Build assessor-office packet generator",
+        "validation_status": "UNKNOWN",
+        "work_state": "completed"
+      },
+      {
+        "command_count": 0,
+        "last_activity": "2026-06-07T06:51:22Z",
+        "latest_command_status": "",
+        "priority": "critical",
+        "progress_note": "Deliverables present and latest focused validation passed.",
+        "request_id": "bridge-5",
+        "responsible": "codex",
+        "source": "chatgpt",
+        "target_repo": "aevespers2/Bridge",
+        "title": "Build safe Bridge command service for routine Codex checks",
+        "validation_status": "UNKNOWN",
+        "work_state": "completed"
+      },
+      {
+        "command_count": 0,
+        "last_activity": "2026-06-07T06:51:22Z",
+        "latest_command_status": "",
+        "priority": "critical",
+        "progress_note": "Deliverables present and latest focused validation passed.",
+        "request_id": "bridge-6",
+        "responsible": "codex",
+        "source": "chatgpt",
+        "target_repo": "aevespers2/Bridge",
+        "title": "Add 15-minute routine Bridge check workflow",
+        "validation_status": "UNKNOWN",
+        "work_state": "completed"
+      },
+      {
+        "command_count": 0,
+        "last_activity": "2026-06-07T06:51:22Z",
+        "latest_command_status": "",
+        "priority": "critical",
+        "progress_note": "Deliverables present and latest focused validation passed.",
+        "request_id": "bridge-8",
+        "responsible": "codex",
+        "source": "chatgpt",
+        "target_repo": "aevespers2/Bridge",
+        "title": "Design QSOF-integrated service bridge architecture",
+        "validation_status": "UNKNOWN",
+        "work_state": "completed"
+      },
+      {
+        "command_count": 0,
+        "last_activity": "2026-06-07T06:51:22Z",
+        "latest_command_status": "",
+        "priority": "critical",
+        "progress_note": "Deliverables present and latest focused validation passed.",
+        "request_id": "bridge-9",
+        "responsible": "codex",
+        "source": "chatgpt",
+        "target_repo": "aevespers2/Bridge",
+        "title": "Add idempotent Bridge task ledger and deduplication",
+        "validation_status": "UNKNOWN",
+        "work_state": "completed"
+      },
+      {
+        "command_count": 2,
+        "last_activity": "2026-05-28T07:21:16.865671+00:00",
+        "latest_command_status": "executed",
+        "priority": "high",
+        "progress_note": "",
+        "request_id": "bridge-13",
+        "responsible": "chatgpt-intake",
+        "source": "chatgpt",
+        "target_repo": "aevespers2/Bridge",
+        "title": "Create public-record request templates",
+        "validation_status": "UNKNOWN",
+        "work_state": "completed"
+      },
+      {
+        "command_count": 2,
+        "last_activity": "2026-05-28T07:21:59.027495+00:00",
+        "latest_command_status": "executed",
+        "priority": "high",
+        "progress_note": "",
+        "request_id": "bridge-15",
+        "responsible": "chatgpt-intake",
+        "source": "chatgpt",
+        "target_repo": "aevespers2/Bridge",
+        "title": "Add APN mutation timeline generator",
+        "validation_status": "UNKNOWN",
+        "work_state": "completed"
+      },
+      {
+        "command_count": 2,
+        "last_activity": "2026-05-28T07:22:15.330079+00:00",
+        "latest_command_status": "executed",
+        "priority": "high",
+        "progress_note": "",
+        "request_id": "bridge-16",
+        "responsible": "chatgpt-intake",
+        "source": "chatgpt",
+        "target_repo": "aevespers2/Bridge",
+        "title": "Add entity disambiguation worksheet generator",
+        "validation_status": "UNKNOWN",
+        "work_state": "completed"
+      },
+      {
+        "command_count": 2,
+        "last_activity": "2026-05-28T07:22:32.009052+00:00",
+        "latest_command_status": "executed",
+        "priority": "high",
+        "progress_note": "",
+        "request_id": "bridge-17",
+        "responsible": "chatgpt-intake",
+        "source": "chatgpt",
+        "target_repo": "aevespers2/Bridge",
+        "title": "Add GIS field map packet export",
+        "validation_status": "UNKNOWN",
+        "work_state": "completed"
+      },
+      {
+        "command_count": 2,
+        "last_activity": "2026-05-28T07:22:48.446932+00:00",
+        "latest_command_status": "executed",
+        "priority": "high",
+        "progress_note": "",
+        "request_id": "bridge-18",
+        "responsible": "chatgpt-intake",
+        "source": "chatgpt",
+        "target_repo": "aevespers2/Bridge",
+        "title": "Add office visit evidence intake forms",
+        "validation_status": "UNKNOWN",
+        "work_state": "completed"
+      },
+      {
+        "command_count": 2,
+        "last_activity": "2026-05-28T07:23:05.033949+00:00",
+        "latest_command_status": "executed",
+        "priority": "high",
+        "progress_note": "",
+        "request_id": "bridge-19",
+        "responsible": "chatgpt-intake",
+        "source": "chatgpt",
+        "target_repo": "aevespers2/Bridge",
+        "title": "Add snapshot diff and regression report",
+        "validation_status": "UNKNOWN",
+        "work_state": "completed"
+      },
+      {
+        "command_count": 2,
+        "last_activity": "2026-05-28T08:04:38.115389+00:00",
+        "latest_command_status": "executed",
+        "priority": "high",
+        "progress_note": "",
+        "request_id": "bridge-20",
+        "responsible": "chatgpt-intake",
+        "source": "chatgpt",
+        "target_repo": "aevespers2/Bridge",
+        "title": "Add Bridge health dashboard summary",
+        "validation_status": "UNKNOWN",
+        "work_state": "completed"
+      },
+      {
+        "command_count": 0,
+        "last_activity": "2026-06-07T06:51:22Z",
+        "latest_command_status": "",
+        "priority": "high",
+        "progress_note": "Deliverables present and latest focused validation passed.",
+        "request_id": "bridge-2",
+        "responsible": "codex",
+        "source": "chatgpt",
+        "target_repo": "aevespers2/Bridge",
+        "title": "Review APN 402-181-12",
+        "validation_status": "UNKNOWN",
+        "work_state": "completed"
+      },
+      {
+        "command_count": 0,
+        "last_activity": "2026-06-07T06:51:22Z",
+        "latest_command_status": "",
+        "priority": "high",
+        "progress_note": "Deliverables present and latest focused validation passed.",
+        "request_id": "bridge-3",
+        "responsible": "codex",
+        "source": "chatgpt",
+        "target_repo": "aevespers2/Bridge",
+        "title": "Add routine Bridge status publishing",
+        "validation_status": "UNKNOWN",
+        "work_state": "completed"
+      },
+      {
+        "command_count": 0,
+        "last_activity": "2026-06-07T06:51:22Z",
+        "latest_command_status": "",
+        "priority": "high",
+        "progress_note": "Deliverables present and latest focused validation passed.",
+        "request_id": "bridge-4",
+        "responsible": "codex",
+        "source": "chatgpt",
+        "target_repo": "aevespers2/Bridge",
+        "title": "Propagate shared-priority semantics into main GIS repo",
+        "validation_status": "UNKNOWN",
+        "work_state": "completed"
+      },
+      {
+        "command_count": 0,
+        "last_activity": "2026-06-07T06:51:22Z",
+        "latest_command_status": "",
+        "priority": "high",
+        "progress_note": "Deliverables present and latest focused validation passed.",
+        "request_id": "bridge-7",
+        "responsible": "codex",
+        "source": "chatgpt",
+        "target_repo": "aevespers2/Bridge",
+        "title": "Add command result schema and first diagnostic requests",
+        "validation_status": "UNKNOWN",
+        "work_state": "completed"
+      },
+      {
+        "command_count": 0,
+        "last_activity": "2026-06-07T06:51:22Z",
+        "latest_command_status": "",
+        "priority": "high",
+        "progress_note": "Deliverables present and latest focused validation passed.",
+        "request_id": "codex-enable-bridge-self-enqueue-20260531",
+        "responsible": "codex",
+        "source": "local_file",
+        "target_repo": "aevespers2/Bridge",
+        "title": "Enable Codex-originated Bridge queue entries",
+        "validation_status": "UNKNOWN",
+        "work_state": "completed"
+      },
+      {
+        "command_count": 2,
+        "last_activity": "2026-05-28T08:04:55.792507+00:00",
+        "latest_command_status": "executed",
+        "priority": "medium",
+        "progress_note": "",
+        "request_id": "bridge-21",
+        "responsible": "chatgpt-intake",
+        "source": "chatgpt",
+        "target_repo": "aevespers2/Bridge",
+        "title": "Add command request examples for ChatGPT",
+        "validation_status": "UNKNOWN",
+        "work_state": "completed"
+      }
+    ],
+    "summary": {
+      "active_count": 0,
+      "by_responsible": {
+        "chatgpt-intake": 11,
+        "codex": 35,
+        "human-official-record-pull": 4
+      },
+      "by_state": {
+        "blocked": 4,
+        "completed": 46
+      },
+      "in_progress_count": 0,
+      "total": 50
+    }
+  },
+  "queue_workboard_output": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/bridge_queue_workboard.json",
+  "rejected_count": 18,
+  "rejected_output": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/chatgpt_codex_rejected.jsonl",
+  "repo": "aevespers2/Bridge",
+  "routine_check": {
+    "commands_run": [
+      {
+        "argv": [
+          "/Users/Alistaire/housing-fraud-intel-api/.venv/bin/python",
+          "scripts/import_bridge_queue.py",
+          "--use-gh-api"
+        ],
+        "completed_at": "2026-06-10T20:05:11.812379+00:00",
+        "exit_code": 0,
+        "started_at": "2026-06-10T20:05:03.906403+00:00",
+        "stderr_tail": "",
+        "stdout_tail": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/chatgpt_request_queue.jsonl\n/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_import_rejected.jsonl\naccepted_count=24 rejected_count=18\n"
+      },
+      {
+        "argv": [
+          "/Users/Alistaire/housing-fraud-intel-api/.venv/bin/python",
+          "scripts/process_chatgpt_request_queue.py",
+          "--processed-output",
+          "/tmp/chatgpt_request_queue_processed.routine.jsonl",
+          "--accepted-output",
+          "/tmp/manual_review_queue.routine.jsonl"
+        ],
+        "completed_at": "2026-06-10T20:05:12.103323+00:00",
+        "exit_code": 0,
+        "started_at": "2026-06-10T20:05:11.812439+00:00",
+        "stderr_tail": "",
+        "stdout_tail": "/tmp/chatgpt_request_queue_processed.routine.jsonl\n/tmp/manual_review_queue.routine.jsonl\naccepted_count=47 rejected_count=4\n"
+      },
+      {
+        "argv": [
+          "mv",
+          "/tmp/chatgpt_request_queue_processed.routine.jsonl",
+          "exports/chatgpt_request_queue_processed.jsonl"
+        ],
+        "completed_at": "2026-06-10T20:05:12.114650+00:00",
+        "exit_code": 0,
+        "started_at": "2026-06-10T20:05:12.103377+00:00",
+        "stderr_tail": "",
+        "stdout_tail": ""
+      },
+      {
+        "argv": [
+          "mv",
+          "/tmp/manual_review_queue.routine.jsonl",
+          "data/manual_review_queue.jsonl"
+        ],
+        "completed_at": "2026-06-10T20:05:12.123867+00:00",
+        "exit_code": 0,
+        "started_at": "2026-06-10T20:05:12.114701+00:00",
+        "stderr_tail": "",
+        "stdout_tail": ""
+      },
+      {
+        "argv": [
+          "/Users/Alistaire/housing-fraud-intel-api/.venv/bin/python",
+          "scripts/update_bridge_task_ledger.py"
+        ],
+        "completed_at": "2026-06-10T20:05:12.402871+00:00",
+        "exit_code": 0,
+        "started_at": "2026-06-10T20:05:12.123938+00:00",
+        "stderr_tail": "",
+        "stdout_tail": "{\"appended_entries\": 0, \"duplicate_entries\": 0, \"ledger_entries\": 46, \"ledger_path\": \"/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/bridge_task_ledger.jsonl\", \"unique_task_hashes\": 46}\n"
+      },
+      {
+        "argv": [
+          "/Users/Alistaire/housing-fraud-intel-api/.venv/bin/python",
+          "scripts/bridge_identity_protocol.py"
+        ],
+        "completed_at": "2026-06-10T20:06:49.215010+00:00",
+        "exit_code": 0,
+        "started_at": "2026-06-10T20:05:12.402934+00:00",
+        "stderr_tail": "",
+        "stdout_tail": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/bridge_identity_latest.json\n{\"attested_artifact_count\": 7, \"bridge_source_reachable\": true, \"hash_chain_present\": true, \"identity_level\": \"hashed_runner_identity_plus_github_blob_identity\", \"missing_artifact_count\": 0}\n"
+      },
+      {
+        "argv": [
+          "/Users/Alistaire/housing-fraud-intel-api/.venv/bin/python",
+          "scripts/export_bridge_status.py"
+        ],
+        "completed_at": "2026-06-10T20:06:49.999245+00:00",
+        "exit_code": 0,
+        "started_at": "2026-06-10T20:06:49.215080+00:00",
+        "stderr_tail": "",
+        "stdout_tail": "KNOWN\", \"work_state\": \"completed\"}, {\"command_count\": 2, \"last_activity\": \"2026-05-28T08:04:55.792507+00:00\", \"latest_command_status\": \"executed\", \"priority\": \"medium\", \"progress_note\": \"\", \"request_id\": \"bridge-21\", \"responsible\": \"chatgpt-intake\", \"source\": \"chatgpt\", \"target_repo\": \"aevespers2/Bridge\", \"title\": \"Add command request examples for ChatGPT\", \"validation_status\": \"UNKNOWN\", \"work_state\": \"completed\"}], \"summary\": {\"active_count\": 0, \"by_responsible\": {\"chatgpt-intake\": 11, \"codex\": 35, \"human-official-record-pull\": 4}, \"by_state\": {\"blocked\": 4, \"completed\": 46}, \"in_progress_count\": 0, \"total\": 50}}, \"queue_workboard_output\": \"/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/bridge_queue_workboard.json\", \"rejected_count\": 18, \"rejected_output\": \"/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/chatgpt_codex_rejected.jsonl\", \"repo\": \"aevespers2/Bridge\", \"routine_check\": {\"commands_run\": [{\"argv\": [\"/Users/Alistaire/housing-fraud-intel-api/.venv/bin/python\", \"scripts/import_bridge_queue.py\", \"--use-gh-api\"], \"completed_at\": \"2026-06-10T20:04:03.709032+00:00\", \"exit_code\": 1, \"started_at\": \"2026-06-10T20:04:03.344472+00:00\", \"stderr_tail\": \"Traceback (most recent call last):\\n  File \\\"/Users/ALISTAIRE/housing-fraud-intel-api/scripts/import_bridge_queue.py\\\", line 409, in <module>\\n    main()\\n    ~~~~^^\\n  File \\\"/Users/ALISTAIRE/housing-fraud-intel-api/scripts/import_bridge_queue.py\\\", line 372, in main\\n    schema = json.loads(fetch_bridge_content_via_gh(\\\"schemas/chatgpt_codex_request.schema.json\\\"))\\n                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/Users/ALISTAIRE/housing-fraud-intel-api/scripts/import_bridge_queue.py\\\", line 86, in fetch_bridge_content_via_gh\\n    result = subprocess.run(\\n        [\\\"gh\\\", \\\"api\\\", f\\\"repos/aevespers2/Bridge/contents/{path}\\\", \\\"--jq\\\", \\\".content\\\"],\\n    ...<2 lines>...\\n        text=True,\\n    )\\n  File \\\"/usr/local/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py\\\", line 577, in run\\n    raise CalledProcessError(retcode, process.args,\\n                             output=stdout, stderr=stderr)\\nsubprocess.CalledProcessError: Command '['gh', 'api', 'repos/aevespers2/Bridge/contents/schemas/chatgpt_codex_request.schema.json', '--jq', '.content']' returned non-zero exit status 1.\\n\", \"stdout_tail\": \"\"}], \"counts\": {\"commands\": 1, \"failed\": 1, \"succeeded\": 0}, \"desktop_notification\": {\"exit_code\": 0, \"message\": \"Status failed | Queue 46/46 accepted, 18 rejected | Commands 0 ok / 1 failed\", \"skip_reason\": \"notify-mode=on-change\", \"skipped\": true, \"title\": \"Bridge check complete\"}, \"duration_seconds\": 0.367, \"end_time\": \"2026-06-10T20:04:03.709419+00:00\", \"exit_status\": \"failed\", \"lockfile\": \"/Users/Alistaire/housing-fraud-intel-api/exports/bridge_status/routine_bridge_check.lock\", \"start_time\": \"2026-06-10T20:04:03.342768+00:00\"}, \"routine_check_output\": \"/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/routine_bridge_check_latest.json\", \"safety_rules\": [\"Bridge status publishing does not modify outputs/gis_model.\", \"Bridge status publishing does not modify the public evidence Gist.\", \"Evidence outputs are regenerated only by the model refresh flow.\"], \"task_ledger\": {\"appended_entries\": 0, \"duplicate_entries\": 0, \"ledger_entries\": 46, \"ledger_path\": \"/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/bridge_task_ledger.jsonl\", \"unique_task_hashes\": 46}, \"validation_summary\": {\"aggregation_rule\": \"FAIL if any component FAIL; else UNKNOWN if any component UNKNOWN; else PASS.\", \"component_counts\": {\"evidence_boundary\": {\"FAIL\": 18, \"PASS\": 41, \"UNKNOWN\": 5}, \"provenance\": {\"PASS\": 64}, \"reproducibility\": {\"UNKNOWN\": 64}, \"security\": {\"PASS\": 46, \"UNKNOWN\": 18}, \"source_test\": {\"UNKNOWN\": 64}, \"structure\": {\"FAIL\": 18, \"PASS\": 46}}, \"metric\": \"bridge_validation_metric.v1\", \"status_counts\": {\"FAIL\": 18, \"UNKNOWN\": 46}}}\n"
+      },
+      {
+        "argv": [
+          "/Users/Alistaire/housing-fraud-intel-api/.venv/bin/python",
+          "scripts/export_mcp_bridge_context.py"
+        ],
+        "completed_at": "2026-06-10T20:06:50.252824+00:00",
+        "exit_code": 0,
+        "started_at": "2026-06-10T20:06:49.999313+00:00",
+        "stderr_tail": "",
+        "stdout_tail": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/mcp_bridge_context.json\n{\"accepted_count\": 46, \"blocked_count\": 0, \"command_failed_count\": 0, \"command_rejected_count\": 0, \"command_result_count\": 22, \"generated_at\": \"2026-06-10T20:06:49.524769+00:00\", \"imported_count\": 46, \"processed_count\": 46, \"rejected_count\": 18}\n"
+      },
+      {
+        "argv": [
+          "/Users/Alistaire/housing-fraud-intel-api/.venv/bin/python",
+          "scripts/export_bridge_status.py"
+        ],
+        "completed_at": "2026-06-10T20:06:51.014934+00:00",
+        "exit_code": 0,
+        "started_at": "2026-06-10T20:06:50.252891+00:00",
+        "stderr_tail": "",
+        "stdout_tail": "KNOWN\", \"work_state\": \"completed\"}, {\"command_count\": 2, \"last_activity\": \"2026-05-28T08:04:55.792507+00:00\", \"latest_command_status\": \"executed\", \"priority\": \"medium\", \"progress_note\": \"\", \"request_id\": \"bridge-21\", \"responsible\": \"chatgpt-intake\", \"source\": \"chatgpt\", \"target_repo\": \"aevespers2/Bridge\", \"title\": \"Add command request examples for ChatGPT\", \"validation_status\": \"UNKNOWN\", \"work_state\": \"completed\"}], \"summary\": {\"active_count\": 0, \"by_responsible\": {\"chatgpt-intake\": 11, \"codex\": 35, \"human-official-record-pull\": 4}, \"by_state\": {\"blocked\": 4, \"completed\": 46}, \"in_progress_count\": 0, \"total\": 50}}, \"queue_workboard_output\": \"/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/bridge_queue_workboard.json\", \"rejected_count\": 18, \"rejected_output\": \"/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/chatgpt_codex_rejected.jsonl\", \"repo\": \"aevespers2/Bridge\", \"routine_check\": {\"commands_run\": [{\"argv\": [\"/Users/Alistaire/housing-fraud-intel-api/.venv/bin/python\", \"scripts/import_bridge_queue.py\", \"--use-gh-api\"], \"completed_at\": \"2026-06-10T20:04:03.709032+00:00\", \"exit_code\": 1, \"started_at\": \"2026-06-10T20:04:03.344472+00:00\", \"stderr_tail\": \"Traceback (most recent call last):\\n  File \\\"/Users/ALISTAIRE/housing-fraud-intel-api/scripts/import_bridge_queue.py\\\", line 409, in <module>\\n    main()\\n    ~~~~^^\\n  File \\\"/Users/ALISTAIRE/housing-fraud-intel-api/scripts/import_bridge_queue.py\\\", line 372, in main\\n    schema = json.loads(fetch_bridge_content_via_gh(\\\"schemas/chatgpt_codex_request.schema.json\\\"))\\n                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/Users/ALISTAIRE/housing-fraud-intel-api/scripts/import_bridge_queue.py\\\", line 86, in fetch_bridge_content_via_gh\\n    result = subprocess.run(\\n        [\\\"gh\\\", \\\"api\\\", f\\\"repos/aevespers2/Bridge/contents/{path}\\\", \\\"--jq\\\", \\\".content\\\"],\\n    ...<2 lines>...\\n        text=True,\\n    )\\n  File \\\"/usr/local/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py\\\", line 577, in run\\n    raise CalledProcessError(retcode, process.args,\\n                             output=stdout, stderr=stderr)\\nsubprocess.CalledProcessError: Command '['gh', 'api', 'repos/aevespers2/Bridge/contents/schemas/chatgpt_codex_request.schema.json', '--jq', '.content']' returned non-zero exit status 1.\\n\", \"stdout_tail\": \"\"}], \"counts\": {\"commands\": 1, \"failed\": 1, \"succeeded\": 0}, \"desktop_notification\": {\"exit_code\": 0, \"message\": \"Status failed | Queue 46/46 accepted, 18 rejected | Commands 0 ok / 1 failed\", \"skip_reason\": \"notify-mode=on-change\", \"skipped\": true, \"title\": \"Bridge check complete\"}, \"duration_seconds\": 0.367, \"end_time\": \"2026-06-10T20:04:03.709419+00:00\", \"exit_status\": \"failed\", \"lockfile\": \"/Users/Alistaire/housing-fraud-intel-api/exports/bridge_status/routine_bridge_check.lock\", \"start_time\": \"2026-06-10T20:04:03.342768+00:00\"}, \"routine_check_output\": \"/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/routine_bridge_check_latest.json\", \"safety_rules\": [\"Bridge status publishing does not modify outputs/gis_model.\", \"Bridge status publishing does not modify the public evidence Gist.\", \"Evidence outputs are regenerated only by the model refresh flow.\"], \"task_ledger\": {\"appended_entries\": 0, \"duplicate_entries\": 0, \"ledger_entries\": 46, \"ledger_path\": \"/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/bridge_task_ledger.jsonl\", \"unique_task_hashes\": 46}, \"validation_summary\": {\"aggregation_rule\": \"FAIL if any component FAIL; else UNKNOWN if any component UNKNOWN; else PASS.\", \"component_counts\": {\"evidence_boundary\": {\"FAIL\": 18, \"PASS\": 41, \"UNKNOWN\": 5}, \"provenance\": {\"PASS\": 64}, \"reproducibility\": {\"UNKNOWN\": 64}, \"security\": {\"PASS\": 46, \"UNKNOWN\": 18}, \"source_test\": {\"UNKNOWN\": 64}, \"structure\": {\"FAIL\": 18, \"PASS\": 46}}, \"metric\": \"bridge_validation_metric.v1\", \"status_counts\": {\"FAIL\": 18, \"UNKNOWN\": 46}}}\n"
+      }
+    ],
+    "counts": {
+      "commands": 9,
+      "failed": 0,
+      "succeeded": 9
+    },
+    "desktop_notification": {
+      "exit_code": 0,
+      "message": "Status success | Queue 46/46 accepted, 18 rejected | Commands 9 ok / 0 failed",
+      "stderr_tail": "",
+      "stdout_tail": "",
+      "title": "Bridge check complete"
+    },
+    "duration_seconds": 107.111,
+    "end_time": "2026-06-10T20:06:51.015258+00:00",
+    "exit_status": "success",
+    "lockfile": "/Users/Alistaire/housing-fraud-intel-api/exports/bridge_status/routine_bridge_check.lock",
+    "start_time": "2026-06-10T20:05:03.905377+00:00"
+  },
+  "routine_check_output": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/routine_bridge_check_latest.json",
+  "safety_rules": [
+    "Bridge status publishing does not modify outputs/gis_model.",
+    "Bridge status publishing does not modify the public evidence Gist.",
+    "Evidence outputs are regenerated only by the model refresh flow."
+  ],
+  "task_ledger": {
+    "appended_entries": 0,
+    "duplicate_entries": 0,
+    "ledger_entries": 46,
+    "ledger_path": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/bridge_task_ledger.jsonl",
+    "unique_task_hashes": 46
+  },
+  "validation_summary": {
+    "aggregation_rule": "FAIL if any component FAIL; else UNKNOWN if any component UNKNOWN; else PASS.",
+    "component_counts": {
+      "evidence_boundary": {
+        "FAIL": 18,
+        "PASS": 41,
+        "UNKNOWN": 5
+      },
+      "provenance": {
+        "PASS": 64
+      },
+      "reproducibility": {
+        "UNKNOWN": 64
+      },
+      "security": {
+        "PASS": 46,
+        "UNKNOWN": 18
+      },
+      "source_test": {
+        "UNKNOWN": 64
+      },
+      "structure": {
+        "FAIL": 18,
+        "PASS": 46
+      }
+    },
+    "metric": "bridge_validation_metric.v1",
+    "status_counts": {
+      "FAIL": 18,
+      "UNKNOWN": 46
+    }
+  }
+}

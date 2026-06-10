@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-05-28T19:34:04.370937+00:00",
+  "local_status_files": [
+    "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/chatgpt_codex_processed.jsonl",
+    "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/chatgpt_codex_rejected.jsonl",
+    "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/latest_bridge_run.json"
+  ],
+  "reason": "Current GitHub token does not have push permission on the Bridge repository.",
+  "repo": "aevespers2/Bridge",
+  "required_permission": "contents write / repository push",
+  "status": "blocked",
+  "target_paths": [
+    "queues/chatgpt_codex_processed.jsonl",
+    "queues/chatgpt_codex_rejected.jsonl",
+    "reports/latest_bridge_run.json"
+  ]
+}

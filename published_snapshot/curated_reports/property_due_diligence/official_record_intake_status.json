@@ -1,0 +1,53 @@
+{
+  "apn_40128307": {
+    "matched_record_count": 0,
+    "missing_categories": [
+      "assessor",
+      "recorder",
+      "tax"
+    ],
+    "present_categories": [],
+    "ready_for_extraction": false,
+    "required_categories": [
+      "assessor",
+      "recorder",
+      "tax"
+    ]
+  },
+  "extraction_queue_count": 0,
+  "files": [],
+  "generated_at": "2026-06-07T06:51:34Z",
+  "guardrail": "Detected intake artifacts are candidates only; facts remain UNKNOWN until official copies are extracted and reviewed.",
+  "public_records_dir": "public_records",
+  "received_log_rows": [],
+  "schema": "official_record_intake_status.v1",
+  "tracked_recorder_documents": {
+    "matched_count": 0,
+    "matched_document_numbers": [],
+    "missing_document_numbers": [
+      "19820111332",
+      "19820138267",
+      "19820138268",
+      "19820186924",
+      "19820254824",
+      "19820254825",
+      "19820254826",
+      "19830550575",
+      "19930740920",
+      "19930908390",
+      "19940030802",
+      "19940218416",
+      "19940287790",
+      "19940576820",
+      "19990467070",
+      "19990621873",
+      "2015000356840",
+      "2016000658658",
+      "2025000055778",
+      "2025000055779",
+      "2026000052209"
+    ],
+    "ready_for_extraction": false,
+    "required_count": 21
+  }
+}

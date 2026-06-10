@@ -1,0 +1,21 @@
+{
+  "artifacts": [
+    {
+      "path": "data/raw/irvine_address_points_arcgis/download.json",
+      "sha256": "ee5c15ccb0a2d2376e4acd8e8179fd79309ea9f380f7ab301debd2bfc9f8bb39",
+      "size_bytes": 95728832
+    }
+  ],
+  "license_note": "Official municipal ArcGIS REST address point layer. Terms should be reviewed before redistribution of copied extracts.",
+  "metadata": {
+    "mode": "merge",
+    "record_type": "parcel"
+  },
+  "official_url": "https://gis.cityofirvine.org/arcgis/rest/services/ParcelClariti/FeatureServer/164",
+  "parser_version": "arcgis-v1",
+  "retrieval_method": "arcgis_rest",
+  "retrieval_timestamp": "2026-05-01T12:05:28.081483+00:00",
+  "source_hash": "f50a06923683c56a9b66eebfc70224865ed839d269127c550dc9b2d8f8cd059e",
+  "source_id": "irvine_address_points_arcgis",
+  "source_name": "City of Irvine Address Points"
+}

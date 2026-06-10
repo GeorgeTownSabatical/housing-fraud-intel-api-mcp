@@ -1,0 +1,115 @@
+{
+  "files": [
+    {
+      "bytes": 1436,
+      "path": "reports/property_due_diligence/apn_40128307_official_records_handoff.md",
+      "sha256": "1a68946c9c3190add1e6cd9117e718db666b7a513d55c331ede3e9152ef5c7ed"
+    },
+    {
+      "bytes": 1479,
+      "path": "reports/property_due_diligence/apn_40128307_review_packet.md",
+      "sha256": "f4387d91f135e7b462a24079bd7a3ccd070926a3ab703e4fc4d15f618bb0c11c"
+    },
+    {
+      "bytes": 1384,
+      "path": "reports/property_due_diligence/apn_40218112_comparator_review.md",
+      "sha256": "c24083caf85e62e04d9736a65bb3fd6b21cf42d8575bdb24002ff0403d21a401"
+    },
+    {
+      "bytes": 497,
+      "path": "reports/property_due_diligence/apn_451_identification.md",
+      "sha256": "a4071b2d3d7e02204c4a48fa87abe13b769efa666a91e1b3e6ee53928d91d721"
+    },
+    {
+      "bytes": 1120,
+      "path": "reports/property_due_diligence/blocked_work_handoff_summary.json",
+      "sha256": "f1511d825a5bb00bb2468206b3a839478882a0d97539b12f64e855d382970108"
+    },
+    {
+      "bytes": 1985,
+      "path": "reports/property_due_diligence/blocked_work_next_actions.md",
+      "sha256": "9c43fcbb1732b7e207e8094b9e6a432ef881adf46868f6ea9647aabda4c6ae95"
+    },
+    {
+      "bytes": 10520,
+      "path": "reports/property_due_diligence/bridge_state_reconciliation.json",
+      "sha256": "0927f6935cafa809bdbbef05fd46985b391875f11631be165842760535ab3b7f"
+    },
+    {
+      "bytes": 498098,
+      "path": "reports/property_due_diligence/candidates.json",
+      "sha256": "f8f91416f76ec75aacc5f4553cd7bc5682eb154ea015472f7cc92c6c2f9bdcc1"
+    },
+    {
+      "bytes": 1185,
+      "path": "reports/property_due_diligence/command_deck.md",
+      "sha256": "769ddbed98ae1011bb3108088d79997cdfe8a1d4593c3d061117994e0e6fa3dd"
+    },
+    {
+      "bytes": 3609,
+      "path": "reports/property_due_diligence/daily_property_review_report.md",
+      "sha256": "b661ffd7bbffc6885db99500a80ea06605db72321b11957b8e2f366812c8257d"
+    },
+    {
+      "bytes": 588,
+      "path": "reports/property_due_diligence/encrypted_project_report_requirements.md",
+      "sha256": "8e3c3bc0d416dbbea208078a4108c9d45069c67d077a422d4ae359a10c39f7b4"
+    },
+    {
+      "bytes": 2178,
+      "path": "reports/property_due_diligence/followup_queue_entries.jsonl",
+      "sha256": "34d9e5e571d3e4b6e01e57228b3e22ec08135a4631b9ae0c2673cec006069068"
+    },
+    {
+      "bytes": 0,
+      "path": "reports/property_due_diligence/official_record_extraction_queue.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 278,
+      "path": "reports/property_due_diligence/official_record_extraction_queue.md",
+      "sha256": "2a424c6c9d60f05a7d79dc28edc8ef4ad6766d0741329f0008def22d72e01662"
+    },
+    {
+      "bytes": 1281,
+      "path": "reports/property_due_diligence/official_record_intake_status.json",
+      "sha256": "dc16b88e805744669f15651ac39c8efc54d422bf83d42b545e7ec3ad54e047df"
+    },
+    {
+      "bytes": 813,
+      "path": "reports/property_due_diligence/official_record_intake_status.md",
+      "sha256": "d7f535280d931bca6eb7cf4d11daa483f8c7c6dd0de336d026d4b0f1303fd005"
+    },
+    {
+      "bytes": 304,
+      "path": "reports/property_due_diligence/queue_correction_hash_report.json",
+      "sha256": "c0e590d67b1fd138b33b58cee8a69531cd1287ffa0e5ac4d4afed7c3d75a9198"
+    },
+    {
+      "bytes": 1047,
+      "path": "reports/property_due_diligence/queue_corrections.jsonl",
+      "sha256": "300b9a0dec109bd5074b88f5478488620d296ae4c90ed87008c3fbfb808a1bdb"
+    },
+    {
+      "bytes": 499076,
+      "path": "reports/property_due_diligence/ranked_candidates.json",
+      "sha256": "80ee5bfd4256faeffa45da09baf43d47c16d910f9357345a55ab61aa07da0a7b"
+    },
+    {
+      "bytes": 2261,
+      "path": "reports/property_due_diligence/source_inventory.json",
+      "sha256": "6b1974aa6d65117a183601c0817bf58b276106b2a42608c4166b8935f7572107"
+    },
+    {
+      "bytes": 5412,
+      "path": "reports/property_due_diligence/tracked_recorder_official_copy_handoff.md",
+      "sha256": "90c84ba0e6f6234c330f4330fa588d983a057b1138802603b1633f27ce5671bc"
+    },
+    {
+      "bytes": 498335,
+      "path": "reports/property_due_diligence/validated_candidates.json",
+      "sha256": "913e571721e8eb2410ae83fc05f05b8652becc857e59ac67453f743b062fa467"
+    }
+  ],
+  "generated_at": "2026-06-07T06:51:34Z"
+}

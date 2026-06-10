@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Evidence Ledger Entry",
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "ledger_version": {"const": "evidence_ledger.v1"},
+    "recorded_at": {"type": "string"},
+    "artifact_path": {"type": "string"},
+    "artifact_type": {"type": "string"},
+    "producer": {"type": "string"},
+    "request_id": {"type": "string"},
+    "source": {"type": "string"},
+    "sha256": {"type": "string"},
+    "size_bytes": {"type": "integer"},
+    "note": {"type": "string"},
+    "interpretation_boundary": {"type": "string"}
+  },
+  "required": ["ledger_version", "recorded_at", "artifact_path", "artifact_type", "producer", "sha256", "interpretation_boundary"]
+}

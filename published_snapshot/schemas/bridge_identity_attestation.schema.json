@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Bridge Unified Verification Identity Attestation",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "protocol": {"type": "string", "const": "UVIP-Bridge"},
+    "protocol_version": {"type": "string"},
+    "generated_at": {"type": "string"},
+    "run_id": {"type": "string"},
+    "runner_identity": {"type": "object"},
+    "bridge_source_identity": {"type": "object"},
+    "artifact_attestations": {
+      "type": "array",
+      "items": {"type": "object"}
+    },
+    "previous_attestation_hash": {"type": "string"},
+    "attestation_hash": {"type": "string"},
+    "verification_summary": {"type": "object"},
+    "trust_boundaries": {
+      "type": "array",
+      "items": {"type": "string"}
+    }
+  },
+  "required": [
+    "protocol",
+    "protocol_version",
+    "generated_at",
+    "run_id",
+    "runner_identity",
+    "bridge_source_identity",
+    "artifact_attestations",
+    "previous_attestation_hash",
+    "attestation_hash",
+    "verification_summary",
+    "trust_boundaries"
+  ]
+}

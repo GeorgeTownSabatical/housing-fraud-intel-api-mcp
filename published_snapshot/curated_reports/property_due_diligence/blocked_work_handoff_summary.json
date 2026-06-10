@@ -1,0 +1,21 @@
+{
+  "guardrail": "Handoff files request external records or encryption inputs; they do not resolve the underlying facts.",
+  "official_record_intake": {
+    "apn_40128307_ready": false,
+    "extraction_queue_path": "reports/property_due_diligence/official_record_extraction_queue.jsonl",
+    "status_path": "reports/property_due_diligence/official_record_intake_status.json",
+    "tracked_recorder_ready": false
+  },
+  "outputs": [
+    "reports/property_due_diligence/official_record_intake_status.json",
+    "reports/property_due_diligence/official_record_intake_status.md",
+    "reports/property_due_diligence/official_record_extraction_queue.jsonl",
+    "reports/property_due_diligence/official_record_extraction_queue.md",
+    "reports/property_due_diligence/blocked_work_next_actions.md",
+    "reports/property_due_diligence/tracked_recorder_official_copy_handoff.md",
+    "reports/property_due_diligence/apn_40128307_official_records_handoff.md",
+    "reports/property_due_diligence/encrypted_project_report_requirements.md"
+  ],
+  "schema": "blocked_work_handoff_summary.v1",
+  "tracked_recorder_documents": 21
+}

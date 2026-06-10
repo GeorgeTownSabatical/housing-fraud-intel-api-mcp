@@ -1,0 +1,10 @@
+{
+  "accepted_count": 1,
+  "duplicate_count": 0,
+  "generated_at": "2026-05-23T09:26:48.936470+00:00",
+  "input_path": "/Users/ALISTAIRE/forensic-intel-platform/output/reports/recorderworks_collected_dedup_20260522T165719516534Z.csv",
+  "manifest_hash": "843fc9692250caf02ad973d320641d7d33368efcc73c3acdfd87bcfb5de36c0e",
+  "records_missing_required_fields": 0,
+  "rejected_count": 0,
+  "source_id": "oc_clerk_recorder_index"
+}

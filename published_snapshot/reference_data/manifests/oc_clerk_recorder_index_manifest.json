@@ -1,0 +1,21 @@
+{
+  "artifacts": [
+    {
+      "path": "/Users/ALISTAIRE/forensic-intel-platform/output/reports/recorderworks_collected_dedup_20260522T165719516534Z.csv",
+      "sha256": "1c6dc8b2676dc4664c95f3b5b238e1384c69e3c49dbd21809c3713eed2261d5a",
+      "size_bytes": 367
+    }
+  ],
+  "license_note": "Official index search is publicly accessible, but online search only returns index results and document images are restricted.",
+  "metadata": {
+    "mode": "append",
+    "record_type": "instrument"
+  },
+  "official_url": "https://cr.occlerkrecorder.gov/RecorderWorksInternet",
+  "parser_version": "recorder-index-v1",
+  "retrieval_method": "manual_export",
+  "retrieval_timestamp": "2026-05-23T09:26:48.936844+00:00",
+  "source_hash": "78b855ae1340bd449476cbd8c899bf2c15dc015bdc1a643fdaf30ea775888f39",
+  "source_id": "oc_clerk_recorder_index",
+  "source_name": "Orange County Clerk-Recorder Grantor/Grantee Index"
+}

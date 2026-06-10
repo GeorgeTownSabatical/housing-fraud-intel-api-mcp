@@ -1,0 +1,10 @@
+{
+  "accepted_count": 139203,
+  "duplicate_count": 0,
+  "generated_at": "2026-05-01T12:05:25.636717+00:00",
+  "input_path": "data/raw/irvine_address_points_arcgis/download.json",
+  "manifest_hash": "4a80193a7a258e82f23dc97bb36733f28b142bdafd95adb34affbbf246eee49f",
+  "records_missing_required_fields": 0,
+  "rejected_count": 0,
+  "source_id": "irvine_address_points_arcgis"
+}

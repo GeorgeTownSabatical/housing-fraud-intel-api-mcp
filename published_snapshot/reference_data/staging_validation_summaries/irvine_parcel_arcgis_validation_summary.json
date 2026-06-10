@@ -1,0 +1,10 @@
+{
+  "accepted_count": 69725,
+  "duplicate_count": 0,
+  "generated_at": "2026-05-01T12:23:45.414073+00:00",
+  "input_path": "data/raw/irvine_parcel_arcgis/download.json",
+  "manifest_hash": "2824a565c7f26fed0604ef53fa48c126ef6267b4b5a891269ceef68cefe40b9f",
+  "records_missing_required_fields": 0,
+  "rejected_count": 0,
+  "source_id": "irvine_parcel_arcgis"
+}

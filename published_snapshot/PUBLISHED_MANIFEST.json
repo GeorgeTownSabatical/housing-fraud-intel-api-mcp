@@ -1,0 +1,641 @@
+{
+  "excluded_by_policy": [
+    "SQLite database and sidecars",
+    "raw public_records",
+    "bulk generated exports",
+    "large accepted staging payloads",
+    "caches, virtualenvs, logs, lockfiles, local .env/secrets",
+    "historical bridge_identity_history hashed runner log"
+  ],
+  "included": [
+    {
+      "path": "curated_exports/bridge_import_rejected.jsonl",
+      "sha256": "f7bd810af622861eb6cb756147c63427a5e8108804df738376eb63771fab772b",
+      "size_bytes": 32258
+    },
+    {
+      "path": "curated_exports/bridge_status/bridge_command_results.jsonl",
+      "sha256": "f8571710bc99fe7a4adfc2e5cafd40c67de3a295948dc121b86ba63bb83723ee",
+      "size_bytes": 87952
+    },
+    {
+      "path": "curated_exports/bridge_status/bridge_identity_latest.json",
+      "sha256": "44af9d2d143f8ca9519c78c0b9961dde093b8fcc5576cf40c7783d0a22a8b545",
+      "size_bytes": 4518
+    },
+    {
+      "path": "curated_exports/bridge_status/bridge_publish_blocked.json",
+      "sha256": "71aa3ca3bd0ed28c1390a1c154bddfa357ab2e82ad110788503b668f4ddcd790",
+      "size_bytes": 735
+    },
+    {
+      "path": "curated_exports/bridge_status/bridge_queue_state.json",
+      "sha256": "4b6395e3d20b85bd02962f77f9ded3136dc314f1642d20c1d856fbc376179e63",
+      "size_bytes": 10354
+    },
+    {
+      "path": "curated_exports/bridge_status/bridge_queue_workboard.json",
+      "sha256": "031e38c00fb23ba5bfccf142f2772af7cce0e68ee2a9f339aab3694022e07aa2",
+      "size_bytes": 27428
+    },
+    {
+      "path": "curated_exports/bridge_status/bridge_task_ledger.jsonl",
+      "sha256": "c2e0d9b77e99d04d306e43f58048de5d957d43003f43fe7c7d68d44edc378a3e",
+      "size_bytes": 25099
+    },
+    {
+      "path": "curated_exports/bridge_status/chatgpt_codex_processed.jsonl",
+      "sha256": "66795e2efeb6e97853bb4b58d3a69f1a9913727e9905d9130702ed3acd0e9879",
+      "size_bytes": 134151
+    },
+    {
+      "path": "curated_exports/bridge_status/chatgpt_codex_rejected.jsonl",
+      "sha256": "f7bd810af622861eb6cb756147c63427a5e8108804df738376eb63771fab772b",
+      "size_bytes": 32258
+    },
+    {
+      "path": "curated_exports/bridge_status/latest_bridge_run.json",
+      "sha256": "10690290fba0269e6eb442e6b49f80f0f40d322f51900e067a2fefd49ba601be",
+      "size_bytes": 45706
+    },
+    {
+      "path": "curated_exports/bridge_status/mcp_bridge_context.json",
+      "sha256": "bcba233fd1b20d55b74ef7b8e1e55dec348f8468dba60d4e5e906bd900a54341",
+      "size_bytes": 3064
+    },
+    {
+      "path": "curated_exports/bridge_status/routine_bridge_check_latest.json",
+      "sha256": "ffe1233795975bfa45575a1f917038add5bf501ec02d39628ac4ff5998dfd9a9",
+      "size_bytes": 591
+    },
+    {
+      "path": "curated_exports/bridge_status/routine_bridge_notification_state.json",
+      "sha256": "1355efc2e167fffef64354716aafba4c00d81eb4fbf79b5320bdd04ade80c370",
+      "size_bytes": 153
+    },
+    {
+      "path": "curated_exports/chatgpt_request_queue.jsonl",
+      "sha256": "bc4dbb34f770527fbe9ed6d1bf3468189edf0727d803ec6dfdf190bd126bc50d",
+      "size_bytes": 132165
+    },
+    {
+      "path": "curated_exports/chatgpt_request_queue_processed.jsonl",
+      "sha256": "d2e850a5382b9bc5ed45073ff22abf30f2820754edf3027daeafa0173bf0d216",
+      "size_bytes": 140249
+    },
+    {
+      "path": "curated_exports/qsof_bridge/qsof_bridge_events.jsonl",
+      "sha256": "eb96a0c011f0ed5b30339209c3921bc2df52ee10305d079ed36d6f62d1155554",
+      "size_bytes": 14041
+    },
+    {
+      "path": "curated_exports/qsof_bridge/qsof_bridge_manifest.json",
+      "sha256": "f7524217442b7e70581a4662ff42ed6812151eed99ff11b8e457eccd74c04cc0",
+      "size_bytes": 658
+    },
+    {
+      "path": "curated_exports/qsof_bridge/qsof_state_transitions.jsonl",
+      "sha256": "ef0dbe07de7bfd1db471339460148187e843e4c9878e37954d5db4c7873cee76",
+      "size_bytes": 11642
+    },
+    {
+      "path": "curated_exports/qsof_bridge/qsof_task_objects.jsonl",
+      "sha256": "443d36573cc65d45b68b7227d26ef650ad365c69edec06943a18f4ba7cfe9d6b",
+      "size_bytes": 52141
+    },
+    {
+      "path": "curated_reports/bridge_health_latest.json",
+      "sha256": "1ddcf5779671131563b2d9a98e42398b1a8b587fe731456dbbb92db1d9be3043",
+      "size_bytes": 6051
+    },
+    {
+      "path": "curated_reports/bridge_health_latest.md",
+      "sha256": "f956688c97f90bf5561a9140e300aef9869399e65d7af59530bcde9efed02b48",
+      "size_bytes": 902
+    },
+    {
+      "path": "curated_reports/bridge_queue_normalization_audit_latest.json",
+      "sha256": "4d2d6a83b6342a41f42dff4b86eb4aba6510ee23b0334199b1e2b7fec54cee0d",
+      "size_bytes": 30723
+    },
+    {
+      "path": "curated_reports/bridge_rejections_latest.json",
+      "sha256": "92a2242c2176c1e96ad42a1f2247a0b75a830ce621b4b2d977305bd64079a5c0",
+      "size_bytes": 17231
+    },
+    {
+      "path": "curated_reports/bridge_rejections_latest.md",
+      "sha256": "e6f937a2274decc378f02786121e38965f8fb9dd6ee44e5f2e4c137c9359f90f",
+      "size_bytes": 10566
+    },
+    {
+      "path": "curated_reports/bridge_requeued_rejections_latest.json",
+      "sha256": "06e149da6facee456fc7546b73e46a36ae1a7a23eb0ed57e000f064c027bb919",
+      "size_bytes": 3712
+    },
+    {
+      "path": "curated_reports/property_due_diligence/apn_40128307_official_records_handoff.md",
+      "sha256": "1a68946c9c3190add1e6cd9117e718db666b7a513d55c331ede3e9152ef5c7ed",
+      "size_bytes": 1436
+    },
+    {
+      "path": "curated_reports/property_due_diligence/apn_40128307_review_packet.md",
+      "sha256": "f4387d91f135e7b462a24079bd7a3ccd070926a3ab703e4fc4d15f618bb0c11c",
+      "size_bytes": 1479
+    },
+    {
+      "path": "curated_reports/property_due_diligence/apn_40218112_comparator_review.md",
+      "sha256": "c24083caf85e62e04d9736a65bb3fd6b21cf42d8575bdb24002ff0403d21a401",
+      "size_bytes": 1384
+    },
+    {
+      "path": "curated_reports/property_due_diligence/apn_451_identification.md",
+      "sha256": "a4071b2d3d7e02204c4a48fa87abe13b769efa666a91e1b3e6ee53928d91d721",
+      "size_bytes": 497
+    },
+    {
+      "path": "curated_reports/property_due_diligence/blocked_work_handoff_summary.json",
+      "sha256": "f1511d825a5bb00bb2468206b3a839478882a0d97539b12f64e855d382970108",
+      "size_bytes": 1120
+    },
+    {
+      "path": "curated_reports/property_due_diligence/blocked_work_next_actions.md",
+      "sha256": "9c43fcbb1732b7e207e8094b9e6a432ef881adf46868f6ea9647aabda4c6ae95",
+      "size_bytes": 1985
+    },
+    {
+      "path": "curated_reports/property_due_diligence/bridge_state_reconciliation.json",
+      "sha256": "0927f6935cafa809bdbbef05fd46985b391875f11631be165842760535ab3b7f",
+      "size_bytes": 10520
+    },
+    {
+      "path": "curated_reports/property_due_diligence/candidates.json",
+      "sha256": "f8f91416f76ec75aacc5f4553cd7bc5682eb154ea015472f7cc92c6c2f9bdcc1",
+      "size_bytes": 498098
+    },
+    {
+      "path": "curated_reports/property_due_diligence/command_deck.md",
+      "sha256": "769ddbed98ae1011bb3108088d79997cdfe8a1d4593c3d061117994e0e6fa3dd",
+      "size_bytes": 1185
+    },
+    {
+      "path": "curated_reports/property_due_diligence/daily_property_review_report.md",
+      "sha256": "b661ffd7bbffc6885db99500a80ea06605db72321b11957b8e2f366812c8257d",
+      "size_bytes": 3609
+    },
+    {
+      "path": "curated_reports/property_due_diligence/encrypted_project_report_requirements.md",
+      "sha256": "8e3c3bc0d416dbbea208078a4108c9d45069c67d077a422d4ae359a10c39f7b4",
+      "size_bytes": 588
+    },
+    {
+      "path": "curated_reports/property_due_diligence/followup_queue_entries.jsonl",
+      "sha256": "34d9e5e571d3e4b6e01e57228b3e22ec08135a4631b9ae0c2673cec006069068",
+      "size_bytes": 2178
+    },
+    {
+      "path": "curated_reports/property_due_diligence/hash_manifest.json",
+      "sha256": "003a1b6d6128c97faf79227a54ec11fc567ef9a21fd1e1d56313d5b00babaebb",
+      "size_bytes": 4366
+    },
+    {
+      "path": "curated_reports/property_due_diligence/official_record_extraction_queue.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "curated_reports/property_due_diligence/official_record_extraction_queue.md",
+      "sha256": "2a424c6c9d60f05a7d79dc28edc8ef4ad6766d0741329f0008def22d72e01662",
+      "size_bytes": 278
+    },
+    {
+      "path": "curated_reports/property_due_diligence/official_record_intake_status.json",
+      "sha256": "dc16b88e805744669f15651ac39c8efc54d422bf83d42b545e7ec3ad54e047df",
+      "size_bytes": 1281
+    },
+    {
+      "path": "curated_reports/property_due_diligence/official_record_intake_status.md",
+      "sha256": "d7f535280d931bca6eb7cf4d11daa483f8c7c6dd0de336d026d4b0f1303fd005",
+      "size_bytes": 813
+    },
+    {
+      "path": "curated_reports/property_due_diligence/queue_correction_hash_report.json",
+      "sha256": "c0e590d67b1fd138b33b58cee8a69531cd1287ffa0e5ac4d4afed7c3d75a9198",
+      "size_bytes": 304
+    },
+    {
+      "path": "curated_reports/property_due_diligence/queue_corrections.jsonl",
+      "sha256": "300b9a0dec109bd5074b88f5478488620d296ae4c90ed87008c3fbfb808a1bdb",
+      "size_bytes": 1047
+    },
+    {
+      "path": "curated_reports/property_due_diligence/ranked_candidates.json",
+      "sha256": "80ee5bfd4256faeffa45da09baf43d47c16d910f9357345a55ab61aa07da0a7b",
+      "size_bytes": 499076
+    },
+    {
+      "path": "curated_reports/property_due_diligence/source_inventory.json",
+      "sha256": "6b1974aa6d65117a183601c0817bf58b276106b2a42608c4166b8935f7572107",
+      "size_bytes": 2261
+    },
+    {
+      "path": "curated_reports/property_due_diligence/tracked_recorder_official_copy_handoff.md",
+      "sha256": "90c84ba0e6f6234c330f4330fa588d983a057b1138802603b1633f27ce5671bc",
+      "size_bytes": 5412
+    },
+    {
+      "path": "curated_reports/property_due_diligence/validated_candidates.json",
+      "sha256": "913e571721e8eb2410ae83fc05f05b8652becc857e59ac67453f743b062fa467",
+      "size_bytes": 498335
+    },
+    {
+      "path": "curated_reports/snapshot_diff_latest.json",
+      "sha256": "e68c3f89cb65468bb4577eb269ac850147ffad879d6ea3ec0ab17e255d8d4398",
+      "size_bytes": 744
+    },
+    {
+      "path": "reference_data/data_sources/README.md",
+      "sha256": "af3c1a41bc88f98c71975e17c23dff5806d9039483105424fde0dfd15a851914",
+      "size_bytes": 491
+    },
+    {
+      "path": "reference_data/data_sources/inventory.json",
+      "sha256": "91583aac243d30a866c8712494bd62dfca74e8289f8601da638e269cbe6191bf",
+      "size_bytes": 30641
+    },
+    {
+      "path": "reference_data/data_sources/inventory.yaml",
+      "sha256": "6823c8ca9cb5738f01cd3670ad4a12f8c0a7e14bfa8b917d9e9c76aaefa6d1e0",
+      "size_bytes": 28375
+    },
+    {
+      "path": "reference_data/data_sources/investigative_api_registry.json",
+      "sha256": "79484b3dd41eea4fa13515b58cb87beacb7d777b04d6f7e590f2494a0a991a7e",
+      "size_bytes": 10467
+    },
+    {
+      "path": "reference_data/local_data_README.md",
+      "sha256": "15466e763956cdff9f734dc1065833c5b7de061646a09e914195416852be1453",
+      "size_bytes": 524
+    },
+    {
+      "path": "reference_data/manifests/.gitkeep",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_bytes": 1
+    },
+    {
+      "path": "reference_data/manifests/irvine_address_points_arcgis_manifest.json",
+      "sha256": "2d25b18403edbef4bdac8f405d685e4e6104f29536f44aea24c70982ffdc0c21",
+      "size_bytes": 844
+    },
+    {
+      "path": "reference_data/manifests/irvine_city_owned_properties_arcgis_manifest.json",
+      "sha256": "571e81c9df16ea7a149fbb44d8b6897b93ec0b8da5c8dcda5c0ce69d355c1d14",
+      "size_bytes": 871
+    },
+    {
+      "path": "reference_data/manifests/irvine_parcel_arcgis_manifest.json",
+      "sha256": "cdea33506bf6ccc37fc3eace80ef94f4a33038790a691e15cd442d1c62aed5ae",
+      "size_bytes": 817
+    },
+    {
+      "path": "reference_data/manifests/oc_clerk_recorder_index_manifest.json",
+      "sha256": "6189ccf77dfeafba91055834acc004a5f80de0cc481766293c81fc2472cb4235",
+      "size_bytes": 910
+    },
+    {
+      "path": "reference_data/manifests/oc_superior_court_probate_report_manifest.json",
+      "sha256": "0e8877ca7dd5af922a660305b5402ca296d87c6eb3ba0fb25c9d0af3722cdaf6",
+      "size_bytes": 986
+    },
+    {
+      "path": "reference_data/manifests/tustin_parcel_lookup_arcgis_manifest.json",
+      "sha256": "a2680bb8cb8d5c9e78b5ab98ca02fbf8bf1ab47bdf1e2fea23fe10a2fcd7aafc",
+      "size_bytes": 907
+    },
+    {
+      "path": "reference_data/manual_review_queue.jsonl",
+      "sha256": "5e31c9fa23e1a9fb1b652cf0af88882e2be1388f64fe1a2d64faade963c98b36",
+      "size_bytes": 134772
+    },
+    {
+      "path": "reference_data/sample_data/README.md",
+      "sha256": "800c2dce72811ba9f3d088021d88c5111b851396c75d7c73468aff5d4de24745",
+      "size_bytes": 531
+    },
+    {
+      "path": "reference_data/sample_data/real_public_sample/README.md",
+      "sha256": "e0cc47b2a56e21d9129b3899a11f19019df3b177255eae726cc3eab13ce43312",
+      "size_bytes": 302
+    },
+    {
+      "path": "reference_data/sample_data/synthetic/synthetic_court_cases.csv",
+      "sha256": "55fa3c41354e7ce6c36b523699e4eb01a55450c3e73ac8f667cb9310491fbfc0",
+      "size_bytes": 255
+    },
+    {
+      "path": "reference_data/sample_data/synthetic/synthetic_entities.csv",
+      "sha256": "be106fb8a5875ccfff40f9fe8e8e939e611e5193e764f97758eb0770f0accc00",
+      "size_bytes": 417
+    },
+    {
+      "path": "reference_data/sample_data/synthetic/synthetic_people.csv",
+      "sha256": "c3086266306ec05f26b4536a5f9fe15ab478f88de6fec8cb2ecbd481c4b39206",
+      "size_bytes": 435
+    },
+    {
+      "path": "reference_data/sample_data/synthetic/synthetic_property_records.csv",
+      "sha256": "fef56c6de1f70c98773e282add82c565d34c06c09a15e56d56a1487eaec008ae",
+      "size_bytes": 1515
+    },
+    {
+      "path": "reference_data/staging_validation_summaries/irvine_address_points_arcgis_validation_summary.json",
+      "sha256": "ad1dfabb29a3c76ed286b2591c02127ca7f6619232f5e93a5fc87d4767c3988a",
+      "size_bytes": 376
+    },
+    {
+      "path": "reference_data/staging_validation_summaries/irvine_city_owned_properties_arcgis_validation_summary.json",
+      "sha256": "7254c6f49ed11010e8429ac00596ec451ea13bf831f1491675c87cac76572b2b",
+      "size_bytes": 388
+    },
+    {
+      "path": "reference_data/staging_validation_summaries/irvine_parcel_arcgis_validation_summary.json",
+      "sha256": "def5c6a2f0267b408e008203bc3ca92c1d73bec3acf0abf292f65f3d0450aa15",
+      "size_bytes": 359
+    },
+    {
+      "path": "reference_data/staging_validation_summaries/oc_clerk_recorder_index_validation_summary.json",
+      "sha256": "0e79d484e5db38a7eb9508aa3ac6347c3c1c5e8cfb12061d9b050699b6461d82",
+      "size_bytes": 427
+    },
+    {
+      "path": "reference_data/staging_validation_summaries/oc_superior_court_probate_report_validation_summary.json",
+      "sha256": "2927225274c4fbbc76ac03610cbaa5ecf4e4617b210faec1c2cb2fad0d6075fb",
+      "size_bytes": 407
+    },
+    {
+      "path": "reference_data/staging_validation_summaries/tustin_parcel_lookup_arcgis_validation_summary.json",
+      "sha256": "d69e0f7681a7d5136b8c44face2f78d35218716f844efda726167a2e8e824464",
+      "size_bytes": 414
+    },
+    {
+      "path": "schemas/bridge_command_request.schema.json",
+      "sha256": "51e630408d267a71f1a5229cd942cee92441faee36b44c39c6f9cf9c51f1d2f9",
+      "size_bytes": 972
+    },
+    {
+      "path": "schemas/bridge_command_result.schema.json",
+      "sha256": "91194bf8ab226fd991217826a810662f1c639dad0236c6f0953406ce4b89710f",
+      "size_bytes": 1207
+    },
+    {
+      "path": "schemas/bridge_identity_attestation.schema.json",
+      "sha256": "ba0ce5ea83b86d352615532a9afa3d121e17c50753eff1824800c4f0b6cf785b",
+      "size_bytes": 1088
+    },
+    {
+      "path": "schemas/bridge_task_ledger_entry.schema.json",
+      "sha256": "cb5f7e5fffac032e24bc5156e059b69e9680e2a534ce55eb6ea3aba1ea331ea2",
+      "size_bytes": 843
+    },
+    {
+      "path": "schemas/chatgpt_request.schema.json",
+      "sha256": "93dd1fed868ceea1f468f005c53bf9c342bd1a35c3e8555061f74054d7e01b59",
+      "size_bytes": 2627
+    },
+    {
+      "path": "schemas/evidence_ledger_entry.schema.json",
+      "sha256": "c7b9d0775bfb9038e8a38564b7af2011633269184cc5815237abf367acdeb21b",
+      "size_bytes": 746
+    },
+    {
+      "path": "schemas/mcp_bridge_context.schema.json",
+      "sha256": "633289a1dbb9828d6288ba99ee358b87837868139d6bc30b6cebccf060a57c02",
+      "size_bytes": 888
+    },
+    {
+      "path": "schemas/parcel_lineage_graph.schema.json",
+      "sha256": "c9d0a6dafb24c6be3280aecabc156b8649ebb2f36f8c7e3441f49cc7b89c2373",
+      "size_bytes": 316
+    },
+    {
+      "path": "schemas/qsof_bridge_event.schema.json",
+      "sha256": "caadf7f9c0047d90e682b25f412c8430272101fdd4d53de1297b2b31c95d05e0",
+      "size_bytes": 703
+    },
+    {
+      "path": "schemas/qsof_state_transition.schema.json",
+      "sha256": "c3b02d5dd350080a9855cb4ea39bd6357287c8aa3743592cefbeebe11b00b39c",
+      "size_bytes": 685
+    },
+    {
+      "path": "schemas/qsof_task_object.schema.json",
+      "sha256": "06ec8fd3354361b257b102b7fceed926756fa869520cae0df6300b8d33bc6a31",
+      "size_bytes": 940
+    },
+    {
+      "path": "schemas/uvip_qsom_mesh_payload.schema.json",
+      "sha256": "a7d9e7bcfb4ac4575f1e1489854b68e2fdec17227fa07f426b249d86813ecbfe",
+      "size_bytes": 1167
+    },
+    {
+      "path": "schemas/uvip_qsom_scan_report.schema.json",
+      "sha256": "e4199535ff92caf886666cfeea22af6f4cde05237f9fb8645711a17fc632b1ed",
+      "size_bytes": 991
+    },
+    {
+      "path": "source_code/app/config.py",
+      "sha256": "09e874aad2983bce85203885c9e16925fd266d910e9e0292bea2520177d217e1",
+      "size_bytes": 1276
+    },
+    {
+      "path": "source_code/app/database.py",
+      "sha256": "69928979afccfa87361c54b6b9a525e44e0b47e375b78fb934175e1f25144d93",
+      "size_bytes": 4475
+    },
+    {
+      "path": "source_code/app/main.py",
+      "sha256": "944d3fd5d0b1e34af270c75fe766d08d7b6041a2fec7a76f149faa6efa1fb1a3",
+      "size_bytes": 1293
+    },
+    {
+      "path": "source_code/app/reports/export_csv.py",
+      "sha256": "5959c29281912215f653200a0af824031a937dc4ba50dd5c5c5d4703aee47589",
+      "size_bytes": 367
+    },
+    {
+      "path": "source_code/app/reports/export_json.py",
+      "sha256": "22cf3b3a9e2e1b4a3dab69086871189641d5d9285d1841c5f29b59e2b9668a1c",
+      "size_bytes": 179
+    },
+    {
+      "path": "source_code/app/reports/manifest.py",
+      "sha256": "cd76482d30a3c4c55bc9be4a0498eaa644d801a3c393c949c05f23222416cc34",
+      "size_bytes": 299
+    },
+    {
+      "path": "source_code/app/reports/pdf.py",
+      "sha256": "3bb69fabfa9066e63ed57944c5bfd14a23779cdcc64f06fe22acf342812a3f62",
+      "size_bytes": 451
+    },
+    {
+      "path": "source_code/scripts/bridge_identity_protocol.py",
+      "sha256": "a8d5955fb0219741c23b21e070552ab05ddc66946003a885e56fd5cab6fa1053",
+      "size_bytes": 7624
+    },
+    {
+      "path": "source_code/scripts/enqueue_bridge_request.py",
+      "sha256": "ef21d62e401d5b056a2f99957768ea7317fe92b25aceb11572e8f052420777ce",
+      "size_bytes": 6586
+    },
+    {
+      "path": "source_code/scripts/export_bridge_qsof_objects.py",
+      "sha256": "b529243932ec6e05d0cc432e98767177851a7dd392da340969cee8cf8b32b592",
+      "size_bytes": 6866
+    },
+    {
+      "path": "source_code/scripts/export_bridge_status.py",
+      "sha256": "d77f2cdafdab244653ed35a33b4abdb6e390dbaa96e218399442af0a738c2dcc",
+      "size_bytes": 16470
+    },
+    {
+      "path": "source_code/scripts/export_mcp_bridge_context.py",
+      "sha256": "dd5a5b7f532403d59fd809677fcf03ca9dbbba2e6fea18d6c6d0f785d94e9195",
+      "size_bytes": 6250
+    },
+    {
+      "path": "source_code/scripts/import_bridge_queue.py",
+      "sha256": "96cdacaefa0e9a8b6cc16fbea103f771d6412f38b13c22718a879e0666939939",
+      "size_bytes": 16145
+    },
+    {
+      "path": "source_code/scripts/process_chatgpt_request_queue.py",
+      "sha256": "2701f1fcb0a126084b458975cc8ccdb7ecf2595a79f56d3486ff0c42e1fec21c",
+      "size_bytes": 7030
+    },
+    {
+      "path": "source_code/scripts/property_due_diligence/generate_blocker_handoff.py",
+      "sha256": "5791d74886206dccb7bee979a9c88a3512dd8d5057c199d564b0f5577ad65c9c",
+      "size_bytes": 10837
+    },
+    {
+      "path": "source_code/scripts/routine_bridge_check.py",
+      "sha256": "4590544a2f81b9e70dbca12804df7dafa6543314e8c6e48dec8938123cd720d0",
+      "size_bytes": 8946
+    },
+    {
+      "path": "source_code/scripts/update_bridge_task_ledger.py",
+      "sha256": "73c772ad7ccb158a1b6eb246d28782a291742877a08c1e10b41a5a514237afc8",
+      "size_bytes": 4657
+    },
+    {
+      "path": "source_docs/BRIDGE_VALIDATION_METRIC.md",
+      "sha256": "c79ad554664b4c508fb56a267db4b154124c01bbc01f8583b68cf44a80519e36",
+      "size_bytes": 3162
+    },
+    {
+      "path": "source_docs/GITHUB_CHATGPT_WRITEBACK.md",
+      "sha256": "fad1c4ec4accb5e6dc9cae659698a78fb35ce666f806172f8151b3643f01659b",
+      "size_bytes": 11896
+    },
+    {
+      "path": "source_docs/MCP_BRIDGE_INTEGRATION.md",
+      "sha256": "284fafba15145f4c186a5c6100359e8a365660c65c11011056a1497bce231400",
+      "size_bytes": 1987
+    },
+    {
+      "path": "source_docs/QSOF_BRIDGE_ARCHITECTURE.md",
+      "sha256": "5d064bdf78b7ec29e66abecbd50b736648b0de9e31bbf0714df8bb2a08483772",
+      "size_bytes": 2641
+    },
+    {
+      "path": "source_docs/RECORDER_DOCNUM_CAMPAIGN_OPERATIONS.md",
+      "sha256": "58e2dab0d3b77ff9d180c8e86665a1fbf42e884c88137535bf7928d4cd558cfd",
+      "size_bytes": 6627
+    },
+    {
+      "path": "source_docs/qso/README.md",
+      "sha256": "019cf90ec428b480f1b9bc0f8b4a78d64b6efd47607fef98ffc49dd8ca61b388",
+      "size_bytes": 8496
+    },
+    {
+      "path": "source_metadata/.env.example",
+      "sha256": "e8010bb45650ddadd22fa63cbc40298fa050a3f308e537f9311e26c66e43ec21",
+      "size_bytes": 230
+    },
+    {
+      "path": "source_metadata/.gitignore",
+      "sha256": "16ac46eab198bba39747d17bf7b8abcfc1bc0bc63c8f1f1a9105512b4ee275d8",
+      "size_bytes": 114
+    },
+    {
+      "path": "source_metadata/AGENTS.md",
+      "sha256": "458ca9b28f52d05634eb75553846add92e30c6b012072d8791aa050970284f21",
+      "size_bytes": 2807
+    },
+    {
+      "path": "source_metadata/CHANGELOG.md",
+      "sha256": "22ebb3ee3a34ecddd4726921939997b088135e5d11d75a0022f3d651b0439719",
+      "size_bytes": 2226
+    },
+    {
+      "path": "source_metadata/COMPLIANCE.md",
+      "sha256": "45ab60c4857582a11ba8ced60cc33ba854e05d6f1193574f5a9e5ed8fa0ff367",
+      "size_bytes": 1066
+    },
+    {
+      "path": "source_metadata/DISCLAIMER.md",
+      "sha256": "98203cb04e163352e06de4b96cf1022bd050d9c3636384b4cb9ce2bd5d9c1129",
+      "size_bytes": 269
+    },
+    {
+      "path": "source_metadata/Dockerfile",
+      "sha256": "9ed7cc5198bf913148614f694233b352d734ce2c8c89432cafb87fb42a25f6c2",
+      "size_bytes": 269
+    },
+    {
+      "path": "source_metadata/LICENSE",
+      "sha256": "4f4119989e4e6042b45f055510269425c3971a2433c4567fb39d5b7b9072ba18",
+      "size_bytes": 142
+    },
+    {
+      "path": "source_metadata/Makefile",
+      "sha256": "f085f617391921e202299bfe12bd709599e4d7a7903ab243587b30acf35c5d96",
+      "size_bytes": 4139
+    },
+    {
+      "path": "source_metadata/PRIVACY.md",
+      "sha256": "a4e02351a835fba714dae440afaa6aa15a5c45277a5b17cdf644c49b20d2d1cd",
+      "size_bytes": 749
+    },
+    {
+      "path": "source_metadata/README.md",
+      "sha256": "021a4f2bb21dc55ac31aa39197ab0f92c69819ce4be5786e6f38f19ce7c4dfed",
+      "size_bytes": 7598
+    },
+    {
+      "path": "source_metadata/SECURITY.md",
+      "sha256": "211473cdde08446de6dfb1b8066add9325016ae6bd797935aae39564f95b59fe",
+      "size_bytes": 849
+    },
+    {
+      "path": "source_metadata/alembic.ini",
+      "sha256": "0157ccab46e512b3fedeb14b2d1afbfef05201939266d383cbb73a4a3b79988c",
+      "size_bytes": 547
+    },
+    {
+      "path": "source_metadata/docker-compose.yml",
+      "sha256": "aa0f575102eae5760bffc24cb3a3df5fab2bbfa383f659547b644bfbb3a0d197",
+      "size_bytes": 211
+    },
+    {
+      "path": "source_metadata/pyproject.toml",
+      "sha256": "d778549e26a8182dfbf12820522225f4beba5bf8eacfa6139b612c91f28a29d8",
+      "size_bytes": 1180
+    }
+  ],
+  "included_count": 125,
+  "included_size_bytes": 2748905,
+  "schema": "published_hfi_snapshot_manifest.v1",
+  "source_root": "/Users/ALISTAIRE/housing-fraud-intel-api"
+}

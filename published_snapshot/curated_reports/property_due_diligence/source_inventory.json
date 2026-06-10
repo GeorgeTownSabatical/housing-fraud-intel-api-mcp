@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-06-07T06:51:34Z",
+  "sources": [
+    {
+      "access_method": "local_manual_export_artifacts",
+      "name": "Orange County Clerk-Recorder RecorderWorks local index exports",
+      "parser_status": "available",
+      "path_or_url": "exports/recorder_name_hits_*_rows.csv; exports/recorder_docnum_campaign_500_full/",
+      "source_id": "oc_recorder_index_local_exports",
+      "update_cadence": "as collected",
+      "validation_notes": "Index rows only; document images/details required before identity, APN, title, or legal-effect conclusions."
+    },
+    {
+      "access_method": "official copy request",
+      "name": "Orange County Clerk-Recorder official copies",
+      "parser_status": "manual_extraction_required",
+      "path_or_url": "https://ocrecorder.com/recorder-services/obtaining-official-record-copies",
+      "source_id": "oc_recorder_official_copies",
+      "update_cadence": "on request",
+      "validation_notes": "Primary source for legal descriptions, APNs, capacity language, related instruments, and notary/title details."
+    },
+    {
+      "access_method": "manual_only",
+      "name": "Orange County Assessor parcel records",
+      "parser_status": "stub",
+      "path_or_url": "manual APN lookup/export",
+      "source_id": "oc_assessor_manual_lookup",
+      "update_cadence": "unknown",
+      "validation_notes": "Terms/access need manual confirmation; unresolved facts remain UNKNOWN."
+    },
+    {
+      "access_method": "local_document",
+      "name": "Repository retrieval playbook",
+      "parser_status": "available",
+      "path_or_url": "docs/RECORD_RETRIEVAL_PLAYBOOK.md",
+      "source_id": "repo_record_retrieval_playbook",
+      "update_cadence": "manual",
+      "validation_notes": "Routing artifact; not a public record."
+    },
+    {
+      "access_method": "local_generated_artifact",
+      "name": "Tracked surname intersection request packet",
+      "parser_status": "available",
+      "path_or_url": "exports/tracked_surname_intersection_document_request_packet.json",
+      "source_id": "tracked_intersection_request_packet",
+      "update_cadence": "on demand",
+      "validation_notes": "Document pull list only; source support remains UNKNOWN until copies are obtained."
+    }
+  ]
+}

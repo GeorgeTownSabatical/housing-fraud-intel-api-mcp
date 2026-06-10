@@ -17,3 +17,6 @@ public_records/
 *.db
 *.db-shm
 *.db-wal
+
+# Local expanded staging snapshot. The publishable subset is in published_snapshot/.
+hfi_snapshot/

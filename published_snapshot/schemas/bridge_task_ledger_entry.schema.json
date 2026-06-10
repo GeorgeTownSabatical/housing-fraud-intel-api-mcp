@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Bridge Task Ledger Entry",
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "ledger_version": {"const": "bridge_task_ledger.v1"},
+    "recorded_at": {"type": "string"},
+    "request_id": {"type": "string"},
+    "stable_task_hash": {"type": "string"},
+    "dedupe_status": {"type": "string", "enum": ["unique", "duplicate"]},
+    "request_status": {"type": "string"},
+    "bridge_title": {"type": "string"},
+    "bridge_request_type": {"type": "string"},
+    "priority": {"type": "string"},
+    "source": {"type": "string"},
+    "semantic_metadata_present": {"type": "boolean"},
+    "history_policy": {"type": "string"}
+  },
+  "required": ["ledger_version", "recorded_at", "request_id", "stable_task_hash", "dedupe_status", "history_policy"]
+}

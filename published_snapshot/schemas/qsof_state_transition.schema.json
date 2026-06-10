@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "QSOF-style Bridge State Transition",
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "schema": {"const": "qsof_state_transition.v1"},
+    "uri": {"type": "string"},
+    "request_id": {"type": "string"},
+    "from_state": {"type": "string"},
+    "to_state": {"type": "string"},
+    "transitioned_at": {"type": "string"},
+    "reason": {"type": "string"},
+    "validation_errors": {"type": "array"},
+    "provenance": {"type": "object"},
+    "content_hash": {"type": "string"}
+  },
+  "required": ["schema", "uri", "request_id", "from_state", "to_state", "provenance", "content_hash"]
+}

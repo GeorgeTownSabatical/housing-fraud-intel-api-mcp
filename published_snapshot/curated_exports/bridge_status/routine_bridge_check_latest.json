@@ -1,0 +1,19 @@
+{
+  "commands_run": [],
+  "counts": {
+    "commands": 0,
+    "failed": 0
+  },
+  "desktop_notification": {
+    "exit_code": 0,
+    "message": "Status locked | Queue 46/46 accepted, 18 rejected | Commands 0 ok / 0 failed",
+    "skip_reason": "notify-mode=on-change",
+    "skipped": true,
+    "title": "Bridge check complete"
+  },
+  "duration_seconds": 0.0,
+  "end_time": "2026-06-10T23:35:34.803882+00:00",
+  "exit_status": "locked",
+  "lockfile": "/Users/Alistaire/housing-fraud-intel-api/exports/bridge_status/routine_bridge_check.lock",
+  "start_time": "2026-06-10T23:35:34.802528+00:00"
+}

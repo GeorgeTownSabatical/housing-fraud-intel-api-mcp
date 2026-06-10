@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-05-29T06:24:24.519975+00:00",
+  "object_count": 22,
+  "outputs": {
+    "bridge_events": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/qsof_bridge/qsof_bridge_events.jsonl",
+    "state_transitions": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/qsof_bridge/qsof_state_transitions.jsonl",
+    "task_objects": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/qsof_bridge/qsof_task_objects.jsonl"
+  },
+  "runtime_boundary": "This adapter emits QSOF-style projection objects only. It does not call qso-fabric or mutate QSO runtime state.",
+  "source": "/Users/ALISTAIRE/housing-fraud-intel-api/data/manual_review_queue.jsonl"
+}

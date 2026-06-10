@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ChatGPT GIS Writeback Request",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "request_id": {
+      "type": "string",
+      "description": "Stable request identifier assigned by ChatGPT or Codex."
+    },
+    "created_at": {
+      "type": "string",
+      "description": "ISO-8601 timestamp assigned by ChatGPT or Codex."
+    },
+    "source": {
+      "type": "string",
+      "description": "Origin of the request, such as chatgpt, github_issue, gist, or local_file."
+    },
+    "request_type": {
+      "type": "string",
+      "enum": [
+        "add_apn",
+        "review_apn",
+        "link_apns",
+        "add_note",
+        "request_office_pull",
+        "mark_resolved"
+      ]
+    },
+    "apn": {
+      "type": "string"
+    },
+    "related_apns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    },
+    "note": {
+      "type": "string",
+      "default": ""
+    },
+    "human_signal": {
+      "type": "string",
+      "description": "Human-context reason this request matters.",
+      "default": ""
+    },
+    "system_signal": {
+      "type": "string",
+      "description": "Model, anomaly, evidence, or structural reason this request matters.",
+      "default": ""
+    },
+    "shared_priority": {
+      "type": "string",
+      "description": "Joint priority framing preserved as request context, not evidence.",
+      "default": ""
+    },
+    "emotional_charge": {
+      "type": "string",
+      "enum": ["low", "medium", "high", "volatile", ""],
+      "description": "Triage/context signal only; never used in anomaly scoring.",
+      "default": ""
+    },
+    "shipping_goal": {
+      "type": "string",
+      "description": "Concrete artifact or result requested.",
+      "default": ""
+    },
+    "evidence_boundary": {
+      "type": "string",
+      "description": "What would prove, weaken, or falsify the request hypothesis.",
+      "default": ""
+    },
+    "evidence_links": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      },
+      "default": []
+    },
+    "priority": {
+      "type": "string",
+      "enum": ["low", "medium", "high", "critical", "urgent"],
+      "default": "medium"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["imported", "accepted", "rejected", "processed", "resolved"],
+      "default": "imported"
+    },
+    "validation_errors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    }
+  },
+  "required": ["request_type", "source"]
+}

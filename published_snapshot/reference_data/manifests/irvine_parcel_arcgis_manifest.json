@@ -1,0 +1,21 @@
+{
+  "artifacts": [
+    {
+      "path": "data/raw/irvine_parcel_arcgis/download.json",
+      "sha256": "45169d4ccff66fa6fefa121341e70deace6803106968ef90a61bfd54becb9314",
+      "size_bytes": 86638315
+    }
+  ],
+  "license_note": "Official municipal ArcGIS REST parcel layer. Terms should be reviewed before redistribution of copied extracts.",
+  "metadata": {
+    "mode": "merge",
+    "record_type": "parcel"
+  },
+  "official_url": "https://gis.cityofirvine.org/arcgis/rest/services/ParcelClariti/FeatureServer/5",
+  "parser_version": "arcgis-v1",
+  "retrieval_method": "arcgis_rest",
+  "retrieval_timestamp": "2026-05-01T12:23:47.749198+00:00",
+  "source_hash": "bfcba59abce122163026933cc7c1a96058cf587f3bc6c6c58136555b22d4ac9b",
+  "source_id": "irvine_parcel_arcgis",
+  "source_name": "City of Irvine Parcel Layer"
+}

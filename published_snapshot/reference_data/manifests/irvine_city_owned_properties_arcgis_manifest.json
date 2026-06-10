@@ -1,0 +1,21 @@
+{
+  "artifacts": [
+    {
+      "path": "data/raw/irvine_city_owned_properties_arcgis/download.json",
+      "sha256": "f5aff5164196d6c5af089e0797cc005c68b69540cb25b7daf597cfca513ad410",
+      "size_bytes": 3994435
+    }
+  ],
+  "license_note": "Official municipal ArcGIS REST city-owned properties layer. Terms should be reviewed before redistribution of copied extracts.",
+  "metadata": {
+    "mode": "merge",
+    "record_type": "parcel"
+  },
+  "official_url": "https://gis.cityofirvine.org/arcgis/rest/services/ParcelClariti/FeatureServer/37",
+  "parser_version": "arcgis-v1",
+  "retrieval_method": "arcgis_rest",
+  "retrieval_timestamp": "2026-05-01T12:12:31.500914+00:00",
+  "source_hash": "4c28ec047d266b1f831f08127396d5e674f47070d32ab7e34105d4b6a86dfa43",
+  "source_id": "irvine_city_owned_properties_arcgis",
+  "source_name": "City of Irvine City Owned Properties"
+}

@@ -1,0 +1,139 @@
+{
+  "command_results": {
+    "command_result_count": 2,
+    "executed_count": 2,
+    "failed_count": 0,
+    "latest_results": [
+      {
+        "command": "python scripts/generate_assessor_packet.py --apn 401-283-07",
+        "command_index": 1,
+        "completed_at": "2026-05-28T07:11:47.322814+00:00",
+        "exit_code": 0,
+        "request_id": "bridge-11",
+        "status": "executed",
+        "validation_errors": []
+      },
+      {
+        "command": "python -m pytest",
+        "command_index": 2,
+        "completed_at": "2026-05-28T07:12:05.442168+00:00",
+        "exit_code": 0,
+        "request_id": "bridge-11",
+        "status": "executed",
+        "validation_errors": []
+      }
+    ],
+    "rejected_count": 0
+  },
+  "generated_at": "2026-05-28T07:23:05.145830+00:00",
+  "latest_gist_snapshot": "2026-05-28T07:02:08.411456+00:00",
+  "latest_routine_check": "2026-05-28T07:13:18.837884+00:00",
+  "ledger_status": {
+    "evidence": {
+      "artifact_types": {
+        "assessor_office_packet": 8,
+        "bridge_processed_queue": 10,
+        "bridge_rejected_queue": 10,
+        "bridge_status_report": 10,
+        "gist_snapshot_json": 8
+      },
+      "entry_count": 46,
+      "latest_entries": [
+        {
+          "artifact_path": "/Users/ALISTAIRE/housing-fraud-intel-api/outputs/assessor_packets/apn_40128307_cluster_packet.csv",
+          "artifact_type": "assessor_office_packet",
+          "producer": "scripts/generate_assessor_packet.py",
+          "recorded_at": "2026-05-28T07:11:47.256377+00:00",
+          "sha256": "49f1cc78277e41b7fa34b34b62da5b608463291909fc65363694b59deaedb033"
+        },
+        {
+          "artifact_path": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/chatgpt_codex_processed.jsonl",
+          "artifact_type": "bridge_processed_queue",
+          "producer": "scripts/export_bridge_status.py",
+          "recorded_at": "2026-05-28T07:12:08.752338+00:00",
+          "sha256": "326ed3dd75ac777feb55806aa4d81d949f68c5974148933f4042b0a6977129c5"
+        },
+        {
+          "artifact_path": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/chatgpt_codex_rejected.jsonl",
+          "artifact_type": "bridge_rejected_queue",
+          "producer": "scripts/export_bridge_status.py",
+          "recorded_at": "2026-05-28T07:12:08.752955+00:00",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "artifact_path": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/latest_bridge_run.json",
+          "artifact_type": "bridge_status_report",
+          "producer": "scripts/export_bridge_status.py",
+          "recorded_at": "2026-05-28T07:12:08.753395+00:00",
+          "sha256": "2a0b80c47d296456d5ec17759480d14aaf5c44ef6c2db528f1405a96081766af"
+        },
+        {
+          "artifact_path": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/chatgpt_codex_processed.jsonl",
+          "artifact_type": "bridge_processed_queue",
+          "producer": "scripts/export_bridge_status.py",
+          "recorded_at": "2026-05-28T07:13:06.593474+00:00",
+          "sha256": "51e426623af3ca272237640b1000532570ff25088d4cfc9d30558881670523f5"
+        },
+        {
+          "artifact_path": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/chatgpt_codex_rejected.jsonl",
+          "artifact_type": "bridge_rejected_queue",
+          "producer": "scripts/export_bridge_status.py",
+          "recorded_at": "2026-05-28T07:13:06.594182+00:00",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "artifact_path": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/latest_bridge_run.json",
+          "artifact_type": "bridge_status_report",
+          "producer": "scripts/export_bridge_status.py",
+          "recorded_at": "2026-05-28T07:13:06.594631+00:00",
+          "sha256": "e2f1ff355f7f915f51f36f3ec3e78d2d3b22466d31f4b91571879a47e56e4e53"
+        },
+        {
+          "artifact_path": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/chatgpt_codex_processed.jsonl",
+          "artifact_type": "bridge_processed_queue",
+          "producer": "scripts/export_bridge_status.py",
+          "recorded_at": "2026-05-28T07:16:21.877191+00:00",
+          "sha256": "e6bc3a558e12654cb5d5fc1e2efd0342b9fe1cca2f72ff5d998aae1328209f82"
+        },
+        {
+          "artifact_path": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/chatgpt_codex_rejected.jsonl",
+          "artifact_type": "bridge_rejected_queue",
+          "producer": "scripts/export_bridge_status.py",
+          "recorded_at": "2026-05-28T07:16:21.877947+00:00",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "artifact_path": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/latest_bridge_run.json",
+          "artifact_type": "bridge_status_report",
+          "producer": "scripts/export_bridge_status.py",
+          "recorded_at": "2026-05-28T07:16:21.878359+00:00",
+          "sha256": "dfc8e1274b1f427090dee81d42b33a851755d09387646b4a6b1a4c36fc57bb47"
+        }
+      ],
+      "ledger_path": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/evidence_ledger.jsonl"
+    },
+    "task": {
+      "appended_entries": 0,
+      "duplicate_entries": 0,
+      "ledger_entries": 22,
+      "ledger_path": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/bridge_status/bridge_task_ledger.jsonl",
+      "unique_task_hashes": 22
+    }
+  },
+  "queue_counts": {
+    "accepted": 22,
+    "blocked": 0,
+    "imported": 22,
+    "processed": 22,
+    "rejected": 0
+  },
+  "scheduler_mode": "launchd interval plus manual checks",
+  "test_status": "passing",
+  "top_active_tasks": [
+    "Add office visit evidence intake forms",
+    "Add snapshot diff and regression report",
+    "Add Bridge health dashboard summary",
+    "Add command request examples for ChatGPT",
+    "Add changelog automation for Bridge cycles"
+  ]
+}

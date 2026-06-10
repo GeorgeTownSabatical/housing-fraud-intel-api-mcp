@@ -1,0 +1,30 @@
+{
+  "files": {
+    "local_40128307.json": {
+      "change_count": 0,
+      "changes": [],
+      "current_exists": true,
+      "previous_exists": false
+    },
+    "local_pull_list100.json": {
+      "change_count": 0,
+      "changes": [],
+      "current_exists": true,
+      "previous_exists": false
+    },
+    "local_ranked25.json": {
+      "change_count": 0,
+      "changes": [],
+      "current_exists": true,
+      "previous_exists": false
+    },
+    "local_summary.json": {
+      "change_count": 0,
+      "changes": [],
+      "current_exists": true,
+      "previous_exists": false
+    }
+  },
+  "generated_at": "2026-05-28T07:22:48.561001+00:00",
+  "note": "No previous snapshot archive configured; current snapshot summarized as baseline."
+}

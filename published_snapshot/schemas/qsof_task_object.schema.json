@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "QSOF-style Bridge Task Object",
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "schema": {"const": "qsof_task_object.v1"},
+    "uri": {"type": "string"},
+    "request_id": {"type": "string"},
+    "source": {"type": "string"},
+    "request_type": {"type": "string"},
+    "bridge_request_type": {"type": "string"},
+    "title": {"type": "string"},
+    "instructions": {"type": "string"},
+    "priority": {"type": "string"},
+    "status": {"type": "string"},
+    "commands": {"type": "array"},
+    "acceptance_criteria": {"type": "array"},
+    "evidence_links": {"type": "array"},
+    "semantic_metadata": {"type": "object"},
+    "evidence_boundary": {"type": "string"},
+    "provenance": {"type": "object"},
+    "content_hash": {"type": "string"}
+  },
+  "required": ["schema", "uri", "request_id", "status", "provenance", "content_hash"]
+}

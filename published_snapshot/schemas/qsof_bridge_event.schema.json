@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "QSOF-style Bridge Event",
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "schema": {"const": "qsof_bridge_event.v1"},
+    "uri": {"type": "string"},
+    "request_id": {"type": "string"},
+    "event_type": {"type": "string"},
+    "occurred_at": {"type": "string"},
+    "summary": {"type": "string"},
+    "semantic_metadata_present": {"type": "boolean"},
+    "non_scoring_fields": {"type": "array", "items": {"type": "string"}},
+    "provenance": {"type": "object"},
+    "content_hash": {"type": "string"}
+  },
+  "required": ["schema", "uri", "request_id", "event_type", "provenance", "content_hash"]
+}

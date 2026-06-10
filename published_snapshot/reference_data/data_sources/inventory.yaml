@@ -1,0 +1,759 @@
+sources:
+  - id: irvine_parcel_arcgis
+    name: City of Irvine Parcel Layer
+    jurisdiction: Irvine, CA
+    agency: City of Irvine GIS
+    source_type: parcel_gis
+    official_url: https://gis.cityofirvine.org/arcgis/rest/services/ParcelClariti/FeatureServer/5
+    access_method: arcgis_rest
+    format: geojson
+    automation_allowed: yes
+    redistribution_allowed: unclear
+    license_summary: Official municipal ArcGIS REST parcel layer. Terms should be reviewed before redistribution of copied extracts.
+    privacy_risk: low
+    fcra_risk: low
+    usefulness_score: 91
+    ingestion_priority: P0
+    connector: arcgis_connector
+    enabled: true
+    requires_manual_review_before_enable: false
+    fields:
+      - APN
+      - NAME
+      - PLANAREA
+      - ZONING
+      - geometry
+    notes: Open parcel geography source for Irvine with APN-bearing parcel features.
+    implementation_status: connector_implemented
+    coverage_notes:
+      - Open ArcGIS REST query endpoint.
+      - Parcel layer description indicates APN number availability.
+  - id: tustin_parcel_lookup_arcgis
+    name: City of Tustin Parcel Lookup Layer
+    jurisdiction: Tustin, CA
+    agency: City of Tustin GIS
+    source_type: parcel_gis
+    official_url: https://services8.arcgis.com/omhBSxytABi3T0US/ArcGIS/rest/services/ParcelLookup/FeatureServer/1
+    access_method: arcgis_rest
+    format: geojson
+    automation_allowed: yes
+    redistribution_allowed: unclear
+    license_summary: Official City of Tustin ArcGIS REST parcel lookup layer. Terms should be reviewed before redistribution of copied extracts.
+    privacy_risk: low
+    fcra_risk: low
+    usefulness_score: 93
+    ingestion_priority: P0
+    connector: arcgis_connector
+    enabled: true
+    requires_manual_review_before_enable: false
+    fields:
+      - parcel
+      - assessmentNum
+      - situsLine1
+      - situsLine2
+      - ZoneCode
+      - ZoneDescription
+      - GP_CODE
+      - GP_DESC
+      - SpecificPlanName
+      - SpecificPlanNumber
+      - geometry
+    notes: Official Tustin parcel polygon layer with APN, situs address, zoning, general plan, and specific plan context.
+    implementation_status: connector_implemented
+    coverage_notes:
+      - Public ArcGIS REST query endpoint.
+      - Service description states it supports zoning lookup by APN or address.
+  - id: oc_county_parcels_arcgis
+    name: Orange County Public Works Parcel Layer
+    jurisdiction: Orange County, CA
+    agency: Orange County Public Works GIS / OC Survey
+    source_type: parcel_gis
+    official_url: https://www.ocgis.com/arcpub/rest/services/Map_Layers/Parcels/MapServer/0
+    access_method: arcgis_rest
+    format: geojson
+    automation_allowed: yes
+    redistribution_allowed: unclear
+    license_summary: Public ArcGIS REST parcel layer exposing APN and situs address fields; terms should be reviewed before redistribution of copied extracts.
+    privacy_risk: low
+    fcra_risk: low
+    usefulness_score: 94
+    ingestion_priority: P0
+    connector: arcgis_connector
+    enabled: true
+    requires_manual_review_before_enable: false
+    fields:
+      - ASSESSMENT_NO
+      - SITE_ADDRESS
+      - YEAR_BUILT
+      - NBR_BEDROOMS
+      - OBJECTID
+      - SHAPE
+    notes: Countywide Orange County parcel MapServer layer. Owner name is not exposed on this public endpoint.
+    implementation_status: connector_implemented
+    coverage_notes:
+      - Public ArcGIS REST query endpoint.
+      - Source details supplied from UrbanKit/STUDIO listing verified 2026-05-15.
+  - id: irvine_general_plan_zoning_arcgis
+    name: City of Irvine ParcelClariti General Plan/Zoning Focus Area
+    jurisdiction: Irvine, CA
+    agency: City of Irvine GIS
+    source_type: parcel_gis
+    official_url: https://gis.cityofirvine.org/arcgis/rest/services/ParcelClariti/FeatureServer/62
+    access_method: arcgis_rest
+    format: geojson
+    automation_allowed: yes
+    redistribution_allowed: unclear
+    license_summary: Official municipal ArcGIS REST service. Terms should be reviewed before redistribution of copied extracts.
+    privacy_risk: low
+    fcra_risk: low
+    usefulness_score: 88
+    ingestion_priority: P0
+    connector: arcgis_connector
+    enabled: true
+    requires_manual_review_before_enable: false
+    fields:
+      - geometry
+      - land_use
+      - zoning
+      - planning_area
+    notes: Safe starter geography source for bounded Irvine-area demos.
+    implementation_status: connector_implemented
+    coverage_notes:
+      - Open ArcGIS REST query endpoint.
+      - MaxRecordCount observed publicly.
+  - id: irvine_address_points_arcgis
+    name: City of Irvine Address Points
+    jurisdiction: Irvine, CA
+    agency: City of Irvine GIS
+    source_type: parcel_gis
+    official_url: https://gis.cityofirvine.org/arcgis/rest/services/ParcelClariti/FeatureServer/164
+    access_method: arcgis_rest
+    format: geojson
+    automation_allowed: yes
+    redistribution_allowed: unclear
+    license_summary: Official municipal ArcGIS REST address point layer. Terms should be reviewed before redistribution of copied extracts.
+    privacy_risk: low
+    fcra_risk: low
+    usefulness_score: 90
+    ingestion_priority: P0
+    connector: arcgis_connector
+    enabled: true
+    requires_manual_review_before_enable: false
+    fields:
+      - APN
+      - FullAddr
+      - STREETNAME
+      - PLANAREA
+      - X_GEOG
+      - Y_GEOG
+    notes: Joinable Irvine address-point layer with APN and full street address for parcel enrichment.
+    implementation_status: connector_implemented
+    coverage_notes:
+      - Open ArcGIS REST query endpoint.
+      - APN-bearing address points can enrich parcel situs addresses.
+  - id: irvine_city_owned_properties_arcgis
+    name: City of Irvine City Owned Properties
+    jurisdiction: Irvine, CA
+    agency: City of Irvine GIS
+    source_type: parcel_gis
+    official_url: https://gis.cityofirvine.org/arcgis/rest/services/ParcelClariti/FeatureServer/37
+    access_method: arcgis_rest
+    format: geojson
+    automation_allowed: yes
+    redistribution_allowed: unclear
+    license_summary: Official municipal ArcGIS REST city-owned properties layer. Terms should be reviewed before redistribution of copied extracts.
+    privacy_risk: low
+    fcra_risk: low
+    usefulness_score: 86
+    ingestion_priority: P1
+    connector: arcgis_connector
+    enabled: true
+    requires_manual_review_before_enable: false
+    fields:
+      - APN
+      - Tax_Owner
+      - NAME
+      - VERIFIED
+      - INSTRUMENT
+    notes: APN-bearing city-owned property layer that can enrich owner context on existing Irvine parcels.
+    implementation_status: connector_implemented
+    coverage_notes:
+      - Open ArcGIS REST query endpoint.
+      - Contains APN and tax-owner values for city-owned properties.
+  - id: irvine_zoning_arcgis
+    name: City of Irvine Zoning
+    jurisdiction: Irvine, CA
+    agency: City of Irvine GIS
+    source_type: geography
+    official_url: https://gis.cityofirvine.org/arcgis/rest/services/ParcelClariti/FeatureServer/9
+    access_method: arcgis_rest
+    format: geojson
+    automation_allowed: yes
+    redistribution_allowed: unclear
+    license_summary: Official municipal ArcGIS REST zoning layer. Terms should be reviewed before redistribution of copied extracts.
+    privacy_risk: low
+    fcra_risk: low
+    usefulness_score: 89
+    ingestion_priority: P0
+    connector: arcgis_connector
+    enabled: true
+    requires_manual_review_before_enable: false
+    fields:
+      - ZONING
+      - DESCRIPTION
+      - PLANAREA
+      - geometry
+    notes: Polygon zoning layer for parcel-level spatial attribution.
+    implementation_status: connector_implemented
+    coverage_notes:
+      - Open ArcGIS REST query endpoint.
+  - id: irvine_general_plan_arcgis
+    name: City of Irvine General Plan
+    jurisdiction: Irvine, CA
+    agency: City of Irvine GIS
+    source_type: geography
+    official_url: https://gis.cityofirvine.org/arcgis/rest/services/ParcelClariti/FeatureServer/10
+    access_method: arcgis_rest
+    format: geojson
+    automation_allowed: yes
+    redistribution_allowed: unclear
+    license_summary: Official municipal ArcGIS REST general plan layer. Terms should be reviewed before redistribution of copied extracts.
+    privacy_risk: low
+    fcra_risk: low
+    usefulness_score: 88
+    ingestion_priority: P0
+    connector: arcgis_connector
+    enabled: true
+    requires_manual_review_before_enable: false
+    fields:
+      - CodeUpdate
+      - DESCRIPTIO
+      - Notes
+      - PLANAREA
+      - geometry
+    notes: Polygon general-plan layer for parcel-level spatial attribution.
+    implementation_status: connector_implemented
+    coverage_notes:
+      - Open ArcGIS REST query endpoint.
+  - id: irvine_planning_area_arcgis
+    name: City of Irvine Planning Areas
+    jurisdiction: Irvine, CA
+    agency: City of Irvine GIS
+    source_type: geography
+    official_url: https://gis.cityofirvine.org/arcgis/rest/services/ParcelClariti/FeatureServer/18
+    access_method: arcgis_rest
+    format: geojson
+    automation_allowed: yes
+    redistribution_allowed: unclear
+    license_summary: Official municipal ArcGIS REST planning area layer. Terms should be reviewed before redistribution of copied extracts.
+    privacy_risk: low
+    fcra_risk: low
+    usefulness_score: 84
+    ingestion_priority: P1
+    connector: arcgis_connector
+    enabled: true
+    requires_manual_review_before_enable: false
+    fields:
+      - PLANAREA
+      - PA
+      - PA_NO
+      - geometry
+    notes: Planning-area polygons for human-readable parcel planning context.
+    implementation_status: connector_implemented
+    coverage_notes:
+      - Open ArcGIS REST query endpoint.
+  - id: irvine_flood_zone_arcgis
+    name: City of Irvine Flood Zone
+    jurisdiction: Irvine, CA
+    agency: City of Irvine GIS
+    source_type: geography
+    official_url: https://gis.cityofirvine.org/arcgis/rest/services/ParcelClariti/FeatureServer/14
+    access_method: arcgis_rest
+    format: geojson
+    automation_allowed: yes
+    redistribution_allowed: unclear
+    license_summary: Official municipal ArcGIS REST flood zone layer. Terms should be reviewed before redistribution of copied extracts.
+    privacy_risk: low
+    fcra_risk: low
+    usefulness_score: 83
+    ingestion_priority: P1
+    connector: arcgis_connector
+    enabled: true
+    requires_manual_review_before_enable: false
+    fields:
+      - FLD_ZONE
+      - ZONE_SUBTY
+      - SFHA_TF
+      - geometry
+    notes: FEMA-style flood zone polygons for parcel-level hazard context.
+    implementation_status: connector_implemented
+    coverage_notes:
+      - Open ArcGIS REST query endpoint.
+  - id: irvine_fire_ordinance_zone_arcgis
+    name: City of Irvine Fire Ordinance Zone
+    jurisdiction: Irvine, CA
+    agency: City of Irvine GIS
+    source_type: geography
+    official_url: https://gis.cityofirvine.org/arcgis/rest/services/ParcelClariti/FeatureServer/16
+    access_method: arcgis_rest
+    format: geojson
+    automation_allowed: yes
+    redistribution_allowed: unclear
+    license_summary: Official municipal ArcGIS REST fire ordinance zone layer. Terms should be reviewed before redistribution of copied extracts.
+    privacy_risk: low
+    fcra_risk: low
+    usefulness_score: 80
+    ingestion_priority: P1
+    connector: arcgis_connector
+    enabled: true
+    requires_manual_review_before_enable: false
+    fields:
+      - SOURCE
+      - geometry
+    notes: Fire hazard/ordinance polygons for parcel-level hazard context.
+    implementation_status: connector_implemented
+    coverage_notes:
+      - Open ArcGIS REST query endpoint.
+  - id: irvine_council_districts_arcgis
+    name: City of Irvine Council Districts
+    jurisdiction: Irvine, CA
+    agency: City of Irvine GIS
+    source_type: geography
+    official_url: https://gis.cityofirvine.org/arcgis/rest/services/ParcelClariti/FeatureServer/58
+    access_method: arcgis_rest
+    format: geojson
+    automation_allowed: yes
+    redistribution_allowed: unclear
+    license_summary: Official municipal ArcGIS REST council districts layer. Terms should be reviewed before redistribution of copied extracts.
+    privacy_risk: low
+    fcra_risk: low
+    usefulness_score: 72
+    ingestion_priority: P2
+    connector: arcgis_connector
+    enabled: true
+    requires_manual_review_before_enable: false
+    fields:
+      - DISTRICT
+      - geometry
+    notes: Council district polygons for parcel-level civic context.
+    implementation_status: connector_implemented
+    coverage_notes:
+      - Open ArcGIS REST query endpoint.
+  - id: irvine_school_districts_arcgis
+    name: City of Irvine School Districts
+    jurisdiction: Irvine, CA
+    agency: City of Irvine GIS
+    source_type: geography
+    official_url: https://gis.cityofirvine.org/arcgis/rest/services/ParcelClariti/FeatureServer/12
+    access_method: arcgis_rest
+    format: geojson
+    automation_allowed: yes
+    redistribution_allowed: unclear
+    license_summary: Official municipal ArcGIS REST school district layer. Terms should be reviewed before redistribution of copied extracts.
+    privacy_risk: low
+    fcra_risk: low
+    usefulness_score: 78
+    ingestion_priority: P1
+    connector: arcgis_connector
+    enabled: true
+    requires_manual_review_before_enable: false
+    fields:
+      - UNIFIED_SC
+      - geometry
+    notes: School district polygons for parcel-level civic context.
+    implementation_status: connector_implemented
+    coverage_notes:
+      - Open ArcGIS REST query endpoint.
+  - id: irvine_fire_hazard_severity_arcgis
+    name: City of Irvine Fire Hazard Severity Zone LRA
+    jurisdiction: Irvine, CA
+    agency: City of Irvine GIS
+    source_type: geography
+    official_url: https://gis.cityofirvine.org/arcgis/rest/services/ParcelClariti/FeatureServer/160
+    access_method: arcgis_rest
+    format: geojson
+    automation_allowed: yes
+    redistribution_allowed: unclear
+    license_summary: Official municipal ArcGIS REST fire hazard severity zone layer. Terms should be reviewed before redistribution of copied extracts.
+    privacy_risk: low
+    fcra_risk: low
+    usefulness_score: 82
+    ingestion_priority: P1
+    connector: arcgis_connector
+    enabled: true
+    requires_manual_review_before_enable: false
+    fields:
+      - FHSZ
+      - FHSZ_Description
+      - SRA
+      - geometry
+    notes: Fire hazard severity polygons for parcel-level wildfire context.
+    implementation_status: connector_implemented
+    coverage_notes:
+      - Open ArcGIS REST query endpoint.
+  - id: irvine_ibc_fee_district_arcgis
+    name: City of Irvine IBC Fee District
+    jurisdiction: Irvine, CA
+    agency: City of Irvine GIS
+    source_type: geography
+    official_url: https://gis.cityofirvine.org/arcgis/rest/services/ParcelClariti/FeatureServer/23
+    access_method: arcgis_rest
+    format: geojson
+    automation_allowed: yes
+    redistribution_allowed: unclear
+    license_summary: Official municipal ArcGIS REST IBC fee district layer. Terms should be reviewed before redistribution of copied extracts.
+    privacy_risk: low
+    fcra_risk: low
+    usefulness_score: 70
+    ingestion_priority: P2
+    connector: arcgis_connector
+    enabled: true
+    requires_manual_review_before_enable: false
+    fields:
+      - FEE_DISTRICT
+      - PLANAREA
+      - geometry
+    notes: Fee district polygons for parcel-level municipal cost context.
+    implementation_status: connector_implemented
+    coverage_notes:
+      - Open ArcGIS REST query endpoint.
+  - id: irvine_additional_fee_district_arcgis
+    name: City of Irvine Additional Fee District
+    jurisdiction: Irvine, CA
+    agency: City of Irvine GIS
+    source_type: geography
+    official_url: https://gis.cityofirvine.org/arcgis/rest/services/ParcelClariti/FeatureServer/24
+    access_method: arcgis_rest
+    format: geojson
+    automation_allowed: yes
+    redistribution_allowed: unclear
+    license_summary: Official municipal ArcGIS REST additional fee district layer. Terms should be reviewed before redistribution of copied extracts.
+    privacy_risk: low
+    fcra_risk: low
+    usefulness_score: 68
+    ingestion_priority: P2
+    connector: arcgis_connector
+    enabled: true
+    requires_manual_review_before_enable: false
+    fields:
+      - FEE_DISTRICT
+      - geometry
+    notes: Additional fee district polygons for parcel-level municipal cost context.
+    implementation_status: connector_implemented
+    coverage_notes:
+      - Open ArcGIS REST query endpoint.
+  - id: irvine_transportation_fee_arcgis
+    name: City of Irvine Transportation Fee
+    jurisdiction: Irvine, CA
+    agency: City of Irvine GIS
+    source_type: geography
+    official_url: https://gis.cityofirvine.org/arcgis/rest/services/ParcelClariti/FeatureServer/25
+    access_method: arcgis_rest
+    format: geojson
+    automation_allowed: yes
+    redistribution_allowed: unclear
+    license_summary: Official municipal ArcGIS REST transportation fee layer. Terms should be reviewed before redistribution of copied extracts.
+    privacy_risk: low
+    fcra_risk: low
+    usefulness_score: 75
+    ingestion_priority: P1
+    connector: arcgis_connector
+    enabled: true
+    requires_manual_review_before_enable: false
+    fields:
+      - Zone_Name
+      - Agency
+      - Fee_MFD
+      - Fee_SFD
+      - Fee_NR
+      - geometry
+    notes: Transportation fee polygons for parcel-level infrastructure fee context.
+    implementation_status: connector_implemented
+    coverage_notes:
+      - Open ArcGIS REST query endpoint.
+  - id: oc_superior_court_probate_report
+    name: Orange County Superior Court Probate Case Report
+    jurisdiction: Orange County, CA
+    agency: Orange County Superior Court
+    source_type: court_index
+    official_url: https://www.occourts.org/online-services/case-access
+    access_method: manual_export
+    format: json
+    automation_allowed: yes
+    redistribution_allowed: unclear
+    license_summary: Import only reviewed local JSON reports containing public case metadata from the Orange County Superior Court case-access workflow. Do not collect or ingest sealed, restricted, or remotely unavailable documents.
+    privacy_risk: medium
+    fcra_risk: medium
+    usefulness_score: 84
+    ingestion_priority: P1
+    connector: court_index_connector
+    enabled: true
+    requires_manual_review_before_enable: false
+    fields:
+      - case_number
+      - caption
+      - filed_on
+      - status
+      - source
+    notes: Designed for reviewed JSON reports produced by a lawful OC court metadata collection workflow.
+    implementation_status: connector_implemented
+    coverage_notes:
+      - Public case metadata only.
+      - Upstream collection method should be separately reviewed for terms compliance.
+  - id: census_tiger_tracts_ca
+    name: US Census TIGER/Line Census Tracts
+    jurisdiction: California
+    agency: U.S. Census Bureau
+    source_type: geography
+    official_url: https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html
+    access_method: bulk_download
+    format: shapefile
+    automation_allowed: yes
+    redistribution_allowed: yes
+    license_summary: Federal public data download for geographic context; use geography only, not demographic scoring of people.
+    privacy_risk: low
+    fcra_risk: low
+    usefulness_score: 82
+    ingestion_priority: P0
+    connector: manual_import_connector
+    enabled: true
+    requires_manual_review_before_enable: false
+    fields:
+      - tract_geoid
+      - countyfp
+      - statefp
+      - geometry
+    notes: Geography context only.
+    implementation_status: connector_planned
+  - id: ca_business_search_api
+    name: California Secretary of State Business Entity Public Search API
+    jurisdiction: California
+    agency: California Secretary of State
+    source_type: business_entity_registry
+    official_url: https://calico.sos.ca.gov/cbc/v1/api/ServerStatus
+    access_method: api
+    format: json
+    automation_allowed: unclear
+    redistribution_allowed: unclear
+    license_summary: Official Secretary of State API guide exists, but production access depends on an API subscription key and terms review.
+    privacy_risk: medium
+    fcra_risk: medium
+    usefulness_score: 92
+    ingestion_priority: P0
+    connector: california_business_connector
+    enabled: false
+    requires_manual_review_before_enable: true
+    fields:
+      - entity_name
+      - entity_number
+      - jurisdiction
+      - registration_date
+      - status
+      - mailing_address
+      - agent_name
+    notes: Prefer official API or locally exported official responses after terms review.
+    implementation_status: connector_implemented
+  - id: ca_notary_public_listing
+    name: California Active Notary Public Listing
+    jurisdiction: California
+    agency: California Secretary of State
+    source_type: notary_registry
+    official_url: https://www.sos.ca.gov/notary/notary-public-listing/
+    access_method: bulk_download
+    format: txt
+    automation_allowed: yes
+    redistribution_allowed: unclear
+    license_summary: Official downloadable active-notary listing with accuracy disclaimer. Use only for commission lookup context.
+    privacy_risk: medium
+    fcra_risk: low
+    usefulness_score: 68
+    ingestion_priority: P1
+    connector: manual_import_connector
+    enabled: false
+    requires_manual_review_before_enable: true
+    fields:
+      - notary_name
+      - business_name
+      - mailing_address
+      - filing_county_code
+      - commission_number
+      - commission_expiration_date
+    notes: Avoid republishing full mailing addresses unless necessary.
+    implementation_status: researched
+  - id: oc_assessor_secured_value_lookup
+    name: Orange County Assessor Secured Property Value Information
+    jurisdiction: Orange County, CA
+    agency: Orange County Assessor
+    source_type: assessor_value_lookup
+    official_url: https://assessedvalue.ocassessor.gov/
+    access_method: manual_export
+    format: html
+    automation_allowed: unclear
+    redistribution_allowed: unclear
+    license_summary: Official APN-based lookup with no owner-name search. Treat as manual lookup/export pending explicit automation confirmation.
+    privacy_risk: low
+    fcra_risk: low
+    usefulness_score: 85
+    ingestion_priority: P0
+    connector: assessor_parcel_connector
+    enabled: false
+    requires_manual_review_before_enable: true
+    fields:
+      - apn
+      - assessed_total_value
+      - land_value
+      - improvement_value
+    notes: Good Orange County valuation supplement when bulk roll is unavailable.
+    implementation_status: connector_implemented
+  - id: oc_assessor_public_records
+    name: Orange County Assessor Public Records Request
+    jurisdiction: Orange County, CA
+    agency: Orange County Assessor
+    source_type: assessor_roll
+    official_url: https://www.ocassessor.gov/contact-us/assessor-public-records
+    access_method: foia_cpra_request
+    format: csv
+    automation_allowed: no
+    redistribution_allowed: unclear
+    license_summary: Public records request pathway for assessment records under California law.
+    privacy_risk: medium
+    fcra_risk: low
+    usefulness_score: 90
+    ingestion_priority: P0
+    connector: manual_import_connector
+    enabled: false
+    requires_manual_review_before_enable: true
+    fields:
+      - apn
+      - situs_address
+      - assessed_values
+      - land_use_code
+      - transfer_dates
+    notes: Requires county response; machine-readable delivery should be requested explicitly.
+    implementation_status: requires_public_records_request
+  - id: oc_clerk_recorder_index
+    name: Orange County Clerk-Recorder Grantor/Grantee Index
+    jurisdiction: Orange County, CA
+    agency: Orange County Clerk-Recorder
+    source_type: recorder_index
+    official_url: https://cr.occlerkrecorder.gov/RecorderWorksInternet
+    access_method: manual_export
+    format: html
+    automation_allowed: no
+    redistribution_allowed: unclear
+    license_summary: Official index search is publicly accessible, but online search only returns index results and document images are restricted.
+    privacy_risk: medium
+    fcra_risk: medium
+    usefulness_score: 94
+    ingestion_priority: P0
+    connector: recorder_index_connector
+    enabled: true
+    requires_manual_review_before_enable: true
+    fields:
+      - instrument_number
+      - recording_date
+      - grantor
+      - grantee
+      - document_type
+    notes: Do not automate live portal scraping. Reviewed local manual-export artifacts may be imported through the governed manual-import path.
+    implementation_status: connector_implemented
+  - id: oc_clerk_recorder_cpra
+    name: Orange County Clerk-Recorder Machine-Readable Index Request
+    jurisdiction: Orange County, CA
+    agency: Orange County Clerk-Recorder
+    source_type: recorder_index
+    official_url: https://www.ocgov.com/about-county/info-oc/newsroom/public-information/request-public-records
+    access_method: foia_cpra_request
+    format: csv
+    automation_allowed: no
+    redistribution_allowed: unclear
+    license_summary: County public-records request pathway; request only public index data and exclude document images or restricted records.
+    privacy_risk: medium
+    fcra_risk: medium
+    usefulness_score: 96
+    ingestion_priority: P0
+    connector: manual_import_connector
+    enabled: false
+    requires_manual_review_before_enable: true
+    fields:
+      - instrument_number
+      - recording_date
+      - execution_date
+      - document_type
+      - grantor
+      - grantee
+      - apn
+    notes: Preferred Orange County recorder path if bulk extract can be obtained lawfully.
+    implementation_status: requires_public_records_request
+  - id: la_county_egis_open_data
+    name: Los Angeles County Enterprise GIS Hub
+    jurisdiction: Los Angeles County, CA
+    agency: Los Angeles County Planning / eGIS Hub
+    source_type: geography
+    official_url: https://planning.lacounty.gov/maps-and-gis/gis-data/
+    access_method: open_data_portal
+    format: shapefile
+    automation_allowed: yes
+    redistribution_allowed: unclear
+    license_summary: County open GIS data hub with downloadable layers and web services; confirm layer-specific license before redistribution.
+    privacy_risk: low
+    fcra_risk: low
+    usefulness_score: 83
+    ingestion_priority: P1
+    connector: arcgis_connector
+    enabled: false
+    requires_manual_review_before_enable: true
+    fields:
+      - geometry
+      - planning_area
+      - zoning
+    notes: Good county-scale geography context; layer-specific parcel availability varies.
+    implementation_status: researched
+  - id: la_tax_defaulted_property_notice
+    name: Los Angeles County Tax Defaulted Property Auction Notices
+    jurisdiction: Los Angeles County, CA
+    agency: Los Angeles County Treasurer and Tax Collector
+    source_type: tax_default
+    official_url: https://ttc.lacounty.gov/notice-of-auction-or-sale/
+    access_method: manual_download
+    format: pdf
+    automation_allowed: unclear
+    redistribution_allowed: unclear
+    license_summary: Official county notice and auction pages for tax-defaulted property; prefer published lists or user-provided extracts.
+    privacy_risk: medium
+    fcra_risk: low
+    usefulness_score: 72
+    ingestion_priority: P2
+    connector: tax_default_connector
+    enabled: false
+    requires_manual_review_before_enable: true
+    fields:
+      - apn
+      - sale_date
+      - sale_status
+    notes: PDF-heavy publication pattern; import via manual reviewed extracts.
+    implementation_status: connector_implemented
+  - id: osm_nominatim_policy_bound
+    name: OpenStreetMap Nominatim Geocoding
+    jurisdiction: Global
+    agency: OpenStreetMap Foundation
+    source_type: geocoder
+    official_url: https://operations.osmfoundation.org/policies/nominatim/
+    access_method: api
+    format: json
+    automation_allowed: unclear
+    redistribution_allowed: yes
+    license_summary: Public API is rate-limited and not suitable for heavy production use; prefer offline/self-hosted geocoding for volume.
+    privacy_risk: low
+    fcra_risk: low
+    usefulness_score: 55
+    ingestion_priority: P3
+    connector: manual_import_connector
+    enabled: false
+    requires_manual_review_before_enable: true
+    fields:
+      - normalized_address
+      - latitude
+      - longitude
+    notes: Use only as low-volume fallback with clear user-agent and attribution.
+    implementation_status: researched

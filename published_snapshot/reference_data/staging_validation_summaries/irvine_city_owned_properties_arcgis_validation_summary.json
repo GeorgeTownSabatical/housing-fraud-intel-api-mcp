@@ -1,0 +1,10 @@
+{
+  "accepted_count": 2122,
+  "duplicate_count": 0,
+  "generated_at": "2026-05-01T12:12:31.396909+00:00",
+  "input_path": "data/raw/irvine_city_owned_properties_arcgis/download.json",
+  "manifest_hash": "5ec928fc669e898953305848615d076a4946cae1ce570183ac8841c864e92fec",
+  "records_missing_required_fields": 0,
+  "rejected_count": 0,
+  "source_id": "irvine_city_owned_properties_arcgis"
+}

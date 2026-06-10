@@ -1,0 +1,21 @@
+{
+  "artifacts": [
+    {
+      "path": "/Users/ALISTAIRE/housing-fraud-intel-api/data/raw/tustin_parcel_lookup_arcgis/download.json",
+      "sha256": "1290dc42a9e52815e81183a84715a3358a273ea14349cdb1cf0a1b6770f1b433",
+      "size_bytes": 29881064
+    }
+  ],
+  "license_note": "Official City of Tustin ArcGIS REST parcel lookup layer. Terms should be reviewed before redistribution of copied extracts.",
+  "metadata": {
+    "mode": "merge",
+    "record_type": "parcel"
+  },
+  "official_url": "https://services8.arcgis.com/omhBSxytABi3T0US/ArcGIS/rest/services/ParcelLookup/FeatureServer/1",
+  "parser_version": "arcgis-v1",
+  "retrieval_method": "arcgis_rest",
+  "retrieval_timestamp": "2026-05-05T22:48:49.589642+00:00",
+  "source_hash": "3ae5b2f47a6d83297b76e0d1c7b5af1a7e7a9b50a0236683be04031cff036642",
+  "source_id": "tustin_parcel_lookup_arcgis",
+  "source_name": "City of Tustin Parcel Lookup Layer"
+}

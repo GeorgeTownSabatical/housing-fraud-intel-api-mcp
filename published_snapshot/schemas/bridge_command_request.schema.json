@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Bridge Safe Command Request",
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "request_id": {
+      "type": "string"
+    },
+    "request_type": {
+      "type": "string",
+      "enum": ["codex_task", "run_tests", "refresh_snapshots", "publish_gist", "add_note"]
+    },
+    "source": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "instructions": {
+      "type": "string"
+    },
+    "commands": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "safety_policy": {
+      "type": "string",
+      "default": "Commands must pass the local allowlist and denylist before execution. Shell metacharacters, secret reads, package installs, network scans, destructive commands, and arbitrary shell execution are rejected."
+    }
+  },
+  "required": ["request_type", "source", "title", "instructions", "commands"]
+}
