@@ -1,0 +1,145 @@
+{
+  "finding_status": "triage leads and public-context anchors only; not fraud findings and not identity determinations",
+  "generated_at_utc": "2026-06-10T23:56:01Z",
+  "notable_local_observations": [
+    "PALMER has 8 medium-review scored case rows in the current fraud score export.",
+    "SHELDON has 1 medium-review scored case row: A171502, guardianship/minor context.",
+    "SHELTON had no targeted hits in current fraud/identity/connection exports checked during this pass.",
+    "Jim Palmer/OCRM/Hurtt links are stored as public-context bridge edges only, not allegations or fraud findings."
+  ],
+  "published_files": [
+    {
+      "local_source": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/fraud_confidence_score_summary.json",
+      "published_path": "published_snapshot/curated_investigation/palmer_sheldon_shelton/fraud_confidence_score_summary.json",
+      "sha256": "8390affcbdc812817f602d5e2e2733584c0def2f61d02e113a8a869c47b1c9d2",
+      "size_bytes": 2194
+    },
+    {
+      "local_source": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/identity_weighted_actor_connections/palmer_and_focus_drilldown.md",
+      "published_path": "published_snapshot/curated_investigation/palmer_sheldon_shelton/palmer_and_focus_drilldown.md",
+      "sha256": "2348fbd2c481dc71dd78bffc305176c79eb34196f3793c376971e27c8d3c468a",
+      "size_bytes": 24094
+    },
+    {
+      "local_source": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/identity_weighted_actor_connections/palmer_identity_drilldown.csv",
+      "published_path": "published_snapshot/curated_investigation/palmer_sheldon_shelton/palmer_identity_drilldown.csv",
+      "sha256": "86ca9326a29e2bd30b83f5934f80570df4221ae127e9c30be0bfd6c3f5b21638",
+      "size_bytes": 529873
+    },
+    {
+      "local_source": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/medium_review_dossiers/A171502__rank_002__SHELDON.md",
+      "published_path": "published_snapshot/curated_investigation/palmer_sheldon_shelton/A171502__rank_002__SHELDON.md",
+      "sha256": "a3b586e7ceab9c463feffb51d3d4c7bd479f60edfbf09f5558574ec0ef94d06c",
+      "size_bytes": 5018
+    },
+    {
+      "local_source": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/medium_review_dossiers/A182843__rank_027__PALMER.md",
+      "published_path": "published_snapshot/curated_investigation/palmer_sheldon_shelton/A182843__rank_027__PALMER.md",
+      "sha256": "4a9747a66d486f8e64a29caf1daeabe8cf54911e7b849051ab9a49d79d31cc86",
+      "size_bytes": 4881
+    },
+    {
+      "local_source": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/medium_review_dossiers/A183184__rank_083__PALMER.md",
+      "published_path": "published_snapshot/curated_investigation/palmer_sheldon_shelton/A183184__rank_083__PALMER.md",
+      "sha256": "b6a11624e052124fe18238bd378870a2050f60ec5aefd5bbae6ca09f44bed919",
+      "size_bytes": 4794
+    },
+    {
+      "local_source": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/medium_review_dossiers/A183953__rank_084__PALMER.md",
+      "published_path": "published_snapshot/curated_investigation/palmer_sheldon_shelton/A183953__rank_084__PALMER.md",
+      "sha256": "d5492571dcea4fa7ec235003160ab1c592ee46fa06b301fbfc8e8a0f6a95bb5e",
+      "size_bytes": 4751
+    },
+    {
+      "local_source": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/medium_review_dossiers/A186883__rank_085__PALMER.md",
+      "published_path": "published_snapshot/curated_investigation/palmer_sheldon_shelton/A186883__rank_085__PALMER.md",
+      "sha256": "77dd7e6ac89f0dc8a9f67bc31de608edb493937c2f2d30dc4b0c043d3838935b",
+      "size_bytes": 4772
+    },
+    {
+      "local_source": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/medium_review_dossiers/A194892__rank_086__PALMER.md",
+      "published_path": "published_snapshot/curated_investigation/palmer_sheldon_shelton/A194892__rank_086__PALMER.md",
+      "sha256": "1e8680ecf0b01033f61fdace218f2cd8704e46dfb57f299dbc6eabaca9e69848",
+      "size_bytes": 4747
+    },
+    {
+      "local_source": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/medium_review_dossiers/A202011__rank_087__PALMER.md",
+      "published_path": "published_snapshot/curated_investigation/palmer_sheldon_shelton/A202011__rank_087__PALMER.md",
+      "sha256": "7264c4f0f1d5ed118f0ec25d593783ed93950c75b25cee55a6ab5ec65447f2f1",
+      "size_bytes": 4643
+    },
+    {
+      "local_source": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/medium_review_dossiers/A204953__rank_088__PALMER.md",
+      "published_path": "published_snapshot/curated_investigation/palmer_sheldon_shelton/A204953__rank_088__PALMER.md",
+      "sha256": "00eac89ed04e47079394baa8fac072de8ab41fe1d1c85479a1490424cc332aa6",
+      "size_bytes": 4748
+    },
+    {
+      "local_source": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/medium_review_dossiers/A205071__rank_089__PALMER.md",
+      "published_path": "published_snapshot/curated_investigation/palmer_sheldon_shelton/A205071__rank_089__PALMER.md",
+      "sha256": "f31c5ce368589a85ee9632f4819514fe314660d882a588ca79966b040d7c7de7",
+      "size_bytes": 4730
+    },
+    {
+      "local_source": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/medium_review_dossiers/matches/A171502__rank_002__SHELDON_matches.csv",
+      "published_path": "published_snapshot/curated_investigation/palmer_sheldon_shelton/A171502__rank_002__SHELDON_matches.csv",
+      "sha256": "cc34facb1d54ef09193c30ff94b1bc031fdcf4f996a5ec50e126001911254936",
+      "size_bytes": 22393
+    },
+    {
+      "local_source": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/medium_review_dossiers/matches/A182843__rank_027__PALMER_matches.csv",
+      "published_path": "published_snapshot/curated_investigation/palmer_sheldon_shelton/A182843__rank_027__PALMER_matches.csv",
+      "sha256": "edb3a6d3a7eb3b1535f40bfa38facb46ceeb66fc436743b3253c7ee1921804e1",
+      "size_bytes": 65051
+    },
+    {
+      "local_source": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/astor_palmer_focus_recorder_name_cross_reference_summary.json",
+      "published_path": "published_snapshot/curated_investigation/palmer_sheldon_shelton/astor_palmer_focus_recorder_name_cross_reference_summary.json",
+      "sha256": "16c34ca13c497cad437a30cf0e0d3298f82e2f7b1edb8b36b0d7018b6399c617",
+      "size_bytes": 633
+    },
+    {
+      "local_source": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/palmer_orourke_1994_2001_recorder_name_cross_reference_summary.json",
+      "published_path": "published_snapshot/curated_investigation/palmer_sheldon_shelton/palmer_orourke_1994_2001_recorder_name_cross_reference_summary.json",
+      "sha256": "c8efaccba53ab3d406d669e0f4c53d925c38ac45978a37b29c72de90e81c1753",
+      "size_bytes": 680
+    },
+    {
+      "local_source": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/fraud_confidence_scores.csv",
+      "published_path": "published_snapshot/curated_investigation/palmer_sheldon_shelton/fraud_confidence_scores_palmer_sheldon_shelton.csv",
+      "sha256": "fd273988856535a4b83ebede42a176f3d7397e6c3301da920b5627fa235d3c61",
+      "size_bytes": 5430
+    }
+  ],
+  "source_workspace": "/Users/ALISTAIRE/housing-fraud-intel-api",
+  "terms": {
+    "PALMER": {
+      "case_numbers": [
+        "A179959",
+        "A182843",
+        "A183184",
+        "A183953",
+        "A186883",
+        "A189182",
+        "A194892",
+        "A202011",
+        "A204953",
+        "A205071",
+        "A207103",
+        "A213042",
+        "A214089"
+      ],
+      "fraud_score_rows": 13
+    },
+    "SHELDON": {
+      "case_numbers": [
+        "A171502"
+      ],
+      "fraud_score_rows": 1
+    },
+    "SHELTON": {
+      "case_numbers": [],
+      "fraud_score_rows": 0
+    }
+  }
+}

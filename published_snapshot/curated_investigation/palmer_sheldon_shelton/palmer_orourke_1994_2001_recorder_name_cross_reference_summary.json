@@ -1,0 +1,35 @@
+{
+  "cross_reference_rows": 7173,
+  "edge_rows": 72103,
+  "input_csv_count": 3,
+  "rows_with_alias_exact_match": 2,
+  "rows_with_exact_court_name_match": 2,
+  "rows_with_person_exact_match": 2,
+  "rows_with_surname_court_match": 4953,
+  "top_exact_name_hits": {
+    "PALMER D": 2
+  },
+  "top_surname_hits": {
+    "a": 10,
+    "american": 25,
+    "chase": 50,
+    "downey": 13,
+    "first": 94,
+    "fleet": 16,
+    "franklin": 9,
+    "la": 10,
+    "los": 22,
+    "marriott": 9,
+    "mc": 11,
+    "money": 10,
+    "north": 25,
+    "o": 361,
+    "owens": 14,
+    "palmer": 3537,
+    "san": 45,
+    "union": 20,
+    "washington": 33,
+    "wells": 32
+  },
+  "watchlist_hit_rows": 63
+}

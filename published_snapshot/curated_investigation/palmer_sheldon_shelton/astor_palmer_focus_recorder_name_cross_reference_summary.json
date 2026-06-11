@@ -1,0 +1,32 @@
+{
+  "cross_reference_rows": 517,
+  "input_csv_count": 3,
+  "rows_with_alias_exact_match": 0,
+  "rows_with_exact_court_name_match": 0,
+  "rows_with_person_exact_match": 0,
+  "rows_with_surname_court_match": 158,
+  "top_exact_name_hits": {},
+  "top_surname_hits": {
+    "american": 2,
+    "astorino": 66,
+    "barajas": 1,
+    "bucher": 4,
+    "chase": 6,
+    "clark": 2,
+    "first": 11,
+    "garcia": 2,
+    "hurley": 2,
+    "hyde": 1,
+    "juarez": 1,
+    "los": 3,
+    "mellon": 2,
+    "mendoza": 1,
+    "old": 5,
+    "palmer": 18,
+    "ray": 1,
+    "rendon": 1,
+    "union": 4,
+    "willoughby": 1
+  },
+  "watchlist_hit_rows": 9
+}

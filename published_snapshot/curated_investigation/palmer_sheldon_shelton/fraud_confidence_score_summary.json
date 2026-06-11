@@ -1,0 +1,50 @@
+{
+  "artifacts": {
+    "all_scores_csv": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/fraud_confidence_scores.csv",
+    "methodology_md": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/fraud_confidence_score_methodology.md",
+    "top250_scores_csv": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/fraud_confidence_scores_top250.csv"
+  },
+  "band_counts": {
+    "high_review": 1,
+    "low_review": 895,
+    "medium_review": 178
+  },
+  "method": {
+    "formula": "0.62 * risk_signal_score + 0.38 * linkage_confidence_score, with caps for collision-prone surname-only matches",
+    "fraud_confidence_score": "0-100 triage score, not a fraud finding",
+    "major_penalties": [
+      "high or very high surname/name collision, retained as a caution rather than a hard suppressor because surnames are case-specific",
+      "surname-only linkage where no vulnerable context is present",
+      "no transfer or distress signal"
+    ],
+    "major_positive_factors": [
+      "vulnerable population case type",
+      "transfer-like recorder activity near filing",
+      "distress/lien/default-like recorder activity near filing",
+      "exact-name overlap",
+      "low-collision transfer window",
+      "case-specific surname context"
+    ]
+  },
+  "scored_case_count": 1074,
+  "top_score": {
+    "case_number": "A171585",
+    "case_type": "LPS CONSERVATORSHIP (WI 5350)",
+    "cautions": "very_high_name_collision",
+    "confidence_band": "high_review",
+    "distinct_matched_documents": 721,
+    "distress_match_rows": 99,
+    "filing_date": "1994-01-11",
+    "finding_status": "triage_lead_not_fraud_finding",
+    "fraud_confidence_score": 79.9,
+    "linkage_confidence_score": 52.0,
+    "local_exact_name_match_count": 1,
+    "local_recorder_match_count": 721,
+    "local_transfer_match_count": 498,
+    "related_party_name": "HARRIS-C",
+    "risk_factors": "vulnerable_population_case | nearby_transfer_like_activity | nearby_distress_lien_default_activity | exact_name_overlap | dense_recorder_activity | conservatorship_context | case_specific_surname_context",
+    "risk_signal_score": 97.0,
+    "search_name": "HARRIS",
+    "vulnerability_flags": "conservatorship | mental_health"
+  }
+}
