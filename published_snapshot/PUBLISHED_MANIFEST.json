@@ -104,6 +104,56 @@
       "size_bytes": 52141
     },
     {
+      "path": "curated_investigation/title_repair_16251_waikiki/cure_confirmation_rescrape_20260613/title_repair_16251_waikiki_cure_confirmation_20260613.md",
+      "sha256": "32260102072f4eb44c5d7d97034099fa2d8b6f3be5260c274588a88aa9b6c0f4",
+      "size_bytes": 6116
+    },
+    {
+      "path": "curated_investigation/title_repair_16251_waikiki/cure_confirmation_rescrape_20260613/title_repair_16251_waikiki_cure_confirmation_20260613.pdf",
+      "sha256": "22e1dffd1fc5708fdd4c3c0a48af6fbcf7e6d8c03f2241177ed7c5141b54e2f5",
+      "size_bytes": 10611
+    },
+    {
+      "path": "curated_investigation/title_repair_16251_waikiki/cure_confirmation_rescrape_20260613/title_repair_16251_waikiki_existing_recorderworks_detail_extract_20260613.json",
+      "sha256": "68f351565a171435eb9d25ce382db62e35b5f6208860724913790c05bc634ac1",
+      "size_bytes": 3001
+    },
+    {
+      "path": "curated_investigation/title_repair_16251_waikiki/cure_confirmation_rescrape_20260613/title_repair_16251_waikiki_ocgis_apn_refresh_20260613.json",
+      "sha256": "fa5b7a6153baf8f35de0317f29e0334489033fc945358046c754a6d3db06b751",
+      "size_bytes": 647
+    },
+    {
+      "path": "curated_investigation/title_repair_16251_waikiki/cure_confirmation_rescrape_20260613/title_repair_16251_waikiki_rescrape_20260613_recorder_docnum_pull.csv",
+      "sha256": "ef5ebfc492bb22c8a028e6537543baac2b10298ecc9db6286842d14f204d9c52",
+      "size_bytes": 3561
+    },
+    {
+      "path": "curated_investigation/title_repair_16251_waikiki/cure_confirmation_rescrape_20260613/title_repair_16251_waikiki_rescrape_20260613_recorder_docnum_pull_summary.json",
+      "sha256": "4b07ec17d7dd3ba79754b583ec3ef50d11891f14f4a7f140fe1e542e8dbcfbd8",
+      "size_bytes": 816
+    },
+    {
+      "path": "curated_investigation/title_repair_16251_waikiki/title_repair_property_flag_16251_waikiki_20260613T141003Z.csv",
+      "sha256": "a8c2f828d86fd277af9843a1913e8e774ba916268e7c02c187a7bae4fd825ca6",
+      "size_bytes": 3328
+    },
+    {
+      "path": "curated_investigation/title_repair_16251_waikiki/title_repair_property_flag_16251_waikiki_20260613T141003Z.md",
+      "sha256": "a72b5e6e6c19802ad9cef6bf10249d46b03736bf41f50573c04cc2219d9bd192",
+      "size_bytes": 3337
+    },
+    {
+      "path": "curated_investigation/title_repair_16251_waikiki/title_repair_property_flag_16251_waikiki_20260613T141003Z.pdf",
+      "sha256": "e2686ad7365ac1c5f66898ed75002019afeee348779e544af644f3824f750335",
+      "size_bytes": 5667
+    },
+    {
+      "path": "curated_investigation/title_repair_16251_waikiki/title_repair_property_flag_16251_waikiki_20260613T141003Z.summary.json",
+      "sha256": "d149e9743d5a203a2cb328a5a8f1e23158c3e4f28bf3e2dbc7f024bb7bf4fe18",
+      "size_bytes": 794
+    },
+    {
       "path": "curated_reports/bridge_health_latest.json",
       "sha256": "1ddcf5779671131563b2d9a98e42398b1a8b587fe731456dbbb92db1d9be3043",
       "size_bytes": 6051
@@ -634,8 +684,8 @@
       "size_bytes": 1180
     }
   ],
-  "included_count": 125,
-  "included_size_bytes": 2748905,
+  "included_count": 135,
+  "included_size_bytes": 2786783,
   "schema": "published_hfi_snapshot_manifest.v1",
   "source_root": "/Users/ALISTAIRE/housing-fraud-intel-api"
 }

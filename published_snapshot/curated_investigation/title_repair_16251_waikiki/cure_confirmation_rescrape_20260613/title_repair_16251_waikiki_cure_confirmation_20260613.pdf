@@ -1,0 +1,212 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Length 3694 >>
+stream
+BT
+/F1 9 Tf
+12 TL
+1 0 0 1 36 760 Tm (# Cure-Confirmation Rescrape: 16251 Waikiki Ln) Tj
+1 0 0 1 36 748 Tm () Tj
+1 0 0 1 36 736 Tm (Generated UTC: `2026-06-13T14:24:00Z`) Tj
+1 0 0 1 36 724 Tm () Tj
+1 0 0 1 36 712 Tm (## Bottom Line) Tj
+1 0 0 1 36 700 Tm () Tj
+1 0 0 1 36 688 Tm (The refreshed data supports opening a title-cure / corrective-chain review for `16251 Waikiki Ln, ) Tj
+1 0 0 1 36 676 Tm (Huntington Beach, CA 92649`.) Tj
+1 0 0 1 36 664 Tm () Tj
+1 0 0 1 36 652 Tm (This is not yet proof of a void transfer. It is a high-confidence record-chain target because the ) Tj
+1 0 0 1 36 640 Tm (current RecorderWorks index and detail scrape confirm a grant deed and same-day deed of trust, the ) Tj
+1 0 0 1 36 628 Tm (deed detail exposes transfer-tax and tract/lot fields, and the county GIS parcel endpoint confirms ) Tj
+1 0 0 1 36 616 Tm (the APN/address identity.) Tj
+1 0 0 1 36 604 Tm () Tj
+1 0 0 1 36 592 Tm (## Cure Review Confidence) Tj
+1 0 0 1 36 580 Tm () Tj
+1 0 0 1 36 568 Tm (Score: `0.86 / 1.00` for need-to-cure investigation.) Tj
+1 0 0 1 36 556 Tm () Tj
+1 0 0 1 36 544 Tm (Basis:) Tj
+1 0 0 1 36 532 Tm () Tj
+1 0 0 1 36 520 Tm (- `+0.30` fresh RecorderWorks exact-document rescrape matched `2024000290531`.) Tj
+1 0 0 1 36 508 Tm (- `+0.20` fresh RecorderWorks exact-document rescrape matched same-day financing companion ) Tj
+1 0 0 1 36 496 Tm (`2024000290532`.) Tj
+1 0 0 1 36 484 Tm (- `+0.20` deed detail exposed `Transfer Tax Amount: 1295.2500`, which computes to `$1,177,500`.) Tj
+1 0 0 1 36 472 Tm (- `+0.15` deed detail exposed `City: Huntington Beach`, `Lot #: 90`, and `Tract #: 3750`.) Tj
+1 0 0 1 36 460 Tm (- `+0.10` county GIS confirms APN `178-083-15` maps to `16251 WAIKIKI LN HUNTINGTON BEACH`.) Tj
+1 0 0 1 36 448 Tm (- `-0.09` certified deed images and the 1994/2003/2005 chain documents are still needed before ) Tj
+1 0 0 1 36 436 Tm (claiming a void transfer or naming who must disclaim.) Tj
+1 0 0 1 36 424 Tm () Tj
+1 0 0 1 36 412 Tm (## Fresh RecorderWorks Rescrape) Tj
+1 0 0 1 36 400 Tm () Tj
+1 0 0 1 36 388 Tm (Source: `https://cr.occlerkrecorder.gov/RecorderWorksInternet/`) Tj
+1 0 0 1 36 376 Tm () Tj
+1 0 0 1 36 364 Tm (Run artifact:) Tj
+1 0 0 1 36 352 Tm () Tj
+1 0 0 1 36 340 Tm (- `/Users/ALISTAIRE/housing-fraud-intel-) Tj
+1 0 0 1 36 328 Tm (api/exports/title_repair_16251_waikiki_rescrape_20260613_recorder_docnum_pull.csv`) Tj
+1 0 0 1 36 316 Tm (- `/Users/ALISTAIRE/housing-fraud-intel-) Tj
+1 0 0 1 36 304 Tm (api/exports/title_repair_16251_waikiki_rescrape_20260613_recorder_docnum_pull_summary.json`) Tj
+1 0 0 1 36 292 Tm (- `/Users/ALISTAIRE/housing-fraud-intel-) Tj
+1 0 0 1 36 280 Tm (api/exports/title_repair_16251_waikiki_rescrape_20260613_document_views/`) Tj
+1 0 0 1 36 268 Tm () Tj
+1 0 0 1 36 256 Tm (Fresh matched rows:) Tj
+1 0 0 1 36 244 Tm () Tj
+1 0 0 1 36 232 Tm (| Document | Type | Date | Grantor | Grantee | Portal doc id | Pages |) Tj
+1 0 0 1 36 220 Tm (|---|---|---:|---|---|---:|---:|) Tj
+1 0 0 1 36 208 Tm (| `2024000290531` | GRANT DEED | 11/6/2024 | BARTMAN GREGORY GEORGE TR | REDMOND ROBERT GODFREY ) Tj
+1 0 0 1 36 196 Tm (RUTH | `31159554` | 3 |) Tj
+1 0 0 1 36 184 Tm (| `2024000290532` | TRUST DEED | 11/6/2024 | REDMOND ROBERT GODFREY RUTH | V I P INDEPENDENT ) Tj
+1 0 0 1 36 172 Tm (MORTGAGE; MORTGAGE ELECTRONIC REGISTRATION SYSTEMS INC | `31159532` | 37 |) Tj
+1 0 0 1 36 160 Tm () Tj
+1 0 0 1 36 148 Tm (Fresh details recovered from `2024000290531`:) Tj
+1 0 0 1 36 136 Tm () Tj
+1 0 0 1 36 124 Tm (| Field | Value |) Tj
+1 0 0 1 36 112 Tm (|---|---|) Tj
+1 0 0 1 36 100 Tm (| City | Huntington Beach |) Tj
+1 0 0 1 36 88 Tm (| Transfer Tax Amount | `1295.2500` |) Tj
+1 0 0 1 36 76 Tm (| Non Disc Tax Amount | `0.0000` |) Tj
+ET
+endstream
+endobj
+3 0 obj
+<< /Length 3482 >>
+stream
+BT
+/F1 9 Tf
+12 TL
+1 0 0 1 36 760 Tm (| Lot # | `90` |) Tj
+1 0 0 1 36 748 Tm (| Tract # | `3750` |) Tj
+1 0 0 1 36 736 Tm (| Number of Pages | `3` |) Tj
+1 0 0 1 36 724 Tm (| Recording Date | `11/6/2024` |) Tj
+1 0 0 1 36 712 Tm () Tj
+1 0 0 1 36 700 Tm (Computed consideration:) Tj
+1 0 0 1 36 688 Tm () Tj
+1 0 0 1 36 676 Tm (`1295.2500 / 1.10 * 1000 = 1,177,500`) Tj
+1 0 0 1 36 664 Tm () Tj
+1 0 0 1 36 652 Tm (Interpretation: the refreshed RecorderWorks detail independently supports the exact `$1,177,500` ) Tj
+1 0 0 1 36 640 Tm (consideration figure already aligned with public listing-source sale history.) Tj
+1 0 0 1 36 628 Tm () Tj
+1 0 0 1 36 616 Tm (## County GIS Parcel Confirmation) Tj
+1 0 0 1 36 604 Tm () Tj
+1 0 0 1 36 592 Tm (Source:) Tj
+1 0 0 1 36 580 Tm () Tj
+1 0 0 1 36 568 Tm (`https://www.ocgis.com/arcpub/rest/services/Map_Layers/Parcels/MapServer/0/query?where=ASSESSMENT_NO) Tj
+1 0 0 1 36 556 Tm (%3D%27178-083-) Tj
+1 0 0 1 36 544 Tm (15%27&outFields=ASSESSMENT_NO,SITE_ADDRESS,YEAR_BUILT,NBR_BEDROOMS&returnGeometry=false&f=json`) Tj
+1 0 0 1 36 532 Tm () Tj
+1 0 0 1 36 520 Tm (Refreshed response:) Tj
+1 0 0 1 36 508 Tm () Tj
+1 0 0 1 36 496 Tm (| Field | Value |) Tj
+1 0 0 1 36 484 Tm (|---|---|) Tj
+1 0 0 1 36 472 Tm (| ASSESSMENT_NO | `178-083-15` |) Tj
+1 0 0 1 36 460 Tm (| SITE_ADDRESS | `16251 WAIKIKI LN HUNTINGTON BEACH` |) Tj
+1 0 0 1 36 448 Tm (| YEAR_BUILT | `1963` |) Tj
+1 0 0 1 36 436 Tm (| NBR_BEDROOMS | `3` |) Tj
+1 0 0 1 36 424 Tm () Tj
+1 0 0 1 36 412 Tm (Interpretation: OC GIS confirms the APN/address identity. The deed itself still needs certified ) Tj
+1 0 0 1 36 400 Tm (image/legal-description confirmation to prove that document `2024000290531` conveys this exact ) Tj
+1 0 0 1 36 388 Tm (parcel.) Tj
+1 0 0 1 36 376 Tm () Tj
+1 0 0 1 36 364 Tm (## Public Sale-History Checkpoints) Tj
+1 0 0 1 36 352 Tm () Tj
+1 0 0 1 36 340 Tm (Current public listing-source checkpoints to verify against official chain documents:) Tj
+1 0 0 1 36 328 Tm () Tj
+1 0 0 1 36 316 Tm (| Public sale date | Public sale price | Status |) Tj
+1 0 0 1 36 304 Tm (|---|---:|---|) Tj
+1 0 0 1 36 292 Tm (| 11/6/2024 | `$1,177,500` | Matched exactly by RecorderWorks transfer-tax computation for ) Tj
+1 0 0 1 36 280 Tm (`2024000290531`. |) Tj
+1 0 0 1 36 268 Tm (| 12/2/2005 | `$729,000` | Public-history checkpoint only; official recorder instrument number ) Tj
+1 0 0 1 36 256 Tm (still needed. |) Tj
+1 0 0 1 36 244 Tm (| 9/3/2003 | `$483,000` | Public-history checkpoint only; official recorder instrument number ) Tj
+1 0 0 1 36 232 Tm (still needed. |) Tj
+1 0 0 1 36 220 Tm (| 3/15/1994 | `$206,000` | Public-history checkpoint only; official recorder instrument number ) Tj
+1 0 0 1 36 208 Tm (still needed. |) Tj
+1 0 0 1 36 196 Tm () Tj
+1 0 0 1 36 184 Tm (Listing-source URLs:) Tj
+1 0 0 1 36 172 Tm () Tj
+1 0 0 1 36 160 Tm (- Redfin: `https://www.redfin.com/CA/Huntington-Beach/16251-Waikiki-Ln-92649/home/3868041`) Tj
+1 0 0 1 36 148 Tm (- Zillow: `https://www.zillow.com/homedetails/16251-Waikiki-Ln-Huntington-Beach-) Tj
+1 0 0 1 36 136 Tm (CA-92649/25298849_zpid/`) Tj
+1 0 0 1 36 124 Tm () Tj
+1 0 0 1 36 112 Tm (Note: direct command-line archive capture for Redfin/Zillow returned empty responses in this ) Tj
+1 0 0 1 36 100 Tm (environment, likely anti-bot blocking. Use the public pages as corroborative lead sources only; the ) Tj
+1 0 0 1 36 88 Tm (official cure record should rely on RecorderWorks certified copies and assessor/parcel records.) Tj
+1 0 0 1 36 76 Tm () Tj
+ET
+endstream
+endobj
+4 0 obj
+<< /Length 2431 >>
+stream
+BT
+/F1 9 Tf
+12 TL
+1 0 0 1 36 760 Tm (## Why This Supports Cure Work) Tj
+1 0 0 1 36 748 Tm () Tj
+1 0 0 1 36 736 Tm (The cure need is supported by a record-chain gap, not by a completed fraud conclusion:) Tj
+1 0 0 1 36 724 Tm () Tj
+1 0 0 1 36 712 Tm (- Current deed target is identified: `2024000290531`.) Tj
+1 0 0 1 36 700 Tm (- Current encumbrance/financing companion is identified: `2024000290532`.) Tj
+1 0 0 1 36 688 Tm (- Current deed consideration has an exact transfer-tax-derived value match.) Tj
+1 0 0 1 36 676 Tm (- Parcel identity has independent county GIS support through APN/address.) Tj
+1 0 0 1 36 664 Tm (- The older public sale checkpoints identify the exact chain intervals that must be certified before) Tj
+1 0 0 1 36 652 Tm ( determining the first defective or voidable conveyance.) Tj
+1 0 0 1 36 640 Tm () Tj
+1 0 0 1 36 628 Tm (## Next Pulls Required Before Demanding Cure) Tj
+1 0 0 1 36 616 Tm () Tj
+1 0 0 1 36 604 Tm (1. Pull certified/official copy of `2024000290531`.) Tj
+1 0 0 1 36 592 Tm (2. Pull certified/official copy of `2024000290532`.) Tj
+1 0 0 1 36 580 Tm (3. Extract APN, legal description, vesting, preparer, title/escrow, notary, and all signature ) Tj
+1 0 0 1 36 568 Tm (authority language.) Tj
+1 0 0 1 36 556 Tm (4. Run official chain search by APN/address for the 2005, 2003, and 1994 public sale checkpoints.) Tj
+1 0 0 1 36 544 Tm (5. Pull companion trust deeds, reconveyances, substitutions, assignments, PCOR/DTT material if ) Tj
+1 0 0 1 36 532 Tm (available, and any same-day adjacent documents.) Tj
+1 0 0 1 36 520 Tm (6. Identify the first allegedly void or voidable transfer only after the certified chain confirms ) Tj
+1 0 0 1 36 508 Tm (the grantor/grantee sequence.) Tj
+1 0 0 1 36 496 Tm (7. Draft quitclaim/corrective deed demand only after confirming current holder, encumbrancers, and ) Tj
+1 0 0 1 36 484 Tm (necessary disclaiming parties.) Tj
+1 0 0 1 36 472 Tm (8. If refused, evaluate quiet title / cancellation of instrument as the more complete procedural ) Tj
+1 0 0 1 36 460 Tm (vehicle.) Tj
+1 0 0 1 36 448 Tm () Tj
+1 0 0 1 36 436 Tm (## Evidence Boundary) Tj
+1 0 0 1 36 424 Tm () Tj
+1 0 0 1 36 412 Tm (This packet confirms a strong need for title-chain cure review. It does not independently prove ) Tj
+1 0 0 1 36 400 Tm (fraud, void title, forged authority, or entitlement to relief. Certified official copies and legal ) Tj
+1 0 0 1 36 388 Tm (review remain required.) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 8 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 2 0 R >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 8 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 3 0 R >>
+endobj
+7 0 obj
+<< /Type /Page /Parent 8 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 4 0 R >>
+endobj
+8 0 obj
+<< /Type /Pages /Kids [5 0 R 6 0 R 7 0 R] /Count 3 >>
+endobj
+9 0 obj
+<< /Type /Catalog /Pages 8 0 R >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000015 00000 n 
+0000000085 00000 n 
+0000003831 00000 n 
+0000007365 00000 n 
+0000009848 00000 n 
+0000009974 00000 n 
+0000010100 00000 n 
+0000010226 00000 n 
+0000010295 00000 n 
+trailer
+<< /Size 10 /Root 9 0 R >>
+startxref
+10344
+%%EOF

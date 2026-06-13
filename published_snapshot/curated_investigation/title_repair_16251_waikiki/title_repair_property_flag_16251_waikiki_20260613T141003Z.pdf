@@ -1,0 +1,115 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Length 4458 >>
+stream
+BT
+/F1 9 Tf
+12 TL
+1 0 0 1 36 760 Tm (# Primary Property Title-Repair Flag: 16251 Waikiki Ln) Tj
+1 0 0 1 36 748 Tm () Tj
+1 0 0 1 36 736 Tm (Generated UTC: `20260613T141003Z`) Tj
+1 0 0 1 36 724 Tm () Tj
+1 0 0 1 36 712 Tm (## Primary Property Flag) Tj
+1 0 0 1 36 700 Tm () Tj
+1 0 0 1 36 688 Tm (16251 Waikiki Ln, Huntington Beach, CA 92649 appears to be a priority title-repair property. Public ) Tj
+1 0 0 1 36 676 Tm (sale data confirms a November 6, 2024 sale for $1,177,500, matching the RecorderWorks transfer-tax ) Tj
+1 0 0 1 36 664 Tm (estimate associated with Redmond document `2024000290531`. Public listing history also reflects ) Tj
+1 0 0 1 36 652 Tm (prior transactions in 2005, 2003, and 1994, making this property suitable for a chain-of-title ) Tj
+1 0 0 1 36 640 Tm (review back to the suspected void-transfer origin point.) Tj
+1 0 0 1 36 628 Tm () Tj
+1 0 0 1 36 616 Tm (## Evidentiary Match) Tj
+1 0 0 1 36 604 Tm () Tj
+1 0 0 1 36 592 Tm (- RecorderWorks document: `2024000290531`) Tj
+1 0 0 1 36 580 Tm (- RecorderWorks transfer tax: `$1,295.25`) Tj
+1 0 0 1 36 568 Tm (- Estimated consideration formula: `transfer_tax / 1.10 * 1000`) Tj
+1 0 0 1 36 556 Tm (- Estimated consideration from RecorderWorks: `$1,177,500`) Tj
+1 0 0 1 36 544 Tm (- Public sale price observed: `$1,177,500`) Tj
+1 0 0 1 36 532 Tm (- Match status: `exact_match`) Tj
+1 0 0 1 36 520 Tm (- Public/APN alignment: Zillow lists parcel number `17808315`; local tract/lot inference produced ) Tj
+1 0 0 1 36 508 Tm (`178-083-15`.) Tj
+1 0 0 1 36 496 Tm () Tj
+1 0 0 1 36 484 Tm (## Chain Pull Plan) Tj
+1 0 0 1 36 472 Tm () Tj
+1 0 0 1 36 460 Tm (| Date | Public price | Recorder doc | Status | Pull instruction |) Tj
+1 0 0 1 36 448 Tm (|---|---:|---|---|---|) Tj
+1 0 0 1 36 436 Tm (| 2024-11-06 | $1,177,500 | 2024000290531 | exact_public_price_match | Pull certified/official ) Tj
+1 0 0 1 36 424 Tm (copy; extract grantor, grantee, APN, legal description, vesting, transfer-tax declaration, ) Tj
+1 0 0 1 36 412 Tm (title/escrow/preparer, notary, and any exclusions. |) Tj
+1 0 0 1 36 400 Tm (| 2005-12-02 | $729,000 | unknown | public_history_only | Run RecorderWorks/official chain ) Tj
+1 0 0 1 36 388 Tm (search by APN/address/date/price; pull deed, trust deed, reconveyance, assignments, ) Tj
+1 0 0 1 36 376 Tm (substitutions, and title-company companion documents around this sale date. |) Tj
+1 0 0 1 36 364 Tm (| 2003-09-03 | $483,000 | unknown | public_history_only | Run RecorderWorks/official chain ) Tj
+1 0 0 1 36 352 Tm (search by APN/address/date/price; pull deed, trust deed, reconveyance, assignments, ) Tj
+1 0 0 1 36 340 Tm (substitutions, and title-company companion documents around this sale date. |) Tj
+1 0 0 1 36 328 Tm (| 1994-03-15 | $206,000 | unknown | public_history_only | Run RecorderWorks/official chain ) Tj
+1 0 0 1 36 316 Tm (search by APN/address/date/price; pull deed, trust deed, reconveyance, assignments, ) Tj
+1 0 0 1 36 304 Tm (substitutions, and title-company companion documents around this sale date. |) Tj
+1 0 0 1 36 292 Tm (| 2024-11-06 |  | 2024000290532 | same_day_financing_companion_needs_image_confirmation | Pull ) Tj
+1 0 0 1 36 280 Tm (official/certified image as same-day financing companion to 2024000290531; extract lender, ) Tj
+1 0 0 1 36 268 Tm (trustee, legal description, APN, notary, escrow/title, and loan amount if present. |) Tj
+1 0 0 1 36 256 Tm () Tj
+1 0 0 1 36 244 Tm (## Procedural Boundary) Tj
+1 0 0 1 36 232 Tm () Tj
+1 0 0 1 36 220 Tm (- Pull certified/official copies for `2024000290531` first.) Tj
+1 0 0 1 36 208 Tm (- Pull every linked deed/transfer back through `11/06/2024`, `12/02/2005`, `09/03/2003`, and ) Tj
+1 0 0 1 36 196 Tm (`03/15/1994`.) Tj
+1 0 0 1 36 184 Tm (- Identify the first allegedly void transfer only after the record chain confirms the ) Tj
+1 0 0 1 36 172 Tm (grantor/grantee sequence.) Tj
+1 0 0 1 36 160 Tm (- Prepare any quitclaim demand or corrective deed request only after confirming who currently holds ) Tj
+1 0 0 1 36 148 Tm (title and who must disclaim.) Tj
+1 0 0 1 36 136 Tm (- If refused, quiet title / cancellation of instrument may be the stronger procedural vehicle than ) Tj
+1 0 0 1 36 124 Tm (quitclaim alone, but that depends on certified records and legal review.) Tj
+1 0 0 1 36 112 Tm () Tj
+1 0 0 1 36 100 Tm (## Evidence Boundary) Tj
+1 0 0 1 36 88 Tm () Tj
+1 0 0 1 36 76 Tm (This is a title-chain work queue and evidence log. It does not identify the void transfer or prove ) Tj
+ET
+endstream
+endobj
+3 0 obj
+<< /Length 433 >>
+stream
+BT
+/F1 9 Tf
+12 TL
+1 0 0 1 36 760 Tm (fraud without certified chain documents.) Tj
+1 0 0 1 36 748 Tm () Tj
+1 0 0 1 36 736 Tm (## Source Links) Tj
+1 0 0 1 36 724 Tm () Tj
+1 0 0 1 36 712 Tm (- Redfin: https://www.redfin.com/CA/Huntington-Beach/16251-Waikiki-Ln-92649/home/3868041) Tj
+1 0 0 1 36 700 Tm (- Zillow: https://www.zillow.com/homedetails/16251-Waikiki-Ln-Huntington-Beach-) Tj
+1 0 0 1 36 688 Tm (CA-92649/25298849_zpid/) Tj
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 6 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 2 0 R >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 6 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 3 0 R >>
+endobj
+6 0 obj
+<< /Type /Pages /Kids [4 0 R 5 0 R] /Count 2 >>
+endobj
+7 0 obj
+<< /Type /Catalog /Pages 6 0 R >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000015 00000 n 
+0000000085 00000 n 
+0000004595 00000 n 
+0000005079 00000 n 
+0000005205 00000 n 
+0000005331 00000 n 
+0000005394 00000 n 
+trailer
+<< /Size 8 /Root 7 0 R >>
+startxref
+5443
+%%EOF

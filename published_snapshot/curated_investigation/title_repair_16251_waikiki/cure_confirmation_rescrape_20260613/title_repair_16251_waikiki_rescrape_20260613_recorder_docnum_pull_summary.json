@@ -1,0 +1,12 @@
+{
+  "apn": "178-083-15",
+  "csv_path": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/title_repair_16251_waikiki_rescrape_20260613_recorder_docnum_pull.csv",
+  "document_count": 2,
+  "document_hash": "db4f6badd59ecf243df696002db96fc81c96184e41e930c0a5f53eee05b6df66",
+  "document_view_count": 2,
+  "extraction_template_path": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/title_repair_16251_waikiki_rescrape_20260613_document_extraction_template.json",
+  "input_json": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/title_repair_16251_waikiki_docnum_pull_config_20260613.json",
+  "markdown_path": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/title_repair_16251_waikiki_rescrape_20260613_recorder_docnum_pull.md",
+  "matched_count": 2,
+  "site_address": "16251 Waikiki Ln, Huntington Beach, CA 92649"
+}

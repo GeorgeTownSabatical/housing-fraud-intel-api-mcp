@@ -1,0 +1,14 @@
+{
+  "apn_local_inference": "178-083-15",
+  "apn_observed_public": "17808315",
+  "boundary": "This is a title-chain work queue and evidence log. It does not identify the void transfer or prove fraud without certified chain documents.",
+  "csv": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/title_repair_property_flag_16251_waikiki_20260613T141003Z.csv",
+  "generated_utc": "20260613T141003Z",
+  "match_status": "exact_match",
+  "matched_public_sale_price": 1177500,
+  "priority_document": "2024000290531",
+  "property": "16251 Waikiki Ln, Huntington Beach, CA 92649",
+  "recorder_tax_estimated_consideration": 1177500.0,
+  "recorder_transfer_tax_amount": 1295.25,
+  "report": "/Users/ALISTAIRE/housing-fraud-intel-api/exports/title_repair_property_flag_16251_waikiki_20260613T141003Z.md"
+}
