@@ -1,4 +1,5 @@
 .DS_Store
+.codex/
 .env
 .venv/
 __pycache__/
